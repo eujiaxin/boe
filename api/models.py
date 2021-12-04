@@ -55,9 +55,10 @@ class Course(models.Model):
         unique_together = [['course_code', 'course_version']]
 
     def save(self, *args, **kwargs):
-        self.course_version = max([
-            x.course_version for x in Course.objects.filter(course_name=self.course_name)
-        ] + [0]) + 1
+        if not Course.objects.filter(pk=self.pk).exists():
+            self.course_version = max([
+                x.course_version for x in Course.objects.filter(course_name=self.course_name)
+            ] + [0]) + 1
         super(Course, self).save(*args, **kwargs)
 
     def __str__(self):

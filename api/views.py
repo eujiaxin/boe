@@ -34,6 +34,7 @@ class UnitRetrieveAPIView(generics.RetrieveAPIView):
     permission_classes = [permissions.IsAuthenticated]
     serializer_class = UnitSerializer
     queryset = Unit.objects.all()
+    lookup_field = 'unit_code'
 
 
 class CourseListAPIView(generics.ListAPIView):
@@ -45,21 +46,29 @@ class CourseListAPIView(generics.ListAPIView):
 class CourseListByCodeAPIView(generics.ListAPIView):
     permission_classes = [permissions.IsAuthenticated]
     serializer_class = CourseSerializer
-    lookup_fields = ['course_code']
     queryset = Course.objects.all()
+
+    def get_queryset(self):
+        """
+        Return list of all courses filtered by the course code
+        """
+        return Course.objects.filter(course_code=self.kwargs['course_code'])
 
 
 class CourseRetrieveByCodeAndVersionAPIView(generics.RetrieveAPIView):
     permission_classes = [permissions.IsAuthenticated]
     serializer_class = CourseSerializer
+    queryset = Course.objects.all()
     lookup_fields = ['course_code', 'course_version']
-    queryset = Course.objects.all()
 
-
-class CourseRetrieveAPIView(generics.RetrieveAPIView):
-    permission_classes = [permissions.IsAuthenticated]
-    serializer_class = CourseSerializer
-    queryset = Course.objects.all()
+    def get_object(self):
+        queryset = self.get_queryset()
+        queryset = self.filter_queryset(queryset)  # apply any filter backends
+        filter = {}
+        for field in self.lookup_fields:
+            filter[field] = self.kwargs[field]
+        print(f'filter = {filter}')
+        return generics.get_object_or_404(queryset, **filter)
 
 
 class CoreListAPIView(generics.ListAPIView):
