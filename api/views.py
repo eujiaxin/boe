@@ -3,6 +3,30 @@ from rest_framework import generics, viewsets, permissions
 from api.serializers import *
 
 
+# Custom Mixin class
+class MultipleFieldLookupMixin:
+    """
+    Apply this mixin to any view or viewset to get multiple field filtering
+    based on a `lookup_fields` attribute, instead of the default single field filtering.
+    """
+
+    def get_object(self):
+        queryset = self.get_queryset()             # Get the base queryset
+        queryset = self.filter_queryset(queryset)  # Apply any filter backends
+        filter = {}
+        for field in self.lookup_fields:
+            if self.kwargs[field]:  # Ignore empty fields.
+                filter[field] = self.kwargs[field]
+        obj = generics.get_object_or_404(
+            queryset, **filter)  # Lookup the object
+        self.check_object_permissions(self.request, obj)
+        return obj
+
+
+class CreateUpdateAPIView(generics.CreateAPIView, generics.UpdateAPIView):
+    pass
+
+
 class UserViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
@@ -33,8 +57,31 @@ class UnitListAPIView(generics.ListAPIView):
 class UnitRetrieveAPIView(generics.RetrieveAPIView):
     permission_classes = [permissions.IsAuthenticated]
     serializer_class = UnitSerializer
+    lookup_field = 'unit_code'
+    queryset = Unit.objects.all()
+
+
+# FIXME: edit unit_code -> new instance created instead of update? (it only works for other fields)
+# FIXME: How to only use UpdateAPIView?? (there's no pre-filled fields thingy)
+class UnitUpdateAPIView(generics.RetrieveUpdateAPIView):
+    permission_classes = [permissions.IsAuthenticated]
+    serializer_class = UnitSerializer
+    lookup_field = 'unit_code'
+    queryset = Unit.objects.all()
+
+
+class UnitCreateUpdateAPIView(CreateUpdateAPIView):
+    permission_classes = [permissions.IsAdminUser]
+    serializer_class = UnitSerializer
     queryset = Unit.objects.all()
     lookup_field = 'unit_code'
+
+    def get_object(self):
+        filter = {self.lookup_field: self.kwargs[self.lookup_field]}
+        obj = generics.get_object_or_404(self.get_queryset(), **filter)
+        print(obj)
+        self.check_object_permissions(self.request, obj)
+        return obj
 
 
 class CourseListAPIView(generics.ListAPIView):
@@ -55,20 +102,11 @@ class CourseListByCodeAPIView(generics.ListAPIView):
         return Course.objects.filter(course_code=self.kwargs['course_code'])
 
 
-class CourseRetrieveByCodeAndVersionAPIView(generics.RetrieveAPIView):
+class CourseRetrieveByCodeAndVersionAPIView(MultipleFieldLookupMixin, generics.RetrieveAPIView):
     permission_classes = [permissions.IsAuthenticated]
     serializer_class = CourseSerializer
     queryset = Course.objects.all()
     lookup_fields = ['course_code', 'course_version']
-
-    def get_object(self):
-        queryset = self.get_queryset()
-        queryset = self.filter_queryset(queryset)  # apply any filter backends
-        filter = {}
-        for field in self.lookup_fields:
-            filter[field] = self.kwargs[field]
-        print(f'filter = {filter}')
-        return generics.get_object_or_404(queryset, **filter)
 
 
 class CoreListAPIView(generics.ListAPIView):
@@ -94,6 +132,14 @@ class CuratedElectiveRetrieveAPIView(generics.RetrieveAPIView):
     serializer_class = CuratedElectiveSerializer
     queryset = CuratedElective.objects.all()
 
+# FIXME: can create duplicates!
+
+
+class CuratedElectiveCreateAPIView(generics.CreateAPIView):
+    permission_classes = [permissions.IsAdminUser]
+    serializer_class = CuratedElectiveSerializer
+    queryset = CuratedElective.objects.all()
+
 
 class StudentListAPIView(generics.ListAPIView):
     permission_classes = [permissions.IsAuthenticated]
@@ -103,6 +149,13 @@ class StudentListAPIView(generics.ListAPIView):
 
 class StudentRetrieveAPIView(generics.RetrieveAPIView):
     permission_classes = [permissions.IsAuthenticated]
+    serializer_class = StudentSerializer
+    queryset = Student.objects.all()
+    lookup_field = 'student_id'
+
+
+class StudentCreateAPIView(generics.CreateAPIView):
+    permission_classes = [permissions.IsAdminUser]
     serializer_class = StudentSerializer
     queryset = Student.objects.all()
 
@@ -115,5 +168,11 @@ class EnrolmentListAPIView(generics.ListAPIView):
 
 class EnrolmentRetrieveAPIView(generics.RetrieveAPIView):
     permission_classes = [permissions.IsAuthenticated]
+    serializer_class = EnrolmentSerializer
+    queryset = Enrolment.objects.all()
+
+
+class EnrolmentCreateAPIView(generics.CreateAPIView):
+    permission_classes = [permissions.IsAdminUser]
     serializer_class = EnrolmentSerializer
     queryset = Enrolment.objects.all()

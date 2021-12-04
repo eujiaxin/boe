@@ -25,7 +25,9 @@ faculty_endpoints = [
 
 unit_endpoints = [
     path('', UnitListAPIView.as_view()),
-    path('<str:unit_code>/', UnitRetrieveAPIView.as_view())
+    path('<str:unit_code>/', UnitRetrieveAPIView.as_view()),
+    path('<str:unit_code>/createupdate/', UnitCreateUpdateAPIView.as_view()),
+    path('<str:unit_code>/update/', UnitUpdateAPIView.as_view())
 ]
 
 course_endpoints = [
@@ -39,7 +41,9 @@ course_endpoints = [
 
 student_endpoints = [
     path('', StudentListAPIView.as_view()),
-    path('<str:student_id>/', StudentRetrieveAPIView.as_view())
+    path('create/', StudentCreateAPIView.as_view()),
+    path('<str:student_id>/', StudentRetrieveAPIView.as_view()),
+
 ]
 
 core_endpoints = [
@@ -49,12 +53,14 @@ core_endpoints = [
 
 ce_endpoints = [
     path('', CuratedElectiveListAPIView.as_view()),
-    path('<int:pk>/', CuratedElectiveRetrieveAPIView.as_view())
+    path('create/', CuratedElectiveCreateAPIView.as_view()),
+    path('<int:pk>/', CuratedElectiveCreateAPIView.as_view())
 ]
 
 enrolment_endpoints = [
     path('', EnrolmentListAPIView.as_view()),
-    path('<int:pk>/', EnrolmentRetrieveAPIView.as_view())
+    path('create/', EnrolmentCreateAPIView.as_view()),
+    path('<int:pk>/', EnrolmentRetrieveAPIView.as_view()),
 ]
 
 # Wire up our API using automatic URL routing.
