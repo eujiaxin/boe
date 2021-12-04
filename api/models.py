@@ -7,10 +7,6 @@ SEMESTER_CHOICE = [
 ]
 
 
-def getCurrent(course_code):
-    return len(Course.objects.filter(course_code=course_code))
-
-
 class Faculty(models.Model):
     faculty_name = models.CharField(max_length=64, verbose_name="Faculty Name")
 
