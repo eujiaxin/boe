@@ -35,7 +35,7 @@ class Course(models.Model):
         verbose_name="Faculty in which the Course belongs to"
     )
     course_name = models.CharField(
-        max_length=16, verbose_name="Course Name"
+        max_length=50, verbose_name="Course Name"
     )
     course_required_credits = models.PositiveSmallIntegerField(
         verbose_name="Total Credits Requried to Complete this Course"
@@ -57,7 +57,7 @@ class Course(models.Model):
     def save(self, *args, **kwargs):
         self.course_version = max([
             x.course_version for x in Course.objects.filter(course_name=self.course_name)
-        ]) + 1
+        ] + [0]) + 1
         super(Course, self).save(*args, **kwargs)
 
     def __str__(self):
