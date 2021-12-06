@@ -8,7 +8,10 @@ SEMESTER_CHOICE = [
 
 
 class Faculty(models.Model):
-    faculty_name = models.CharField(max_length=64, verbose_name="Faculty Name")
+    faculty_name = models.CharField(
+        max_length=64, verbose_name="Faculty Name",
+        unique=True
+    )
 
     class Meta:
         ordering = ["faculty_name"]
@@ -68,7 +71,6 @@ class Course(models.Model):
 class Student(models.Model):
     student_id = models.CharField(
         max_length=128,
-        primary_key=True,
         verbose_name="Student ID"
     )
     course = models.ForeignKey(
@@ -106,7 +108,6 @@ class Student(models.Model):
 class Unit(models.Model):
     unit_code = models.CharField(
         max_length=32,
-        primary_key=True,
         verbose_name="Unit Code"
     )
     faculty = models.ForeignKey(
@@ -143,6 +144,7 @@ class Core(models.Model):
     )
 
     class Meta:
+        unique_together = [['course', 'unit']]
         ordering = ['course', 'unit']
         verbose_name = 'core'
         verbose_name_plural = 'cores'
@@ -162,6 +164,7 @@ class CuratedElective(models.Model):
     )
 
     class Meta:
+        unique_together = [['course', 'unit']]
         ordering = ['course', 'unit']
         verbose_name = 'curated elective'
         verbose_name_plural = 'curated electives'

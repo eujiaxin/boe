@@ -5,6 +5,8 @@ from django.db.utils import IntegrityError
 def populate_school():
     f = Faculty.objects.create(
         faculty_name='School of Information Technology')
+    f2 = Faculty.objects.create(
+        faculty_name='School of Engineering')
     c = Course.objects.create(
         course_code='C2001',
         course_name='Bachelor of Computer Science',
@@ -21,7 +23,15 @@ def populate_school():
         student_intake_semester='Semester 1',
         has_graduated=False
     )
-    print(f)
+    s2 = Student.objects.create(
+        student_id='30883113',
+        course=c,
+        student_name="Fabian Lim Xu Huai",
+        student_email="flim0008@student.monash.edu",
+        student_intake_year=2020,
+        student_intake_semester='Semester 1',
+        has_graduated=False
+    )
     u = Unit.objects.create(
         unit_code='FIT1045',
         faculty=f,
