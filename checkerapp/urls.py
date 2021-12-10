@@ -1,6 +1,6 @@
 from django.urls import path, include
 from . import views
-appname = 'checkerapp'
+app_name = 'checkerapp'
 
 urlpatterns = [
     path('upload/', views.CallistaDataFileCreateView.as_view(), name='upload'),
