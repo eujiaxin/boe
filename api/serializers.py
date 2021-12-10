@@ -1,6 +1,7 @@
 from django.contrib.auth.models import User
+from django.db.models import fields
 from rest_framework import serializers
-from api.models import Faculty, Unit, Course, Core, CuratedElective, Student, Enrolment
+from api.models import *
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -48,4 +49,10 @@ class StudentSerializer(serializers.ModelSerializer):
 class EnrolmentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Enrolment
+        fields = "__all__"
+
+
+class CallistaDataFileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CallistaDataFile
         fields = "__all__"

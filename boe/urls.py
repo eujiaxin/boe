@@ -18,6 +18,7 @@ from django.urls import include, path
 from django.contrib import admin
 from rest_framework import routers
 from api.views import *
+from api.views import callistadatafile
 
 
 # Wire up our API using automatic URL routing.
@@ -32,6 +33,8 @@ router.register(r'enrolments', enrolment.EnrolmentViewSet,
                 basename="enrolment")
 router.register(r'ce', curatedelective.CuratedElectiveViewSet,
                 basename="curatedelective")
+router.register(r'callista', callistadatafile.CallistaDataFileViewSet,
+                basename="callista")
 router.register(r'users', user.UserViewSet, basename="user")
 urlpatterns = [
     path('', include(router.urls)),

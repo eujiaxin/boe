@@ -208,3 +208,22 @@ class Enrolment(models.Model):
 
     def __str__(self):
         return f'Enrolment: {self.student.student_id} - {self.unit.unit_code}'
+
+
+class CallistaDataFile(models.Model):
+    upload = models.FileField(
+        upload_to='callista/',
+        verbose_name="Student Callista Data/"
+    )
+    upload_date = models.DateTimeField(
+        auto_now_add=True,
+        verbose_name="Date and Time the file was uploaded"
+    )
+
+    class Meta:
+        ordering = ['upload_date']
+        verbose_name = 'callista data file'
+        verbose_name_plural = 'callista data files'
+
+    def __str__(self):
+        return f'File: {self.upload.path}'
