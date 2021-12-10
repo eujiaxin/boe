@@ -1,3 +1,5 @@
+import os
+from django.conf import settings
 from django.db import models
 
 SEMESTER_CHOICE = [
@@ -211,9 +213,13 @@ class Enrolment(models.Model):
 
 
 class CallistaDataFile(models.Model):
+    name = models.CharField(
+        max_length=128,
+        verbose_name="User Generated Identifier for File"
+    )
     upload = models.FileField(
         upload_to='callista/',
-        verbose_name="Student Callista Data/"
+        verbose_name="Student Callista Data"
     )
     upload_date = models.DateTimeField(
         auto_now_add=True,
@@ -225,5 +231,12 @@ class CallistaDataFile(models.Model):
         verbose_name = 'callista data file'
         verbose_name_plural = 'callista data files'
 
+    def delete(self, *args, **kwargs):
+        try:
+            os.remove(os.path.join(settings.MEDIA_ROOT, self.upload.name))
+        except FileNotFoundError:
+            pass
+        super(CallistaDataFile, self).delete(*args, **kwargs)
+
     def __str__(self):
-        return f'File: {self.upload.path}'
+        return f'File: {self.upload.name.split("/")[-1]}'
