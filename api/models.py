@@ -225,6 +225,10 @@ class CallistaDataFile(models.Model):
         auto_now_add=True,
         verbose_name="Date and Time the file was uploaded"
     )
+    has_been_processed = models.BooleanField(
+        default=False,
+        verbose_name="File has been processed into Database"
+    )
 
     class Meta:
         ordering = ['upload_date']
