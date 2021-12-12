@@ -1,0 +1,27 @@
+<style>
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+</style>
+
+<form action="{% url 'checkerapp:processer' %}" method="post">
+	{% csrf_token %}
+	<table>
+		<tr>
+			<th>File Name</th>
+			<th>Upload Date</th>
+			<th>Status</th>
+			<th>Process</th>
+		</tr>
+		{% for file in callista_files %}
+			<tr>
+				<td>{{ file.name }}</td>
+				<td>{{ file.upload_date }}</td>
+				<td>{{ file.has_been_processed }}</td>
+				<td><input type="checkbox" name={{file.id}} value="1"/></td>
+			</tr>
+		{% endfor %}
+	</table>
+	<input type="submit" id="process_button" value="Process!"/>
+</form>

@@ -8,6 +8,32 @@ SEMESTER_CHOICE = [
     ("3", "October Semester")
 ]
 
+GRADE_CHOICE = [
+    ('HD', 'High Distinction'),
+    ('D', 'Distinction'),
+    ('C', 'Credit'),
+    ('P', 'Pass'),
+    ('N', 'Fail'),
+    ('DEF', 'Deferred Assessment'),
+    ('E', 'Exempt'),
+    ('HI', 'First Class Honours'),
+    ('HIIA', 'Second Class Honours Division A'),
+    ('HIIB', 'Second Class Honours Division B'),
+    ('NA', 'Not Applicable'),
+    ('NAS', 'Non-Assessed'),
+    ('NE', 'Not Examinable'),
+    ('NGO', 'Fail'),
+    ('NH', 'Hurdle Fail'),
+    ('NS', 'Supplementary Assessment Granted'),
+    ('NSR', 'Not Satisfied Requirements'),
+    ('PGO', 'Pass Grade Only (no higher grade available)'),
+    ('SFR', 'Satisfied Faculty Requirements'),
+    ('WDN', 'Withdrawn'),
+    ('WH', 'Withheld'),
+    ('WI', 'Withdrawn Incomplete'),
+    ('WN', 'Withdrawn Fail')
+]
+
 
 class Faculty(models.Model):
     faculty_name = models.CharField(
@@ -40,7 +66,7 @@ class Course(models.Model):
         verbose_name="Faculty in which the Course belongs to"
     )
     course_name = models.CharField(
-        max_length=50, verbose_name="Course Name"
+        max_length=256, verbose_name="Course Name"
     )
     course_required_credits = models.PositiveSmallIntegerField(
         verbose_name="Total Credits Requried to Complete this Course"
@@ -59,12 +85,12 @@ class Course(models.Model):
         verbose_name_plural = 'courses'
         unique_together = [['course_code', 'course_version']]
 
-    def save(self, *args, **kwargs):
-        if not Course.objects.filter(pk=self.pk).exists():
-            self.course_version = max([
-                x.course_version for x in Course.objects.filter(course_name=self.course_name)
-            ] + [0]) + 1
-        super(Course, self).save(*args, **kwargs)
+    # def save(self, *args, **kwargs):
+    #     if not Course.objects.filter(pk=self.pk).exists():
+    #         self.course_version = max([
+    #             x.course_version for x in Course.objects.filter(course_name=self.course_name)
+    #         ] + [0]) + 1
+    #     super(Course, self).save(*args, **kwargs)
 
     def __str__(self):
         return f'Course: {self.course_code}.v{self.course_version}'
@@ -73,7 +99,8 @@ class Course(models.Model):
 class Student(models.Model):
     student_id = models.CharField(
         max_length=128,
-        verbose_name="Student ID"
+        verbose_name="Student ID",
+        unique=True
     )
     course = models.ForeignKey(
         to="Course",
@@ -86,7 +113,8 @@ class Student(models.Model):
     )
     student_email = models.EmailField(  # Can build custom validator for monash emails
         max_length=128,
-        verbose_name="Student Email"
+        verbose_name="Student Email",
+        null=True
     )
     student_intake_year = models.PositiveSmallIntegerField(
         verbose_name="Student's Intake Year"
@@ -94,6 +122,7 @@ class Student(models.Model):
     student_intake_semester = models.CharField(  # not sure if should use charfield
         max_length=64,
         choices=SEMESTER_CHOICE,
+        null=True,
         verbose_name="Student's First Semester Intake"
     )
     has_graduated = models.BooleanField(verbose_name="Have Student Graduated?")
@@ -110,7 +139,8 @@ class Student(models.Model):
 class Unit(models.Model):
     unit_code = models.CharField(
         max_length=32,
-        verbose_name="Unit Code"
+        verbose_name="Unit Code",
+        unique=True
     )
     faculty = models.ForeignKey(
         to="Faculty",
@@ -120,7 +150,8 @@ class Unit(models.Model):
     )
     unit_name = models.CharField(
         max_length=128,
-        verbose_name="Name of the Unit"
+        verbose_name="Name of the Unit",
+        null=True
     )
     unit_credits = models.PositiveSmallIntegerField(
         verbose_name="Credits Awarded for Completing this Unit"
@@ -193,14 +224,22 @@ class Enrolment(models.Model):
     enrolment_semester = models.CharField(  # not sure if should use charfield
         max_length=64,
         choices=SEMESTER_CHOICE,
+        null=True,
         verbose_name="Semester in which Student is Taking this Unit"
     )
     enrolment_marks = models.SmallIntegerField(
         null=True,
         verbose_name="Marks obtained by the Student in this Unit"
     )
+    enrolment_grade = models.CharField(
+        max_length=64,
+        choices=GRADE_CHOICE,
+        null=True,
+        verbose_name="Grade obtained by the Student in this Unit"
+    )
     has_passed = models.BooleanField(
-        verbose_name="Has the Student Passed this Unit?"
+        verbose_name="Has the Student Passed this Unit?",
+        null=True
     )
 
     class Meta:

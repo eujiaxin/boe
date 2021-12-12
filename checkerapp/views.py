@@ -6,6 +6,7 @@ from api.models import CallistaDataFile
 from checkerapp.forms import CallistaDataFileMultipleUploadForm
 from django.http import HttpResponse
 from api.models import CallistaDataFile
+import scripts.process_csv as pc
 
 # Create your views here.
 
@@ -18,7 +19,7 @@ class CallistaDataFileCreateView(FormView):
     template_name = 'checkerapp_upload_form.html'
 
     def get_success_url(self) -> str:
-        return reverse('checkerapp:success')
+        return reverse('checkerapp:processer')
 
     def post(self, request, *args, **kwargs):
         form_class = self.get_form_class()
@@ -38,32 +39,24 @@ class CallistaDataFileCreateView(FormView):
             return self.form_invalid(form)
 
 
-def success(request):
+def success(_):
     return HttpResponse('<h1>Success!</h2>')
 
 
-# def processer(request):
-#     if request.method == "POST":
-#         files_to_delete = []
-#         for key, value in request.POST.items():
-#             if value == '1':
-#                 files_to_delete.append(key)
-#         print(files_to_delete)
+def processer(request):
+    if request.method == "POST":
+        files_posted = []
+        for key, value in request.POST.items():
+            if value == '1':
+                files_posted.append(int(key))
+        print("files_posted: ", files_posted)
 
-#         for result_file in ResultFile.objects.all():
-#             if result_file.file_name in files_to_delete:
-#                 print(f"Deleting {result_file.file_name} ...")
-#                 result_file.delete()
+        for file in CallistaDataFile.objects.filter(pk__in=files_posted):
+            pc.pc(file)
 
-#         for graph in Graph.objects.all():
-#             if graph.file_name in files_to_delete:
-#                 print(f"Deleting {graph.file_name} ...")
-#                 graph.delete()
-
-#     contexts = {
-#         'page_title': 'My Results',
-#         'visualiser_files': [
-#             f for f in ResultFile.objects.all().order_by('date_added')
-#         ],
-#     }
-#     return render(request, "plotter/mygraphs.html", context=contexts)
+    contexts = {
+        'callista_files': [
+            f for f in CallistaDataFile.objects.all().order_by('upload_date')
+        ],
+    }
+    return render(request, "checkerapp_process_form.html", context=contexts)
