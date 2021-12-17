@@ -52,7 +52,7 @@ def processer(request):
         print("files_posted: ", files_posted)
 
         for file in CallistaDataFile.objects.filter(pk__in=files_posted):
-            pc.pc(file)
+            pc.bulk_pc(file)
 
     contexts = {
         'callista_files': [

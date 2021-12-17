@@ -115,3 +115,59 @@ def pc(file):
     start = time.time()
     df.apply(func=register_enrolment, axis=1)
     print(f"Time taken to process Enrolments: {time.time() - start}")
+
+
+def bulk_pc(file):
+    start = time.time()
+    df = pd.read_csv(os.path.join(settings.MEDIA_ROOT, file.upload.name))
+    df.columns = df.columns.str.upper()
+    df["COMMENCEMENT_DT"] = pd.to_datetime(df["COMMENCEMENT_DT"])
+    print(f"Time taken to read file: {time.time() - start}")
+
+    start = time.time()
+    for code, version, title in get_unique_course(df):
+        if not Course.objects.filter(course_code=code).exists():
+            course, created = Course.objects.update_or_create(
+                course_code=code, course_version=version,
+                course_name=title, course_required_credits=144,
+                course_curate_electives_credits=0
+            )
+    print(f"Time taken to process Courses: {time.time() - start}")
+
+    start = time.time()
+    for code in df["UNIT_CD"].unique():
+        if not Unit.objects.filter(unit_code=code).exists():
+            unit, created = Unit.objects.update_or_create(
+                unit_code=code, unit_credits=6
+            )
+    print(f"Time taken to process Units: {time.time() - start}")
+
+    start = time.time()
+    for id, name, date in get_unique_student(df):
+        if not Student.objects.filter(student_id=id).exists():
+            student, created = Student.objects.update_or_create(
+                student_id=id, student_name=name,
+                student_intake_year=date.year,
+                has_graduated=False
+            )
+    print(f"Time taken to process Students: {time.time() - start}")
+
+    start = time.time()
+    # process enrolments through bulk_create
+    df_records = df.to_dict('records')
+
+    enrolment_instances = [
+        Enrolment(
+            student=Student.objects.get(student_id=record['PERSON ID']),
+            unit=Unit.objects.get(unit_code=record['UNIT_CD']),
+            enrolment_year=record['ACAD_YR'],
+            enrolment_marks=record['MARK'],
+            enrolment_grade=record['GRADE'],
+            has_passed=False if record['GRADE'] in FAILING_GRADES else True
+        )
+        for record in df_records
+    ]
+
+    Enrolment.objects.bulk_create(enrolment_instances)
+
+    print(f"Time taken to process Enrolments: {time.time() - start}")
