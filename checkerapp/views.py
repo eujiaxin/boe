@@ -1,12 +1,14 @@
+from typing import Any, Dict
+from django.http.response import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls.base import reverse
 from django.views.generic.edit import FormView
-from api.models import CallistaDataFile
+from api.models import CallistaDataFile, Student
 from checkerapp.forms import CallistaDataFileMultipleUploadForm
-from django.http import HttpResponse
 from api.models import CallistaDataFile
 import scripts.process_csv as pc
 from scripts.process_reqs import validate_graduation
+from django.views.generic import TemplateView
 
 # Create your views here.
 
@@ -39,8 +41,14 @@ class CallistaDataFileCreateView(FormView):
             return self.form_invalid(form)
 
 
-def success(_):
-    return HttpResponse('<h1>Success!</h2>')
+# class SuccessView(TemplateView):
+#     template_name = 'checkerapp_success_page.html'
+
+#     def get_context_data(self, **kwargs: Any) -> Dict[str, Any]:
+#         context = super().get_context_data(**kwargs)
+#         # context['output'] = self.request.session.get('output')
+#         context['students'] = Student.objects.all()
+#         return context
 
 
 def processer(request):
@@ -50,10 +58,13 @@ def processer(request):
             if value == '1':
                 files_posted.append(int(key))
         print("files_posted: ", files_posted)
-        student_set = {}
+        student_set = set()
         for file in CallistaDataFile.objects.filter(pk__in=files_posted):
-            student_set.union(pc.bulk_pc(file))
+            student_set.update(pc.bulk_pc(file))
         output = validate_graduation(list(student_set))
+        # request.session['output'] = output
+        return render(request, "checkerapp_success_page.html", {'output': output})
+        # return HttpResponseRedirect(reverse('checkerapp:success'))
 
     contexts = {
         'callista_files': [

@@ -14,18 +14,20 @@ def validate_graduation(students):
             course_version=course_version
         )
         student = get_object_or_404(
+            Student,
             student_id=id,
             course=course
         )
         enrolments = set([
-            e.unit.unit_code for e in student.enrolment_set.filter() if e.has_passed
+            e.unit.unit_code for e in student.enrolment_set.all() if e.has_passed
         ])
         cores = set([
-            c.unit.unit_code for c in course.core_set.filter()
+            c.unit.unit_code for c in course.core_set.all()
         ])
         missing_cores = cores.difference(enrolments)
         if len(missing_cores) <= 0:
             student.has_graduated = True
             student.save()
-        res[id] = (student.has_graduated, str(missing_cores))
+        # res[id] = (student.has_graduated, str(missing_cores))
+        res[student] = (course, missing_cores)
     return res
