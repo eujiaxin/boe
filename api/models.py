@@ -163,7 +163,7 @@ class Unit(models.Model):
         verbose_name_plural = 'units'
 
     def __str__(self):
-        return f'Unit: {self.unit_code} {self.unit_name}'
+        return f'Unit: {self.unit_code} {self.unit_name if self.unit_name else ""}'
 
 
 class Core(models.Model):
@@ -243,6 +243,8 @@ class Enrolment(models.Model):
     )
 
     class Meta:
+        unique_together = [
+            ['student', 'unit', 'enrolment_year', 'enrolment_semester']]
         ordering = ['student', 'unit']
         verbose_name = 'enrolment'
         verbose_name_plural = 'enrolments'
@@ -276,8 +278,12 @@ class CallistaDataFile(models.Model):
 
     def delete(self, *args, **kwargs):
         try:
+            print(
+                f"deleting file at {os.path.join(settings.MEDIA_ROOT, self.upload.name)}")
             os.remove(os.path.join(settings.MEDIA_ROOT, self.upload.name))
         except FileNotFoundError:
+            print(
+                f"File not found at {os.path.join(settings.MEDIA_ROOT, self.upload.name)}")
             pass
         super(CallistaDataFile, self).delete(*args, **kwargs)
 
