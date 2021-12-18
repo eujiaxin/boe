@@ -6,4 +6,3 @@ from scripts.populate_reqs import run as populate_reqs
 def run():
     clear_db()
     populate_db()
-    populate_reqs()

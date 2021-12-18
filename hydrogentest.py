@@ -6,4 +6,13 @@ df.columns = df.columns.str.upper()
 df["COMMENCEMENT_DT"] = pd.to_datetime(df["COMMENCEMENT_DT"])
 df.columns
 
-df.groupby(["COURSE_CD", "C_VER"])["UNIT_CD"].apply(list).reset_index(name='new').to_dict("records")
+def get_unique_student(df):
+    student_identifier = [
+        'PERSON ID', 'TITLE',
+        'SURNAME', 'GIVEN NAMES', 'COMMENCEMENT_DT', "COURSE_CD", "C_VER"
+    ]
+    df = df[student_identifier].drop_duplicates()
+    df['NAME'] = df['SURNAME'] + ' ' + df['GIVEN NAMES']
+    return list(map(tuple, df[['PERSON ID', 'NAME', 'COMMENCEMENT_DT', "COURSE_CD", "C_VER"]].values))
+
+get_unique_student(df)

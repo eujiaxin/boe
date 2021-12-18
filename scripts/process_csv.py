@@ -13,9 +13,6 @@ populate with above data
 
 populate course (need faculty?)
 
-populate unit (default name and code just put same or sth)
-
-populate enrolment
 NOTE:
 general studies commencement date might be different! (Look at Dan Peake)
 """
@@ -29,11 +26,11 @@ FAILING_GRADES = [
 def get_unique_student(df):
     student_identifier = [
         'PERSON ID', 'TITLE',
-        'SURNAME', 'GIVEN NAMES', 'COMMENCEMENT_DT'
+        'SURNAME', 'GIVEN NAMES', 'COMMENCEMENT_DT', 'COURSE_CD', 'C_VER'
     ]
     df = df[student_identifier].drop_duplicates()
     df['NAME'] = df['SURNAME'] + ' ' + df['GIVEN NAMES']
-    return list(map(tuple, df[['PERSON ID', 'NAME', 'COMMENCEMENT_DT']].values))
+    return list(map(tuple, df[['PERSON ID', 'NAME', 'COMMENCEMENT_DT', 'COURSE_CD', 'C_VER']].values))
 
 
 def get_unique_course(df):
@@ -61,10 +58,15 @@ def process_units(df):
 
 
 def process_students(df):
-    for id, name, date in get_unique_student(df):
-        if not Student.objects.filter(student_id=id).exists():
+    for id, name, date, course_code, course_version in get_unique_student(df):
+        course = Course.objects.get(
+            course_code=course_code,
+            course_version=course_version
+        )
+        if not Student.objects.filter(student_id=id, course=course).exists():
             student, created = Student.objects.update_or_create(
                 student_id=id, student_name=name,
+                course=course,
                 student_intake_year=date.year,
                 has_graduated=False
             )
@@ -72,26 +74,38 @@ def process_students(df):
 
 def process_enrolments(df):
     important_fields = ['PERSON ID', 'UNIT_CD',
-                        'ACAD_YR', 'MARK', 'GRADE', 'CAL_TYPE']
+                        'ACAD_YR', 'MARK', 'GRADE', 'CAL_TYPE', 'COURSE_CD', 'C_VER']
     df_records = df[important_fields].drop_duplicates().to_dict('records')
-    enrolment_instances = [
-        Enrolment(
-            student=Student.objects.get(student_id=record['PERSON ID']),
-            unit=Unit.objects.get(unit_code=record['UNIT_CD']),
-            enrolment_year=record['ACAD_YR'],
-            enrolment_semester=record['CAL_TYPE'],
-            enrolment_marks=record['MARK'],
-            enrolment_grade=record['GRADE'],
-            has_passed=False if record['GRADE'] in FAILING_GRADES else True
+    enrolment_instances = []
+    for record in df_records:
+        course = Course.objects.get(
+            course_code=record['COURSE_CD'],
+            course_version=record['C_VER'],
         )
-        for record in df_records
-    ]
+        student = Student.objects.get(
+            student_id=record['PERSON ID'],
+            course=course
+        )
+        enrolment_instances.append(
+            Enrolment(
+                student=student,
+                unit=Unit.objects.get(unit_code=record['UNIT_CD']),
+                enrolment_year=record['ACAD_YR'],
+                enrolment_semester=record['CAL_TYPE'],
+                enrolment_marks=record['MARK'],
+                enrolment_grade=record['GRADE'],
+                has_passed=False if record['GRADE'] in FAILING_GRADES else True
+            )
+        )
     Enrolment.objects.bulk_create(enrolment_instances, ignore_conflicts=True)
 
 
-def bulk_pc(file):
+def bulk_pc(file, alt=False):
     start = time.time()
-    df = pd.read_csv(os.path.join(settings.MEDIA_ROOT, file.upload.name))
+    if alt:
+        df = pd.read_csv(file)
+    else:
+        df = pd.read_csv(os.path.join(settings.MEDIA_ROOT, file.upload.name))
     df.columns = df.columns.str.upper()
     df["COMMENCEMENT_DT"] = pd.to_datetime(df["COMMENCEMENT_DT"])
     print(f"Time taken to read file: {time.time() - start}")

@@ -99,8 +99,7 @@ class Course(models.Model):
 class Student(models.Model):
     student_id = models.CharField(
         max_length=128,
-        verbose_name="Student ID",
-        unique=True
+        verbose_name="Student ID"
     )
     course = models.ForeignKey(
         to="Course",
@@ -128,6 +127,7 @@ class Student(models.Model):
     has_graduated = models.BooleanField(verbose_name="Have Student Graduated?")
 
     class Meta:
+        unique_together = [['student_id', 'course']]
         ordering = ['course', 'student_id']
         verbose_name = 'student'
         verbose_name_plural = 'students'
