@@ -15,4 +15,7 @@ def get_unique_student(df):
     df['NAME'] = df['SURNAME'] + ' ' + df['GIVEN NAMES']
     return list(map(tuple, df[['PERSON ID', 'NAME', 'COMMENCEMENT_DT', "COURSE_CD", "C_VER"]].values))
 
-get_unique_student(df)
+important_fields = ['PERSON ID', 'UNIT_CD',
+                        'ACAD_YR', 'MARK', 'GRADE', 'CAL_TYPE', 'COURSE_CD', 'C_VER']
+df_records = df[important_fields].drop_duplicates().to_dict('records')
+df_records

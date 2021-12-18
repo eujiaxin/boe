@@ -1,12 +1,12 @@
-from django.forms.forms import Form
 from django.shortcuts import render
-from django.urls.base import reverse, reverse_lazy
+from django.urls.base import reverse
 from django.views.generic.edit import FormView
 from api.models import CallistaDataFile
 from checkerapp.forms import CallistaDataFileMultipleUploadForm
 from django.http import HttpResponse
 from api.models import CallistaDataFile
 import scripts.process_csv as pc
+from scripts.process_reqs import validate_graduation
 
 # Create your views here.
 
@@ -50,9 +50,10 @@ def processer(request):
             if value == '1':
                 files_posted.append(int(key))
         print("files_posted: ", files_posted)
-
+        student_set = {}
         for file in CallistaDataFile.objects.filter(pk__in=files_posted):
-            pc.bulk_pc(file)
+            student_set.union(pc.bulk_pc(file))
+        output = validate_graduation(list(student_set))
 
     contexts = {
         'callista_files': [

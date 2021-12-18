@@ -3,6 +3,7 @@ import pandas as pd
 import time
 from django.conf import settings
 from api.models import Student, Course, Unit, Enrolment
+from scripts.process_reqs import validate_graduation
 
 """
 TODO:
@@ -21,6 +22,7 @@ course_to_faculty = dict()
 FAILING_GRADES = [
     'N', 'DEF', 'NA', 'NGO', 'NA', 'NAS', 'E', 'NS', 'NH', 'NSR', 'WDN', 'WH', 'WI', 'WN'
 ]
+unique_students = []
 
 
 def get_unique_student(df):
@@ -58,7 +60,9 @@ def process_units(df):
 
 
 def process_students(df):
-    for id, name, date, course_code, course_version in get_unique_student(df):
+    global unique_students
+    unique_students = get_unique_student(df)
+    for id, name, date, course_code, course_version in unique_students:
         course = Course.objects.get(
             course_code=course_code,
             course_version=course_version
@@ -101,6 +105,7 @@ def process_enrolments(df):
 
 
 def bulk_pc(file, alt=False):
+    global unique_students
     start = time.time()
     if alt:
         df = pd.read_csv(file)
@@ -125,3 +130,5 @@ def bulk_pc(file, alt=False):
     start = time.time()
     process_enrolments(df)
     print(f"Time taken to process Enrolments: {time.time() - start}")
+
+    return set(unique_students)
