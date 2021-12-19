@@ -29,11 +29,11 @@
             </tr>
           </thead>
           <tbody>
-            {% for id, name, course_code, course_version in students %}
+            {% for student in students %}
             <tr>
-              <th scope="row">{{id}}</th>
-              <td>{{name}}</td>
-              <td>{{course_code}}: {{course_name}}</td>
+              <th scope="row">{{student.student_id}}</th>
+              <td>{{student.student_name}}</td>
+              <td>{{student.course.course_code}}: {{student.course.course_name}}</td>
             </tr>
             {% endfor %}
           </tbody>

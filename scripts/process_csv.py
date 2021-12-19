@@ -131,7 +131,10 @@ def bulk_pc(file, alt=False):
     process_enrolments(df)
     print(f"Time taken to process Enrolments: {time.time() - start}")
 
-    return set(
-        (id, name, course_code, course_version)
-        for id, name, _, course_code, course_version in unique_students
-    )
+    student_objects = []
+    for id, _, _, course_code, course_version in unique_students:
+        s = Student.objects.get(student_id=id, course=Course.objects.get(
+            course_code=course_code, course_version=course_version))
+        student_objects.append(s)
+
+    return student_objects

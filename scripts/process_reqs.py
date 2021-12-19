@@ -7,15 +7,15 @@ from django.shortcuts import get_object_or_404
 
 def validate_graduation(students):
     res = dict()
-    for id, _, course_code, course_version in students:
+    for student in students:
         course = get_object_or_404(
             Course,
-            course_code=course_code,
-            course_version=course_version
+            course_code=student.course.course_code,
+            course_version=student.course.course_version
         )
         student = get_object_or_404(
             Student,
-            student_id=id,
+            student_id=student.student_id,
             course=course
         )
         enrolments = set([
