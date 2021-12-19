@@ -131,4 +131,7 @@ def bulk_pc(file, alt=False):
     process_enrolments(df)
     print(f"Time taken to process Enrolments: {time.time() - start}")
 
-    return set(unique_students)
+    return set(
+        (id, name, course_code, course_version)
+        for id, name, _, course_code, course_version in unique_students
+    )

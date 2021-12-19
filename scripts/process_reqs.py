@@ -7,7 +7,7 @@ from django.shortcuts import get_object_or_404
 
 def validate_graduation(students):
     res = dict()
-    for id, _, _, course_code, course_version in students:
+    for id, _, course_code, course_version in students:
         course = get_object_or_404(
             Course,
             course_code=course_code,

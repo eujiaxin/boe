@@ -1,5 +1,5 @@
 from typing import Any, Dict
-from django.http.response import HttpResponseRedirect
+from django.http.response import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.urls.base import reverse
 from django.views.generic.edit import FormView
@@ -10,10 +10,7 @@ import scripts.process_csv as pc
 from scripts.process_reqs import validate_graduation
 from django.views.generic import TemplateView
 
-# Create your views here.
-
-# FIXME: make sure max 100 files upload -- override form validation
-# TODO: already uploaded files to django. redirect to list of CSVs (checkbox page showing CSV processed or not processed yet) - need to process PUT request to handle csvs. this is where fabian comes in? (input = checked CSVs)
+user_to_output = dict()
 
 
 class CallistaDataFileCreateView(FormView):
@@ -21,7 +18,7 @@ class CallistaDataFileCreateView(FormView):
     template_name = 'checkerapp_upload_form.html'
 
     def get_success_url(self) -> str:
-        return reverse('checkerapp:processer')
+        return reverse('checkerapp:processor')
 
     def post(self, request, *args, **kwargs):
         form_class = self.get_form_class()
@@ -41,17 +38,8 @@ class CallistaDataFileCreateView(FormView):
             return self.form_invalid(form)
 
 
-# class SuccessView(TemplateView):
-#     template_name = 'checkerapp_success_page.html'
-
-#     def get_context_data(self, **kwargs: Any) -> Dict[str, Any]:
-#         context = super().get_context_data(**kwargs)
-#         # context['output'] = self.request.session.get('output')
-#         context['students'] = Student.objects.all()
-#         return context
-
-
-def processer(request):
+def processor(request):
+    global user_to_output
     if request.method == "POST":
         files_posted = []
         for key, value in request.POST.items():
@@ -61,14 +49,28 @@ def processer(request):
         student_set = set()
         for file in CallistaDataFile.objects.filter(pk__in=files_posted):
             student_set.update(pc.bulk_pc(file))
-        output = validate_graduation(list(student_set))
-        # request.session['output'] = output
-        return render(request, "checkerapp_success_page.html", {'output': output})
-        # return HttpResponseRedirect(reverse('checkerapp:success'))
+            file.has_been_processed = True
+            file.save()
+        request.session[request.user.username] = list(student_set)
+        return HttpResponseRedirect(reverse('checkerapp:processor'))
+        # context = {
+        #     "students": list(student_set)
+        # }
+        # return render(request, "checkerapp_validate_form.html", context=context)
 
-    contexts = {
+    context = {
         'callista_files': [
             f for f in CallistaDataFile.objects.all().order_by('upload_date')
         ],
     }
-    return render(request, "checkerapp_process_form.html", context=contexts)
+    return render(request, "checkerapp_process_form.html", context=context)
+
+
+def validator(request):
+    if request.method == "POST":
+        if request.user.username in request.session:
+            output = validate_graduation(
+                request.session[request.user.username])
+            return render(request, "checkerapp_success_page.html", {'output': output})
+        return HttpResponse("No student request...")
+    return HttpResponse("Validating in Process...")
