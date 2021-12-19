@@ -1,6 +1,7 @@
 import os
 from django.conf import settings
 from django.db import models
+from django.db.models import indexes
 
 SEMESTER_CHOICE = [
     ("1", "Semester 1"),
@@ -84,6 +85,9 @@ class Course(models.Model):
         verbose_name = 'course'
         verbose_name_plural = 'courses'
         unique_together = [['course_code', 'course_version']]
+        indexes = [
+            models.Index(fields=['course_code', 'course_version'])
+        ]
 
     # def save(self, *args, **kwargs):
     #     if not Course.objects.filter(pk=self.pk).exists():
@@ -131,6 +135,9 @@ class Student(models.Model):
         ordering = ['course', 'student_id']
         verbose_name = 'student'
         verbose_name_plural = 'students'
+        indexes = [
+            models.Index(fields=['student_id', 'course', ]),
+        ]
 
     def __str__(self):
         return f'Student: {self.student_id} {self.student_name}'
@@ -161,6 +168,9 @@ class Unit(models.Model):
         ordering = ['faculty', 'unit_code']
         verbose_name = 'unit'
         verbose_name_plural = 'units'
+        indexes = [
+            models.Index(fields=['unit_code'])
+        ]
 
     def __str__(self):
         return f'Unit: {self.unit_code} {self.unit_name if self.unit_name else ""}'
