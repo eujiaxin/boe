@@ -1,4 +1,3 @@
-from typing import Any, Dict
 from django.http.response import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.urls.base import reverse
@@ -8,7 +7,6 @@ from checkerapp.forms import CallistaDataFileMultipleUploadForm
 from api.models import CallistaDataFile
 import scripts.process_csv as pc
 from scripts.process_reqs import validate_graduation
-from django.views.generic import TemplateView
 
 user_to_output = dict()
 
@@ -51,13 +49,8 @@ def processor(request):
             student_set.update(pc.bulk_pc(file))
             file.has_been_processed = True
             file.save()
-        request.session[request.user.username] = list(student_set)
-        return HttpResponseRedirect(reverse('checkerapp:processor'))
-        # context = {
-        #     "students": list(student_set)
-        # }
-        # return render(request, "checkerapp_validate_form.html", context=context)
-
+        user_to_output[request.user.username] = list(student_set)
+        return HttpResponseRedirect(reverse('checkerapp:validator'))
     context = {
         'callista_files': [
             f for f in CallistaDataFile.objects.all().order_by('upload_date')
@@ -68,9 +61,12 @@ def processor(request):
 
 def validator(request):
     if request.method == "POST":
-        if request.user.username in request.session:
+        if request.user.username in user_to_output:
             output = validate_graduation(
-                request.session[request.user.username])
+                user_to_output[request.user.username])
             return render(request, "checkerapp_success_page.html", {'output': output})
         return HttpResponse("No student request...")
-    return HttpResponse("Validating in Process...")
+    context = {
+        "students": user_to_output[request.user.username]
+    }
+    return render(request, "checkerapp_validate_form.html", context=context)
