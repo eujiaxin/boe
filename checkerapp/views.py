@@ -61,8 +61,9 @@ def processor(request):
 def validator(request):
     if request.method == "POST":
         if request.user.username in user_to_output:
-            output = validate_graduation(
-                user_to_output[request.user.username])
+            output = dict()
+            for student in user_to_output[request.user.username]:
+                output[student] = student.validate_graduation()
             return render(request, "checkerapp_success_page.html", {'output': output})
         return HttpResponse("No student request...")
     context = {

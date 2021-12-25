@@ -3,6 +3,8 @@ from django.conf import settings
 from django.db import models
 from functools import reduce
 
+from django.db.models.deletion import CASCADE
+
 SEMESTER_CHOICE = [
     ("1", "Semester 1"),
     ("2", "Semester 2"),
@@ -89,7 +91,7 @@ class Student(models.Model):
 
     def validate_graduation(self):
         completed_units = self.get_completed_units()
-        d = dict()
+        ret = []
         for cm in self.course.coursemodule_set.all():
             missing_cores, remaining, has_completed_core = cm.process_core(
                 completed_units
@@ -97,9 +99,9 @@ class Student(models.Model):
             missing_credits, _, has_completed_elective = cm.process_elective(
                 remaining
             )
-            d[cm.cm_code] = (missing_cores, missing_credits,
-                             has_completed_core and has_completed_elective)
-        return d
+            status = has_completed_core and has_completed_elective
+            ret.append((cm.cm_code, missing_cores, missing_credits, status))
+        return ret
 
     def __str__(self):
         return f'Student: {self.student_id} {self.student_name}'
@@ -195,16 +197,20 @@ class CourseModule(models.Model):
             has_completed = True
         # FIXME : length of core list may be inconsistent!
         remaining = units.difference(min_cl)
-        return missing_cores, remaining, has_completed
+        return list(missing_cores), remaining, has_completed
 
     def process_elective(self, units):
         elective_lists = [
-            [elective for elective in el.elective_set.all()] for el in self.electivelist_set.all()
+            None if el.elective_set.is_free else [  # FIXME
+                elective for elective in el.elective_set.all()
+            ]
+            for el in self.electivelist_set.all()
         ]
         has_completed = False
         credits_earned, max_el = max(map(
             lambda x: (reduce(
-                lambda acc, u: acc + u.unit_credits, units.intersection(x)
+                lambda acc, u: acc + u.unit_credits,
+                units.intersection(x) if x else units  # FIXME
             ), x), elective_lists
         ))
         if credits_earned >= self.required_elective_credit_points:
@@ -234,6 +240,11 @@ class ElectiveList(models.Model):
         to="CourseModule",
         on_delete=models.CASCADE
     )
+    is_free = models.BooleanField(
+        default=False,
+        null=True,
+        verbose_name="is free elective"
+    )
 
     class Meta:
         verbose_name = 'Elective list'
@@ -244,7 +255,10 @@ class ElectiveList(models.Model):
 
 
 class Core(models.Model):
-    core_list = models.ManyToManyField(CoreList)
+    core_list = models.ForeignKey(
+        to="CoreList",
+        on_delete=models.CASCADE
+    )
     unit = models.ForeignKey(
         to="Unit",
         on_delete=models.CASCADE,
@@ -261,7 +275,10 @@ class Core(models.Model):
 
 
 class Elective(models.Model):
-    elective_list = models.ManyToManyField(ElectiveList)
+    elective_list = models.ForeignKey(
+        to="ElectiveList",
+        on_delete=models.CASCADE
+    )
     unit = models.ForeignKey(
         to="Unit",
         on_delete=models.CASCADE,

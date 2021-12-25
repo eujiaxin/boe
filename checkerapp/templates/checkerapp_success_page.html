@@ -22,18 +22,22 @@
               <th scope="col">Student ID</th>
               <th scope="col">Student Name</th>
               <th scope="col">Course</th>
+              <th scope="col">Course Module</th>
+              <th scope="col">Missing Cores</th>
+              <th scope="col">Missing Credits</th>
               <th scope="col">Completion status</th>
-              <th scope="col">Missing Units</th>
             </tr>
           </thead>
           <tbody>
-            {% for student, data in output.items %}
+            {% for student, (cm, missing_cores, missing_credits, status) in output.items %}
             <tr>
               <th scope="row">{{student.student_id}}</th>
               <td>{{student.student_name}}</td>
-              <td>{{data.0.course_code}}: {{data.0.course_name}}</td>
-              <td>{{ student.has_graduated|yesno:"COMPLETE,INCOMPLETE" }}</td>
-              <td>{{ data.1|join:", " }}</td>
+              <td>{{student.course.course_code}}: {{student.course.course_name}}</td>
+              <td>{{cm}}</td>
+              <td>{{ missing_cores|join:", " }}</td>
+              <td>{{ missing_credits }}</td>
+              <td>{{ status|yesno:"COMPLETE,INCOMPLETE" }}</td>
             </tr>
             {% endfor %}
           </tbody>
