@@ -1,47 +1,140 @@
-import csv
+import os
 import pandas as pd
-import numpy as np
-
-# def read_csv():
-#     rows = []
-#     with open("scripts/dummy_data.csv", 'r') as file:
-#         csvreader = csv.reader(file)
-#         header = next(csvreader)
-#         for row in csvreader:
-#             rows.append(row)
-#     print(header)
-#     print(rows[-1])
+import time
+from django.conf import settings
+from api.models import Student, Course, Unit, Enrolment
+from scripts.process_reqs import validate_graduation
 
 """
 TODO:
 get unique student
-find intake year + sem for commencement date (?) general studies and CS course are DIFFERENT. 
+find intake year + sem for commencement date (?) general studies and CS course are DIFFERENT.
 has graduated default false? <- this is where process course credit points?
 populate with above data
 
 populate course (need faculty?)
 
-populate unit (default name and code just put same or sth)
-
-populate enrolment
 NOTE:
 general studies commencement date might be different! (Look at Dan Peake)
 """
 
+course_to_faculty = dict()
+FAILING_GRADES = [
+    'N', 'DEF', 'NA', 'NGO', 'NA', 'NAS', 'E', 'NS', 'NH', 'NSR', 'WDN', 'WH', 'WI', 'WN'
+]
+unique_students = []
+
 
 def get_unique_student(df):
-    df = df[['Person ID', 'TITLE', 'Surname',
-             'Given names', 'COMMENCEMENT_DT']].drop_duplicates()
-    df['name'] = df.Surname + ' ' + df['Given names']
-    return df[['Person ID', 'name', 'COMMENCEMENT_DT']].values.tolist()
+    student_identifier = [
+        'PERSON ID', 'TITLE',
+        'SURNAME', 'GIVEN NAMES', 'COMMENCEMENT_DT', 'COURSE_CD', 'C_VER'
+    ]
+    df = df[student_identifier].drop_duplicates()
+    df['NAME'] = df['SURNAME'] + ' ' + df['GIVEN NAMES']
+    return list(map(tuple, df[['PERSON ID', 'NAME', 'COMMENCEMENT_DT', 'COURSE_CD', 'C_VER']].values))
 
 
-def run():
-    df = pd.read_csv('scripts/dummy_data.csv')
-    x = get_unique_student(df)
-    print(x)
+def get_unique_course(df):
+    course_identifier = ['COURSE_CD', 'C_VER', 'CRS_TITLE']
+    aux = df[course_identifier].drop_duplicates()
+    return list(map(tuple, aux.values))
 
-    a = [[38866542, 'Michael Watson'], [41877053, 'Alison Ogden'], [41905875, 'Alan Hemmings'], [43199398, 'Owen Quinn'], [44678853, 'Jan Greene'], [44716329, 'Hannah Gibson'], [44883104, 'Blake Ferguson'], [45416518, 'Michael Miller'], [45416860, 'Cameron Berry'], [45629317, 'Alexander Morgan'], [45723445, 'Harry Ball'], [45789683, 'Richard Payne'], [45888033, 'Brandon Poole'], [46174698, 'Anna Bond'], [46224614, 'Charles Poole'], [46335201, 'Michael Stewart'], [46349895, 'Neil Arnold'], [46352732, 'Sam Kerr'], [46360595, 'Carl Rees'], [46360789, 'Natalie Walsh'], [46381783, 'Audrey Lee'], [46426312, 'Stewart Ferguson'], [46438074, 'Joseph Slater'], [46504890, 'Jacob Black'], [46547640, 'Joe Walker'], [46599109,
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         'Pippa Smith'], [46657527, 'Madeleine McGrath'], [46673603, 'Blake Cameron'], [46697634, 'Adam Mathis'], [46722904, 'Carolyn Langdon'], [46809483, 'Stewart MacLeod'], [47087904, 'Joan Mackenzie'], [47098345, 'Jason Welch'], [47178093, 'James Lawrence'], [47226912, 'Adrian Mathis'], [47278386, 'Simon Buckland'], [47364600, 'Wanda Peters'], [47391017, 'Eric Buckland'], [47409007, 'Anthony Hart'], [47413407, 'Heather Mackenzie'], [47421072, 'Sebastian Taylor'], [47430156, 'Jennifer Graham'], [47437093, 'Frank Davies'], [47443705, 'Kevin Marshall'], [47480036, 'Ava Berry'], [47500235, 'Dan Peake'], [47560556, 'Angela Brown'], [48260620, 'Brandon Turner'], [48279625, 'Michael MacLeod'], [48656966, 'Lillian Davies']]
-    print(len(a))
-    print(len(x))
+
+def process_courses(df):
+    for code, version, title in get_unique_course(df):
+        if not Course.objects.filter(course_code=code, course_version=version).exists():
+            course, created = Course.objects.update_or_create(
+                course_code=code, course_version=version,
+                course_name=title, course_required_credits=144,
+                course_curate_electives_credits=0
+            )
+
+
+def process_units(df):
+    for code in df["UNIT_CD"].unique():
+        if not Unit.objects.filter(unit_code=code).exists():
+            unit, created = Unit.objects.update_or_create(
+                unit_code=code, unit_credits=6
+            )
+
+
+def process_students(df):
+    global unique_students
+    unique_students = get_unique_student(df)
+    for id, name, date, course_code, course_version in unique_students:
+        course = Course.objects.get(
+            course_code=course_code,
+            course_version=course_version
+        )
+        if not Student.objects.filter(student_id=id, course=course).exists():
+            student, created = Student.objects.update_or_create(
+                student_id=id, student_name=name,
+                course=course,
+                student_intake_year=date.year,
+                has_graduated=False
+            )
+
+
+def process_enrolments(df):
+    important_fields = ['PERSON ID', 'UNIT_CD',
+                        'ACAD_YR', 'MARK', 'GRADE', 'CAL_TYPE', 'COURSE_CD', 'C_VER']
+    df_records = df[important_fields].drop_duplicates().to_dict('records')
+    enrolment_instances = []
+    for record in df_records:
+        course = Course.objects.get(
+            course_code=record['COURSE_CD'],
+            course_version=record['C_VER'],
+        )
+        student = Student.objects.get(
+            student_id=record['PERSON ID'],
+            course=course
+        )
+        enrolment_instances.append(
+            Enrolment(
+                student=student,
+                unit=Unit.objects.get(unit_code=record['UNIT_CD']),
+                enrolment_year=record['ACAD_YR'],
+                enrolment_semester=record['CAL_TYPE'],
+                enrolment_marks=record['MARK'],
+                enrolment_grade=record['GRADE'],
+                has_passed=False if record['GRADE'] in FAILING_GRADES else True
+            )
+        )
+    Enrolment.objects.bulk_create(enrolment_instances, ignore_conflicts=True)
+
+
+def bulk_pc(file, alt=False):
+    global unique_students
+    start = time.time()
+    if alt:
+        df = pd.read_csv(file)
+    else:
+        df = pd.read_csv(os.path.join(settings.MEDIA_ROOT, file.upload.name))
+    df.columns = df.columns.str.upper()
+    df["COMMENCEMENT_DT"] = pd.to_datetime(df["COMMENCEMENT_DT"])
+    print(f"Time taken to read file: {time.time() - start}")
+
+    start = time.time()
+    process_courses(df)
+    print(f"Time taken to process Courses: {time.time() - start}")
+
+    start = time.time()
+    process_units(df)
+    print(f"Time taken to process Units: {time.time() - start}")
+
+    start = time.time()
+    process_students(df)
+    print(f"Time taken to process Students: {time.time() - start}")
+
+    start = time.time()
+    process_enrolments(df)
+    print(f"Time taken to process Enrolments: {time.time() - start}")
+
+    student_objects = []
+    for id, _, _, course_code, course_version in unique_students:
+        s = Student.objects.get(student_id=id, course=Course.objects.get(
+            course_code=course_code, course_version=course_version))
+        student_objects.append(s)
+
+    return student_objects
