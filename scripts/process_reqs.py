@@ -21,10 +21,13 @@ def validate_graduation(students):
         enrolments = set([
             e.unit.unit_code for e in student.enrolment_set.all() if e.has_passed
         ])
-        cores = set([
-            c.unit.unit_code for c in course.core_set.all()
-        ])
-        missing_cores = cores.difference(enrolments)
+        core_lists = [
+            set([c.unit.unit_code for c in cl.core_set.all()])
+            for cl in course.corelist_set.all()
+        ]
+        missing_cores = min(list(
+            map(lambda x: x.difference(enrolments), core_lists)
+        ), key=lambda x: len(x))
         if len(missing_cores) <= 0:
             student.has_graduated = True
             student.save()
