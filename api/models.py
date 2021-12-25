@@ -1,7 +1,7 @@
 import os
 from django.conf import settings
 from django.db import models
-from django.db.models import indexes
+from functools import reduce
 
 SEMESTER_CHOICE = [
     ("1", "Semester 1"),
@@ -35,69 +35,12 @@ GRADE_CHOICE = [
     ('WN', 'Withdrawn Fail')
 ]
 
-
-class Faculty(models.Model):
-    faculty_name = models.CharField(
-        max_length=64, verbose_name="Faculty Name",
-        unique=True
-    )
-
-    class Meta:
-        ordering = ["faculty_name"]
-        verbose_name = 'faculty'
-        verbose_name_plural = 'faculties'
-
-    def __str__(self):
-        return f'Faculty: {self.faculty_name}'
-
-
-class Course(models.Model):
-    course_code = models.CharField(
-        max_length=16, verbose_name="Course Code"
-    )
-    course_version = models.PositiveSmallIntegerField(
-        null=True,
-        default=None,
-        verbose_name="Course Version"
-    )
-    faculty = models.ForeignKey(
-        to='Faculty',
-        on_delete=models.SET_NULL,
-        null=True,
-        verbose_name="Faculty in which the Course belongs to"
-    )
-    course_name = models.CharField(
-        max_length=256, verbose_name="Course Name"
-    )
-    course_required_credits = models.PositiveSmallIntegerField(
-        verbose_name="Total Credits Requried to Complete this Course"
-    )
-    course_duration_limit = models.PositiveSmallIntegerField(
-        default=8,
-        verbose_name="Maximum Years to Complete this Course"
-    )
-    course_curate_electives_credits = models.PositiveSmallIntegerField(
-        verbose_name="Specialized list of Electives required to complete this Course"
-    )
-
-    class Meta:
-        ordering = ['faculty', 'course_code']
-        verbose_name = 'course'
-        verbose_name_plural = 'courses'
-        unique_together = [['course_code', 'course_version']]
-        indexes = [
-            models.Index(fields=['course_code', 'course_version'])
-        ]
-
-    # def save(self, *args, **kwargs):
-    #     if not Course.objects.filter(pk=self.pk).exists():
-    #         self.course_version = max([
-    #             x.course_version for x in Course.objects.filter(course_name=self.course_name)
-    #         ] + [0]) + 1
-    #     super(Course, self).save(*args, **kwargs)
-
-    def __str__(self):
-        return f'Course: {self.course_code}.v{self.course_version}'
+COURSEMODULE_TYPE = (
+    ('D', 'default'),
+    ('S', 'Specialisation'),
+    ('MJ', 'Major'),
+    ('MN', 'Minor'),
+)
 
 
 class Student(models.Model):
@@ -139,8 +82,199 @@ class Student(models.Model):
             models.Index(fields=['student_id', 'course', ]),
         ]
 
+    def get_completed_units(self):
+        return set([
+            e.unit for e in self.enrolment_set.all() if e.has_passed
+        ])
+
+    def validate_graduation(self):
+        completed_units = self.get_completed_units()
+        d = dict()
+        for cm in self.course.coursemodule_set.all():
+            missing_cores, remaining, has_completed_core = cm.process_core(
+                completed_units
+            )
+            missing_credits, _, has_completed_elective = cm.process_elective(
+                remaining
+            )
+            d[cm.cm_code] = (missing_cores, missing_credits,
+                             has_completed_core and has_completed_elective)
+        return d
+
     def __str__(self):
         return f'Student: {self.student_id} {self.student_name}'
+
+
+class Course(models.Model):
+    course_code = models.CharField(
+        max_length=16, verbose_name="Course Code"
+    )
+    course_version = models.PositiveSmallIntegerField(
+        null=True,
+        default=None,
+        verbose_name="Course Version"
+    )
+    faculty = models.ForeignKey(
+        to='Faculty',
+        on_delete=models.SET_NULL,
+        null=True,
+        verbose_name="Faculty in which the Course belongs to"
+    )
+    course_name = models.CharField(
+        max_length=256, verbose_name="Course Name"
+    )
+    course_required_credits = models.PositiveSmallIntegerField(
+        verbose_name="Total Credits Requried to Complete this Course"
+    )
+    course_duration_limit = models.PositiveSmallIntegerField(
+        default=8,
+        verbose_name="Maximum Years to Complete this Course"
+    )
+
+    class Meta:
+        ordering = ['faculty', 'course_code']
+        verbose_name = 'course'
+        verbose_name_plural = 'courses'
+        unique_together = [['course_code', 'course_version']]
+        indexes = [
+            models.Index(fields=['course_code', 'course_version'])
+        ]
+
+    # def save(self, *args, **kwargs):
+    #     if not Course.objects.filter(pk=self.pk).exists():
+    #         self.course_version = max([
+    #             x.course_version for x in Course.objects.filter(course_name=self.course_name)
+    #         ] + [0]) + 1
+    #     super(Course, self).save(*args, **kwargs)
+
+    def __str__(self):
+        return f'Course: {self.course_code}.v{self.course_version}'
+
+
+class CourseModule(models.Model):
+    cm_code = models.CharField(
+        max_length=32,
+        verbose_name="Course Module Code",
+        unique=True
+    )
+    cm_name = models.CharField(
+        max_length=128,
+        verbose_name="Course Module Name"
+    )
+    course = models.ForeignKey(
+        to="Course",
+        on_delete=models.SET_NULL,
+        null=True,
+        verbose_name="Course in which the CourseModule belongs to"
+    )
+    type = models.CharField(
+        max_length=64,
+        choices=COURSEMODULE_TYPE,
+        null=False,
+        verbose_name="Course Module Type"
+    )
+    required_elective_credit_points = models.PositiveSmallIntegerField(
+        verbose_name="Course Module required credit points"
+    )
+
+    def process_core(self, units):
+        core_lists = [
+            set(core.unit for core in cl.core_set.all()) for cl in self.corelist_set.all()
+        ]
+
+        assert sum([1 for _ in range(core_lists)]
+                   ) == 1, 'core list should always only have one nested list (as of implementation logic now)'
+
+        has_completed = False
+        missing_cores, min_cl = min(
+            map(
+                lambda x: (x.difference(units), x), core_lists
+            ), key=lambda x: len(x)
+        )
+        if len(missing_cores) <= 0:
+            has_completed = True
+        # FIXME : length of core list may be inconsistent!
+        remaining = units.difference(min_cl)
+        return missing_cores, remaining, has_completed
+
+    def process_elective(self, units):
+        elective_lists = [
+            [elective for elective in el.elective_set.all()] for el in self.electivelist_set.all()
+        ]
+        has_completed = False
+        credits_earned, max_el = max(map(
+            lambda x: (reduce(
+                lambda acc, u: acc + u.unit_credits, units.intersection(x)
+            ), x), elective_lists
+        ))
+        if credits_earned >= self.required_elective_credit_points:
+            has_completed = True
+        return self.required_elective_credit_points - credits_earned, units.difference(max_el), has_completed
+
+    def __str__(self):
+        return f'CourseModule: {self.cm_code} - {self.cm_name}'
+
+
+class CoreList(models.Model):
+    course_module = models.ForeignKey(
+        to="CourseModule",
+        on_delete=models.CASCADE
+    )
+
+    class Meta:
+        verbose_name = 'Core list'
+        verbose_name_plural = 'Core lists'
+
+    def __str__(self):
+        return f'Core List: {self.pk} - {self.course_module}'
+
+
+class ElectiveList(models.Model):
+    course_module = models.ForeignKey(
+        to="CourseModule",
+        on_delete=models.CASCADE
+    )
+
+    class Meta:
+        verbose_name = 'Elective list'
+        verbose_name_plural = 'Elective lists'
+
+    def __str__(self):
+        return f'Elective List: {self.pk} - {self.course_module}'
+
+
+class Core(models.Model):
+    core_list = models.ManyToManyField(CoreList)
+    unit = models.ForeignKey(
+        to="Unit",
+        on_delete=models.CASCADE,
+    )
+
+    class Meta:
+        unique_together = [['core_list', 'unit']]
+        ordering = ['core_list', 'unit']
+        verbose_name = 'core'
+        verbose_name_plural = 'cores'
+
+    def __str__(self):
+        return f'Core: {self.core_list} - {self.unit}'
+
+
+class Elective(models.Model):
+    elective_list = models.ManyToManyField(ElectiveList)
+    unit = models.ForeignKey(
+        to="Unit",
+        on_delete=models.CASCADE,
+    )
+
+    class Meta:
+        unique_together = [['elective_list', 'unit']]
+        ordering = ['elective_list', 'unit']
+        verbose_name = 'elective'
+        verbose_name_plural = 'electives'
+
+    def __str__(self):
+        return f'Elective: {self.elective_list} - {self.unit}'
 
 
 class Unit(models.Model):
@@ -172,62 +306,12 @@ class Unit(models.Model):
             models.Index(fields=['unit_code'])
         ]
 
+    def __hash__(self):
+        print("psyche, hahahahahhash")
+        return self.unit_code.__hash__()
+
     def __str__(self):
         return f'Unit: {self.unit_code} {self.unit_name if self.unit_name else ""}'
-
-
-class Core(models.Model):
-    core_list = models.ForeignKey(
-        to="CoreList",
-        on_delete=models.CASCADE
-    )
-    unit = models.ForeignKey(
-        to="Unit",
-        on_delete=models.CASCADE,
-    )
-
-    class Meta:
-        unique_together = [['core_list', 'unit']]
-        ordering = ['core_list', 'unit']
-        verbose_name = 'core'
-        verbose_name_plural = 'cores'
-
-    def __str__(self):
-        return f'Core: {str(self.core_list)} - {self.unit}'
-
-
-class CoreList(models.Model):
-    course = models.ForeignKey(
-        to="Course",
-        on_delete=models.CASCADE
-    )
-
-    class Meta:
-        verbose_name = 'core list'
-        verbose_name_plural = 'core lists'
-
-    def __str__(self):
-        return f'Core List: {self.pk} - {str(self.course)}'
-
-
-class CuratedElective(models.Model):
-    course = models.ForeignKey(
-        to="Course",
-        on_delete=models.CASCADE
-    )
-    unit = models.ForeignKey(
-        to="Unit",
-        on_delete=models.CASCADE,
-    )
-
-    class Meta:
-        unique_together = [['course', 'unit']]
-        ordering = ['course', 'unit']
-        verbose_name = 'curated elective'
-        verbose_name_plural = 'curated electives'
-
-    def __str__(self):
-        return f'CuratedElective: {self.course} - {self.unit}'
 
 
 class Enrolment(models.Model):
@@ -313,3 +397,18 @@ class CallistaDataFile(models.Model):
 
     def __str__(self):
         return f'File: {self.upload.name.split("/")[-1]}'
+
+
+class Faculty(models.Model):
+    faculty_name = models.CharField(
+        max_length=64, verbose_name="Faculty Name",
+        unique=True
+    )
+
+    class Meta:
+        ordering = ["faculty_name"]
+        verbose_name = 'faculty'
+        verbose_name_plural = 'faculties'
+
+    def __str__(self):
+        return f'Faculty: {self.faculty_name}'
