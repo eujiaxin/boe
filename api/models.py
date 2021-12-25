@@ -177,8 +177,8 @@ class Unit(models.Model):
 
 
 class Core(models.Model):
-    course = models.ForeignKey(
-        to="Course",
+    core_list = models.ForeignKey(
+        to="CoreList",
         on_delete=models.CASCADE
     )
     unit = models.ForeignKey(
@@ -187,13 +187,27 @@ class Core(models.Model):
     )
 
     class Meta:
-        unique_together = [['course', 'unit']]
-        ordering = ['course', 'unit']
+        unique_together = [['core_list', 'unit']]
+        ordering = ['core_list', 'unit']
         verbose_name = 'core'
         verbose_name_plural = 'cores'
 
     def __str__(self):
-        return f'Core: {self.course} - {self.unit}'
+        return f'Core: {str(self.core_list)} - {self.unit}'
+
+
+class CoreList(models.Model):
+    course = models.ForeignKey(
+        to="Course",
+        on_delete=models.CASCADE
+    )
+
+    class Meta:
+        verbose_name = 'core list'
+        verbose_name_plural = 'core lists'
+
+    def __str__(self):
+        return f'Core List: {self.pk} - {str(self.course)}'
 
 
 class CuratedElective(models.Model):

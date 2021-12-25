@@ -34,6 +34,12 @@ class CoreSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
+class CoreListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CoreList
+        fields = "__all__"
+
+
 class CuratedElectiveSerializer(serializers.ModelSerializer):
     class Meta:
         model = CuratedElective

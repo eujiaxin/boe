@@ -35,6 +35,7 @@ router.register(r'ce', curatedelective.CuratedElectiveViewSet,
                 basename="curatedelective")
 router.register(r'callista', callistadatafile.CallistaDataFileViewSet,
                 basename="callista")
+router.register(r'corelists', corelist.CoreListViewSet, basename="corelist")
 router.register(r'users', user.UserViewSet, basename="user")
 urlpatterns = [
     path('api/', include(router.urls)),

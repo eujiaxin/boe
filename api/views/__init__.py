@@ -1,2 +1,2 @@
-__all__ = ["core", "course", "curatedelective",
+__all__ = ["core", "corelist", "course", "curatedelective",
            "enrolment", "faculty", "student", "unit", "user"]

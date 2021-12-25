@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from api.models import Course, Unit, Core
+from api.models import CoreList, Course, Unit, Core
 from django.shortcuts import get_object_or_404
 from django.conf import settings
 
@@ -18,11 +18,14 @@ def run():
             Course,
             course_code=record["COURSE_CD"], course_version=record["C_VER"]
         )
+        coreList, ret = CoreList.objects.update_or_create(
+            course=course
+        )
         for unit_code in record["UNITS"]:
             unit = get_object_or_404(
                 Unit,
                 unit_code=unit_code
             )
             Core.objects.update_or_create(
-                course=course, unit=unit
+                core_list=coreList, unit=unit
             )
