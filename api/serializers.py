@@ -28,6 +28,12 @@ class CourseSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
+class CourseModuleSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CourseModule
+        fields = "__all__"
+
+
 class CoreSerializer(serializers.ModelSerializer):
     class Meta:
         model = Core
@@ -40,9 +46,15 @@ class CoreListSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class CuratedElectiveSerializer(serializers.ModelSerializer):
+class ElectiveSerializer(serializers.ModelSerializer):
     class Meta:
-        model = CuratedElective
+        model = Elective
+        fields = "__all__"
+
+
+class ElectiveListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ElectiveList
         fields = "__all__"
 
 

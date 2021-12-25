@@ -6,7 +6,6 @@ from api.models import CallistaDataFile, Student
 from checkerapp.forms import CallistaDataFileMultipleUploadForm
 from api.models import CallistaDataFile
 import scripts.process_csv as pc
-from scripts.process_reqs import validate_graduation
 
 user_to_output = dict()
 

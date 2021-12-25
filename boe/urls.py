@@ -31,8 +31,8 @@ router.register(r'cores', core.CoreViewSet, basename="core")
 router.register(r'courses', course.CourseViewSet, basename="course")
 router.register(r'enrolments', enrolment.EnrolmentViewSet,
                 basename="enrolment")
-router.register(r'ce', curatedelective.CuratedElectiveViewSet,
-                basename="curatedelective")
+router.register(r'elective', elective.ElectiveViewSet,
+                basename="elective")
 router.register(r'callista', callistadatafile.CallistaDataFileViewSet,
                 basename="callista")
 router.register(r'corelists', corelist.CoreListViewSet, basename="corelist")

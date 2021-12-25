@@ -3,7 +3,6 @@ import pandas as pd
 import time
 from django.conf import settings
 from api.models import Student, Course, Unit, Enrolment
-from scripts.process_reqs import validate_graduation
 
 """
 TODO:
