@@ -91,18 +91,31 @@ class Student(models.Model):
         ])
 
     def validate_graduation(self):
+        """
+        return (remaining_units, most_completed_cm) if pass
+        return (most_completed_cm, missing_cores, missing_credits) if fail
+        """
         completed_units = self.get_completed_units()
         ret = []
-        for cm in self.course.coursemodule_set.all():
-            missing_cores, remaining, has_completed_core = cm.process_core(
-                completed_units
-            )
-            missing_credits, _, has_completed_elective = cm.process_elective(
-                remaining
-            )
-            status = has_completed_core and has_completed_elective
-            ret.append((cm.cm_code, missing_cores, missing_credits, status))
-        return ret
+        self.traverse_wrapper(self.course, completed_units, 0, ret)
+        completion = filter(lambda x: len(x) == 2, ret)
+        if completion:
+            return completion[0]
+        return max(ret, key=lambda x: x[2])
+
+    def traverse_wrapper(self, wrapper, units, depth, part):
+        """(status, remaining_units, most_completed_cm, missing_cores, missing_credits)"""
+        if wrapper.wrapper_set.all():
+            for child in wrapper.wrapper_set.all():
+                tup = child.is_complete(units)
+                if tup[0]:
+                    if not child.wrapper_set.all():
+                        # two items only when successfully end
+                        part.append((tup[1], tup[2]))
+                    else:
+                        self.traverse_wrapper(child, tup[1], depth+1, part)
+                else:
+                    part.append((tup[2], tup[3], tup[4], depth))
 
     def __str__(self):
         return f'Student: {self.student_id} {self.student_name}'
@@ -161,7 +174,7 @@ class Wrapper(models.Models):
         null=True
     )
     threshold = models.PositiveSmallIntegerField()
-    next = models.ForeignKey(
+    parent = models.ForeignKey(
         to="Wrapper",
         null=True,
         on_delete=models.CASCADE
@@ -179,7 +192,7 @@ class Wrapper(models.Models):
         verbose_name_plural = 'wrappers'
 
     def is_complete(self, units):
-        """(status, remaining units, most_completed_cm, missing cores, missing credits)"""
+        """(status, remaining_units, most_completed_cm, missing_cores, missing_credits)"""
         core_complete, remaining, most_completed_core_cm, missing_cores, missing_core_credits = self.core_passed(
             units)
         electives_complete, remaining, most_completed_cm, missing_elective_credits = self.electives_passed(
@@ -268,12 +281,6 @@ class CourseModule(models.Model):
         null=False,
         verbose_name="Course Module Type"
     )
-
-    # def total_credits(self):
-    #     return sum(
-    #         sum(core.unit.unit_credits for core in cl.core_set.all())
-    #         for cl in self.corelist_set.all()
-    #     )
 
     def process_core(self, units):
         """ (cores not completed yet, cores taken, status) """
