@@ -2,8 +2,9 @@ import os
 from django.conf import settings
 from django.db import models
 from functools import reduce
+from django.db.models.base import ModelStateFieldsCacheDescriptor
 
-from django.db.models.deletion import CASCADE
+from django.db.models.deletion import CASCADE, SET_NULL
 
 SEMESTER_CHOICE = [
     ("1", "Semester 1"),
@@ -153,7 +154,105 @@ class Course(models.Model):
         return f'Course: {self.course_code}.v{self.course_version}'
 
 
+class Wrapper(models.Models):
+    course = models.ForeignKey(
+        to="Course",
+        on_delete=models.SET_NULL,
+        null=True
+    )
+    threshold = models.PositiveSmallIntegerField()
+    next = models.ForeignKey(
+        to="Wrapper",
+        null=True,
+        on_delete=models.CASCADE
+    )
+    is_leaf = models.BooleanField(
+        default=False,
+        null=False
+    )
+    required_core_credit_points = models.PositiveSmallIntegerField(
+        verbose_name="Wrapper required core credit points"
+    )
+
+    class Meta:
+        verbose_name = 'wrapper'
+        verbose_name_plural = 'wrappers'
+
+    def is_complete(self, units):
+        """(status, remaining units, most_completed_cm, missing cores, missing credits)"""
+        core_complete, remaining, most_completed_core_cm, missing_cores, missing_core_credits = self.core_passed(
+            units)
+        electives_complete, remaining, most_completed_cm, missing_elective_credits = self.electives_passed(
+            remaining, most_completed_core_cm)
+        return core_complete and electives_complete, \
+            remaining, most_completed_cm, missing_cores, \
+            missing_core_credits+missing_elective_credits
+
+    def core_passed(self, units):
+        """(status, remaining units, most_completed_cm, missing cores, missing credits)"""
+        cm_cores = [(*cm.process_core(units), cm)
+                    for cm in self.coursemodule_set.all()]
+        completed_cm_cores = filter(lambda tup: tup[2], cm_cores)
+        if len(completed_cm_cores) >= self.threshold:
+            cores_taken = reduce(
+                lambda acc, s: acc.union(s[1]),
+                completed_cm_cores, set()
+            )
+            total_core_credits = reduce(
+                lambda acc, u: acc + u.unit_credits,
+                cores_taken, 0
+            )
+            most_completed_cm = map(lambda x: x[3], completed_cm_cores)
+            if total_core_credits >= self.required_core_credit_points:
+                return True, units.difference(cores_taken), most_completed_cm, None, None
+            else:
+                missing_credits = self.required_core_credit_points - total_core_credits
+                return False, units.difference(cores_taken), most_completed_cm, None, missing_credits
+        else:
+            missing_cores, cores_taken, most_completed_cm = reduce(
+                lambda acc, s: (
+                    acc[0].union(s[0]), acc[1].union(s[1]), acc[2].append(s[3])
+                ),
+                sorted(cm_cores, key=lambda x: len(x[0]))[:self.threshold],
+                (set(), set(), [])
+            )
+            total_core_credits = reduce(
+                lambda acc, u: acc + u.unit_credits,
+                cores_taken, 0
+            )
+            remaining = units.difference(cores_taken)
+            missing_credits = self.required_core_credit_points - total_core_credits
+            return False, remaining, most_completed_cm, missing_cores, missing_credits
+
+    def electives_passed(self, units, most_completed_cm):
+        """(status, remaining units, most_completed_cm, missing credits)"""
+        cm_electives = [(*cm.process_elective(units), cm)
+                        for cm in most_completed_cm]
+        passed_electives = filter(lambda tup: tup[2], cm_electives)
+        if len(passed_electives) >= self.threshold:
+            electives_taken = reduce(
+                lambda acc, tup: acc.union(tup[1]),
+                cm_electives, set()
+            )
+            most_completed_electives_cm = map(lambda x: x[3], passed_electives)
+            return True, units.difference(electives_taken), most_completed_electives_cm, 0
+        else:
+            missing_credits, electives_taken, most_completed_electives_cm = reduce(
+                lambda acc, s: (
+                    acc[0] + s[0], acc[1].union(s[1]), acc[2].append(s[3])
+                ),
+                sorted(cm_electives, key=lambda x: x[0])[:self.threshold],
+                (0, set(), [])
+            )
+            remaining = units.difference(electives_taken)
+            return False, remaining, most_completed_electives_cm, missing_credits
+
+    def __str__(self):
+        return f'Core List: {self.pk} - {self.course}'
+
+
 class CourseModule(models.Model):
+    cm_list = models.ManyToManyField(Wrapper)
     cm_code = models.CharField(
         max_length=32,
         verbose_name="Course Module Code",
@@ -163,59 +262,56 @@ class CourseModule(models.Model):
         max_length=128,
         verbose_name="Course Module Name"
     )
-    course = models.ForeignKey(
-        to="Course",
-        on_delete=models.SET_NULL,
-        null=True,
-        verbose_name="Course in which the CourseModule belongs to"
-    )
     type = models.CharField(
         max_length=64,
         choices=COURSEMODULE_TYPE,
         null=False,
         verbose_name="Course Module Type"
     )
-    required_elective_credit_points = models.PositiveSmallIntegerField(
-        verbose_name="Course Module required credit points"
-    )
+
+    # def total_credits(self):
+    #     return sum(
+    #         sum(core.unit.unit_credits for core in cl.core_set.all())
+    #         for cl in self.corelist_set.all()
+    #     )
 
     def process_core(self, units):
+        """ (cores not completed yet, cores taken, status) """
         core_lists = [
-            set(core.unit for core in cl.core_set.all()) for cl in self.corelist_set.all()
+            set(core.unit for core in cl.core_set.all())
+            for cl in self.corelist_set.all()
         ]
 
-        assert sum([1 for _ in range(core_lists)]
-                   ) == 1, 'core list should always only have one nested list (as of implementation logic now)'
-
         has_completed = False
-        missing_cores, min_cl = min(
+        missing_cores, most_completed_cl = min(
             map(
                 lambda x: (x.difference(units), x), core_lists
-            ), key=lambda x: len(x)
+            ), key=lambda x: len(x[0])
         )
         if len(missing_cores) <= 0:
             has_completed = True
-        # FIXME : length of core list may be inconsistent!
-        remaining = units.difference(min_cl)
-        return list(missing_cores), remaining, has_completed
+        return list(missing_cores), most_completed_cl.intersection(units), has_completed
 
-    def process_elective(self, units):
+    def process_elective(self, units, is_free=False):
+        """ (missing credits, electives taken, status) """
         elective_lists = [
-            None if el.elective_set.is_free else [  # FIXME
-                elective for elective in el.elective_set.all()
-            ]
+            ([elective.unit for elective in el.elective_set.all()],
+             el.required_elective_credit_points)
             for el in self.electivelist_set.all()
         ]
-        has_completed = False
-        credits_earned, max_el = max(map(
-            lambda x: (reduce(
-                lambda acc, u: acc + u.unit_credits,
-                units.intersection(x) if x else units  # FIXME
-            ), x), elective_lists
-        ))
-        if credits_earned >= self.required_elective_credit_points:
-            has_completed = True
-        return self.required_elective_credit_points - credits_earned, units.difference(max_el), has_completed
+        has_completed = True
+        electives_taken = set()
+        missing_elective_credits = 0
+        for unit_list, required_credits in elective_lists:
+            credits_earned, electives_set = reduce(
+                lambda acc, u: (acc[0] + u.unit_credits, acc[1].union(u)),
+                set(unit_list).intersection(units), (0, set())
+            )
+            electives_taken = electives_taken.union(electives_set)
+            if credits_earned < required_credits:
+                has_completed = False
+                missing_elective_credits += (required_credits - credits_earned)
+        return missing_elective_credits, electives_taken, has_completed
 
     def __str__(self):
         return f'CourseModule: {self.cm_code} - {self.cm_name}'
@@ -239,6 +335,9 @@ class ElectiveList(models.Model):
     course_module = models.ForeignKey(
         to="CourseModule",
         on_delete=models.CASCADE
+    )
+    required_elective_credit_points = models.PositiveSmallIntegerField(
+        verbose_name="Course Module required elective credit points"
     )
     is_free = models.BooleanField(
         default=False,
