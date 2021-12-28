@@ -261,11 +261,11 @@ class Wrapper(models.Model):
             return False, remaining, most_completed_electives_cm, missing_credits
 
     def __str__(self):
-        return f'Core List: {self.pk} - {self.course}'
+        return f'Wrapper: {self.pk} - {self.course}'
 
 
 class CourseModule(models.Model):
-    cm_list = models.ManyToManyField(Wrapper)
+    wrapper = models.ManyToManyField(Wrapper)
     cm_code = models.CharField(
         max_length=32,
         verbose_name="Course Module Code",
