@@ -98,7 +98,7 @@ class Student(models.Model):
         completed_units = self.get_completed_units()
         ret = []
         self.traverse_wrapper(self.course, completed_units, 0, ret)
-        completion = filter(lambda x: len(x) == 2, ret)
+        completion = list(filter(lambda x: len(x) == 2, ret))
         if completion:
             return completion[0]
         return max(ret, key=lambda x: x[2])
