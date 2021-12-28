@@ -29,6 +29,7 @@ router.register(r'students', student.StudentViewSet, basename="student")
 router.register(r'courses', course.CourseViewSet, basename="course")
 router.register(r'coursemodules',
                 coursemodule.CourseModuleViewSet, basename="coursemodule")
+router.register(r'wrapper', wrapper.WrapperViewSet, basename="wrapper")
 router.register(r'corelists', corelist.CoreListViewSet, basename="corelist")
 router.register(r'cores', core.CoreViewSet, basename="core")
 router.register(r'electivelist', electivelist.ElectiveListViewSet,

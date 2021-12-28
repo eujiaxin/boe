@@ -1,5 +1,4 @@
 from django.contrib.auth.models import User
-from django.db.models import fields
 from rest_framework import serializers
 from api.models import *
 
@@ -73,4 +72,10 @@ class EnrolmentSerializer(serializers.ModelSerializer):
 class CallistaDataFileSerializer(serializers.ModelSerializer):
     class Meta:
         model = CallistaDataFile
+        fields = "__all__"
+
+
+class WrapperSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Wrapper
         fields = "__all__"

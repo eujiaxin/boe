@@ -167,7 +167,7 @@ class Course(models.Model):
         return f'Course: {self.course_code}.v{self.course_version}'
 
 
-class Wrapper(models.Models):
+class Wrapper(models.Model):
     course = models.ForeignKey(
         to="Course",
         on_delete=models.SET_NULL,
