@@ -3,9 +3,11 @@ import pandas as pd
 from api.models import *
 from django.shortcuts import get_object_or_404
 from django.conf import settings
+from scripts.delete_db import run as clear_db
 
 
 def run():
+    clear_db()
     script_path = os.path.join(settings.BASE_DIR, "scripts")
     df = pd.read_csv(os.path.join(script_path, "cs_course_data_2.csv"))
 
@@ -91,11 +93,12 @@ def run():
            "FIT3183", "MTH3170", "MTH3175"]
 
     for unit_code in lst:
+        print(unit_code)
         _ = el2.elective_set.create(
             unit=Unit.objects.get(unit_code=unit_code)
         )
 
-    cm3 = wrapper1.coursemodule_set.create(
+    cm3 = wrapper2.coursemodule_set.create(
         cm_code='DATASCI01',
         cm_name='Data science',
         type='Specialisation'
@@ -107,6 +110,7 @@ def run():
            "FIT3179", "FIT3163", "FIT3164"]
 
     for unit_code in lst:
+        print(unit_code)
         _ = cl3.core_set.create(
             unit=Unit.objects.get(unit_code=unit_code)
         )
