@@ -63,7 +63,7 @@ def run():
         threshold=1,
         parent=wrapper1,
         is_leaf=False,
-        required_core_credit_points=48
+        required_core_credit_points=42
     )
 
     cm2 = wrapper2.coursemodule_set.create(
@@ -83,7 +83,7 @@ def run():
         )
 
     el2 = cm2.electivelist_set.create(
-        required_elective_credit_points=12
+        required_elective_credit_points=6
     )
 
     lst = ["FIT3031", "FIT3077", "FIT3080", "FIT3081",
@@ -116,7 +116,7 @@ def run():
         )
 
     el3 = cm3.electivelist_set.create(
-        required_elective_credit_points=12
+        required_elective_credit_points=6
     )
 
     lst = ["FIT3003", "FIT3139", "FIT3152", "FIT3154",
@@ -131,7 +131,7 @@ def run():
         threshold=1,
         parent=wrapper2,
         is_leaf=True,
-        required_core_credit_points=12
+        required_core_credit_points=6
     )
 
     cm4 = wrapper3.coursemodule_set.create(

@@ -64,6 +64,7 @@ def validator(request):
             output = dict()
             for student in user_to_output[request.user.username]:
                 output[student] = student.validate_graduation()
+            print(output)
             return render(request, "checkerapp_success_page.html", {'output': output})
         return HttpResponse("No student request...")
     context = {

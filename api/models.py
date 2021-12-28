@@ -93,7 +93,7 @@ class Student(models.Model):
     def validate_graduation(self):
         """
         return (remaining_units, most_completed_cm) if pass
-        return (most_completed_cm, missing_cores, missing_credits) if fail
+        return (remaining_units, most_completed_cm, missing_cores, missing_credits, depth) if fail
         """
         completed_units = self.get_completed_units()
         ret = []
@@ -101,12 +101,12 @@ class Student(models.Model):
         completion = list(filter(lambda x: len(x) == 2, ret))
         if completion:
             return completion[0]
-        return max(ret, key=lambda x: x[2])
+        return ret
 
     def traverse_wrapper(self, wrapper, units, depth, part):
-        """(status, remaining_units, most_completed_cm, missing_cores, missing_credits)"""
         if wrapper.wrapper_set.all():
             for child in wrapper.wrapper_set.all():
+                # (status, remaining_units, most_completed_cm, missing_cores, missing_credits)
                 tup = child.is_complete(units)
                 if tup[0]:
                     if not child.wrapper_set.all():
@@ -115,7 +115,7 @@ class Student(models.Model):
                     else:
                         self.traverse_wrapper(child, tup[1], depth+1, part)
                 else:
-                    part.append((tup[2], tup[3], tup[4], depth))
+                    part.append((tup[1], tup[2], tup[3], tup[4], depth))
 
     def __str__(self):
         return f'Student: {self.student_id} {self.student_name}'
@@ -159,7 +159,7 @@ class Course(models.Model):
     # def save(self, *args, **kwargs):
     #     if not Course.objects.filter(pk=self.pk).exists():
     #         self.course_version = max([
-    #             x.course_version for x in Course.objects.filter(course_name=self.course_name)
+    #             x.course_version for x in Course.objects.course_name=self.course_name)
     #         ] + [0]) + 1
     #     super(Course, self).save(*args, **kwargs)
 
@@ -205,7 +205,7 @@ class Wrapper(models.Model):
         """(status, remaining units, most_completed_cm, missing cores, missing credits)"""
         cm_cores = [(*cm.process_core(units), cm)
                     for cm in self.coursemodule_set.all()]
-        completed_cm_cores = filter(lambda tup: tup[2], cm_cores)
+        completed_cm_cores = list(filter(lambda tup: tup[2], cm_cores))
         if len(completed_cm_cores) >= self.threshold:
             cores_taken = reduce(
                 lambda acc, s: acc.union(s[1]),
@@ -215,18 +215,19 @@ class Wrapper(models.Model):
                 lambda acc, u: acc + u.unit_credits,
                 cores_taken, 0
             )
-            most_completed_cm = map(lambda x: x[3], completed_cm_cores)
+            most_completed_cm = list(map(lambda x: x[3], completed_cm_cores))
             if total_core_credits >= self.required_core_credit_points:
-                return True, units.difference(cores_taken), most_completed_cm, None, None
+                return True, units.difference(cores_taken), most_completed_cm, None, 0
             else:
                 missing_credits = self.required_core_credit_points - total_core_credits
                 return False, units.difference(cores_taken), most_completed_cm, None, missing_credits
         else:
             missing_cores, cores_taken, most_completed_cm = reduce(
                 lambda acc, s: (
-                    acc[0].union(s[0]), acc[1].union(s[1]), acc[2].append(s[3])
+                    acc[0].union(s[0]), acc[1].union(s[1]), acc[2]+[s[3]]
                 ),
-                sorted(cm_cores, key=lambda x: len(x[0]))[:self.threshold],
+                sorted(cm_cores, key=lambda x: len(x[0]))[
+                    :self.threshold],  # FIXME (MAYBE)
                 (set(), set(), [])
             )
             total_core_credits = reduce(
@@ -235,19 +236,21 @@ class Wrapper(models.Model):
             )
             remaining = units.difference(cores_taken)
             missing_credits = self.required_core_credit_points - total_core_credits
+            print("c", most_completed_cm)
             return False, remaining, most_completed_cm, missing_cores, missing_credits
 
     def electives_passed(self, units, most_completed_cm):
         """(status, remaining units, most_completed_cm, missing credits)"""
         cm_electives = [(*cm.process_elective(units), cm)
                         for cm in most_completed_cm]
-        passed_electives = filter(lambda tup: tup[2], cm_electives)
+        passed_electives = list(filter(lambda tup: tup[2], cm_electives))
         if len(passed_electives) >= self.threshold:
             electives_taken = reduce(
                 lambda acc, tup: acc.union(tup[1]),
                 cm_electives, set()
             )
-            most_completed_electives_cm = map(lambda x: x[3], passed_electives)
+            most_completed_electives_cm = list(
+                map(lambda x: x[3], passed_electives))
             return True, units.difference(electives_taken), most_completed_electives_cm, 0
         else:
             missing_credits, electives_taken, most_completed_electives_cm = reduce(
@@ -310,10 +313,12 @@ class CourseModule(models.Model):
         electives_taken = set()
         missing_elective_credits = 0
         for unit_list, required_credits in elective_lists:
-            credits_earned, electives_set = reduce(
-                lambda acc, u: (acc[0] + u.unit_credits, acc[1].union(u)),
-                set(unit_list).intersection(units), (0, set())
-            )
+            credits_earned, electives_set = 0, set()
+            for u in set(unit_list).intersection(units):  # FIXME?
+                credits_earned += u.unit_credits
+                electives_set.add(u)
+                if credits_earned >= required_credits:
+                    break
             electives_taken = electives_taken.union(electives_set)
             if credits_earned < required_credits:
                 has_completed = False
@@ -430,7 +435,6 @@ class Unit(models.Model):
         ]
 
     def __hash__(self):
-        print("psyche, hahahahahhash")
         return self.unit_code.__hash__()
 
     def __str__(self):
