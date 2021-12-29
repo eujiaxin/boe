@@ -22,22 +22,24 @@
               <th scope="col">Student ID</th>
               <th scope="col">Student Name</th>
               <th scope="col">Course</th>
-              <th scope="col">Course Module</th>
+              <th scope="col">Completed Course Modules</th>
+              <th scope="col">Most Completed Course Module</th>
               <th scope="col">Missing Cores</th>
-              <th scope="col">Missing Credits</th>
+              {% comment %} <th scope="col">Missing Credits</th> {% endcomment %}
               <th scope="col">Completion status</th>
             </tr>
           </thead>
           <tbody>
-            {% for student, (cm, missing_cores, missing_credits, status) in output.items %}
+            {% for student, my_dict in output.items %}
             <tr>
               <th scope="row">{{student.student_id}}</th>
               <td>{{student.student_name}}</td>
               <td>{{student.course.course_code}}: {{student.course.course_name}}</td>
-              <td>{{cm}}</td>
-              <td>{{ missing_cores|join:", " }}</td>
-              <td>{{ missing_credits }}</td>
-              <td>{{ status|yesno:"COMPLETE,INCOMPLETE" }}</td>
+              <td>{{ my_dict.all_completed_cm|join:", " }}</td>
+              <td>{{ my_dict.most_completed_cm|join:", " }}</td>
+              <td>{{ my_dict.missing_cores|join:", " }}</td>
+              {% comment %} <td>{{ my_dict.missing_credits }}</td> {% endcomment %}
+              <td>{{ my_dict.can_graduate }}</td>
             </tr>
             {% endfor %}
           </tbody>

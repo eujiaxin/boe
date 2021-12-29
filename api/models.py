@@ -92,19 +92,40 @@ class Student(models.Model):
 
     def validate_graduation(self):
         """
-        return (remaining_units, most_completed_cm, all_completed_cm) if pass
-        return (remaining_units, most_completed_cm, missing_cores, missing_credits, depth, all_completed_cm) if fail
+        return dict(can_graduate, missing_cores, most_completed_cm, missing_credits, all_completed_cm) 
         """
         completed_units = self.get_completed_units()
-        ret = []
+        res = dict()
+        part = []
         completed_cm = []
         self.traverse_wrapper(
-            self.course, completed_units, 0, ret, completed_cm)
-        completion = list(filter(lambda x: len(x) == 2, ret))
+            self.course, completed_units, 0, part, completed_cm)
+        completion = list(filter(lambda x: len(x) == 2, part))
         completed_cm = list(map(lambda x: x[0], completed_cm))
         if completion:
-            return (*completion[0], completed_cm)
-        return (*min(ret, key=lambda x: len(x[2])), completed_cm)
+            remaining_units, most_completed_cm = completion[0]
+            # res["remaining_units"] = remaining_units
+            elective_credits = reduce(
+                lambda acc, u: acc + u.unit_credits, remaining_units, 0)
+            if elective_credits >= self.course.free_elective_credits:
+                res["can_graduate"] = "Yes"
+            else:
+                res["can_graduate"] = "FREE ELECTIVES INCOMPLETE"
+            res["missing_cores"] = "-"
+            res["most_completed_cm"] = "-"
+            res["missing_credits"] = "-"
+            res["all_completed_cm"] = completed_cm
+        else:
+            remaining_units, most_completed_cm, missing_cores, missing_credits, _ = min(
+                part, key=lambda x: len(x[2]))
+            # res["remaining_units"] = remaining_units
+            res["can_graduate"] = "CORE INCOMPLETE"
+            res["most_completed_cm"] = list(
+                map(lambda x: f"{x.cm_code} {x.cm_name}", set(most_completed_cm)))
+            res["missing_cores"] = missing_cores
+            res["missing_credits"] = missing_credits
+            res["all_completed_cm"] = completed_cm
+        return res
 
     def traverse_wrapper(self, wrapper, units, depth, part, completed_cm):
         if wrapper.wrapper_set.all():
@@ -147,7 +168,7 @@ class Course(models.Model):
     course_name = models.CharField(
         max_length=256, verbose_name="Course Name"
     )
-    course_required_credits = models.PositiveSmallIntegerField(
+    free_elective_credits = models.PositiveSmallIntegerField(
         verbose_name="Total Credits Requried to Complete this Course"
     )
     course_duration_limit = models.PositiveSmallIntegerField(

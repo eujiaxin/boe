@@ -21,7 +21,7 @@ def run():
         course_code='C2001',
         course_version='1',
         course_name='Bachelor of Computer Science',
-        course_required_credits=144,
+        free_elective_credits=48,
         course_duration_limit=8
     )
 
