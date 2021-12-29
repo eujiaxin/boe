@@ -112,7 +112,10 @@ class Student(models.Model):
                 # (status, remaining_units, most_completed_cm, missing_cores, missing_credits)
                 tup = child.is_complete(units)
                 if tup[0]:
-                    completed_cm.append(tup[2])
+                    temp = list(
+                        filter(lambda x: x.type != 'default', tup[2]))
+                    if temp:
+                        completed_cm.append(temp)
                     if not child.wrapper_set.all():
                         # two items only when successfully end
                         part.append((tup[1], tup[2]))
