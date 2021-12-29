@@ -11,14 +11,25 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <title>Validate</title>
+    <style>
+        .btn-primary {
+            background-color: rgb(128, 181, 197);
+            border: rgb(68, 110, 122);
+        }
+
+        .btn-primary:hover {
+            background-color: rgb(124, 170, 184);
+            color: white;
+        }
+    </style>
+    <title>Validate | BoE</title>
   </head>
 
   <div class="container m-5 mx-auto">
       <body>
       <form action="{% url 'checkerapp:validator' %}" method="post">
         {% csrf_token %}
-        <input type="submit" id="validate_button" value="Validate!"/>
+        <input class='btn btn-primary btn-lg my-3' type="submit" id="validate_button" value="Validate!"/>
       </form>
         <table class="table table-bordered">
           <thead>
