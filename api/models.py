@@ -92,28 +92,33 @@ class Student(models.Model):
 
     def validate_graduation(self):
         """
-        return (remaining_units, most_completed_cm) if pass
-        return (remaining_units, most_completed_cm, missing_cores, missing_credits, depth) if fail
+        return (remaining_units, most_completed_cm, all_completed_cm) if pass
+        return (remaining_units, most_completed_cm, missing_cores, missing_credits, depth, all_completed_cm) if fail
         """
         completed_units = self.get_completed_units()
         ret = []
-        self.traverse_wrapper(self.course, completed_units, 0, ret)
+        completed_cm = []
+        self.traverse_wrapper(
+            self.course, completed_units, 0, ret, completed_cm)
         completion = list(filter(lambda x: len(x) == 2, ret))
+        completed_cm = list(map(lambda x: x[0], completed_cm))
         if completion:
-            return completion[0]
-        return ret
+            return (*completion[0], completed_cm)
+        return (*min(ret, key=lambda x: len(x[2])), completed_cm)
 
-    def traverse_wrapper(self, wrapper, units, depth, part):
+    def traverse_wrapper(self, wrapper, units, depth, part, completed_cm):
         if wrapper.wrapper_set.all():
             for child in wrapper.wrapper_set.all():
                 # (status, remaining_units, most_completed_cm, missing_cores, missing_credits)
                 tup = child.is_complete(units)
                 if tup[0]:
+                    completed_cm.append(tup[2])
                     if not child.wrapper_set.all():
                         # two items only when successfully end
                         part.append((tup[1], tup[2]))
                     else:
-                        self.traverse_wrapper(child, tup[1], depth+1, part)
+                        self.traverse_wrapper(
+                            child, tup[1], depth+1, part, completed_cm)
                 else:
                     part.append((tup[1], tup[2], tup[3], tup[4], depth))
 
