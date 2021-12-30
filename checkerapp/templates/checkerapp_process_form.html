@@ -51,27 +51,19 @@
                         <td>{{ file.name }}</td>
                         <td>{{ file.upload_date }}</td>
                         {% if file.has_been_processed %}
-                        <td>Processed</td>
-                        <td>
-                            <input
-                                class="form-check"
-                                type="checkbox"
-                                name="{{file.id}}"
-                                value="1"
-                                disabled
-                            />
-                        </td>
+                        <td>✅</td>
                         {% else %}
                         <td>Pending</td>
+                        {% endif %}
                         <td>
                             <input
                                 class="form-check"
                                 type="checkbox"
                                 name="{{file.id}}"
                                 value="1"
+                                unchecked
                             />
                         </td>
-                        {% endif %}
                     </tr>
                     {% endfor %}
                 </table>
@@ -84,11 +76,6 @@
             </form>
         </div>
         <script>
-            document.addEventListener("DOMContentLoaded", (_) => {
-                document
-                    .getElementById("id_uploads")
-                    .setAttribute("accept", ".csv");
-            });
         </script>
     </body>
 </html>

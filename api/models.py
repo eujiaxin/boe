@@ -108,7 +108,7 @@ class Student(models.Model):
             elective_credits = reduce(
                 lambda acc, u: acc + u.unit_credits, remaining_units, 0)
             if elective_credits >= self.course.free_elective_credits:
-                res["can_graduate"] = "Yes"
+                res["can_graduate"] = "✅"
             else:
                 res["can_graduate"] = "FREE ELECTIVES INCOMPLETE"
             res["missing_cores"] = "-"
@@ -121,8 +121,9 @@ class Student(models.Model):
             # res["remaining_units"] = remaining_units
             res["can_graduate"] = "CORE INCOMPLETE"
             res["most_completed_cm"] = list(
-                map(lambda x: f"{x.cm_code} {x.cm_name}", set(most_completed_cm)))
-            res["missing_cores"] = missing_cores
+                map(lambda x: f"{x.cm_code}", set(most_completed_cm)))
+            res["missing_cores"] = list(
+                map(lambda x: f"{x.unit_code}", set(missing_cores)))
             res["missing_credits"] = missing_credits
             res["all_completed_cm"] = completed_cm
         return res
