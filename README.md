@@ -15,7 +15,7 @@ Name of Project: BoE
 #### Features offered by Innovation
 To handle various types of course offerings across different faculties, our system breaks each course down into different levels of abstraction. These different layers are represented as Django model objects, and are processed by linking them together in a graph system. A complex course graph is formed and receives students' data input to be traversed.
 
-Relevant staffs who are responsible of the course data should have a fair understanding of [how this system works](test) in order to properly create or update a course.
+Relevant staffs who are responsible of the course data should have a fair understanding of [how this system works](#detailed-explanation-of-application--examples) in order to properly create or update a course.
 
 #### List of possible enabling technologies
 Currently, the system uses SQLite to store courses and student data. In the future, database migration to [PostgreSQL](https://www.postgresql.org/) can be done for better scalability.
