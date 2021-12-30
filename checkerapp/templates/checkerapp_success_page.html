@@ -16,6 +16,10 @@
 
   <div class="container m-5 mx-auto">
       <body>
+        <form action="{% url 'checkerapp:download' %}" method="post">
+          {% csrf_token %}
+          <input class='btn btn-primary btn-lg my-3' type="submit" id="download_button" value="Download Report"/>
+        </form>
         <table class="table table-bordered">
           <thead>
             <tr>

@@ -356,7 +356,7 @@ class CourseModule(models.Model):
         return missing_elective_credits, electives_taken, has_completed
 
     def __str__(self):
-        return f'CourseModule: {self.cm_code} - {self.cm_name}'
+        return f'{self.cm_code} - {self.cm_name}'
 
 
 class CoreList(models.Model):
@@ -569,3 +569,12 @@ class Faculty(models.Model):
 
     def __str__(self):
         return f'Faculty: {self.faculty_name}'
+
+
+class DataFile(models.Model):
+    file_name = models.CharField(max_length=70)
+    file = models.FileField(upload_to='files', blank=False)
+    date_added = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.file_name

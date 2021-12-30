@@ -27,10 +27,6 @@
 
   <div class="container m-5 mx-auto">
       <body>
-      <form action="{% url 'checkerapp:validator' %}" method="post">
-        {% csrf_token %}
-        <input class='btn btn-primary btn-lg my-3' type="submit" id="validate_button" value="Validate!"/>
-      </form>
         <table class="table table-bordered">
           <thead>
             <tr>
@@ -49,6 +45,10 @@
             {% endfor %}
           </tbody>
         </table>
+        <form action="{% url 'checkerapp:validator' %}" method="post">
+        {% csrf_token %}
+        <input class='btn btn-primary btn-lg my-3' type="submit" id="validate_button" value="Validate!"/>
+      </form>
   </div>
     <!-- JavaScript Bundle with Popper -->
     <script
