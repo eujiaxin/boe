@@ -1,4 +1,5 @@
 
+
 # PVC IT Challenge Submission
 
 Name of Group: BoEasy Group  
@@ -17,7 +18,7 @@ Our solution focuses on being as simple and minimalistic as possible while also 
 
 Every student's past enrolments and grades are stored in our database to ensure consistency of the input data and accuracy of our output. This means that even if the new input data is missing old enrolment data, our solution will still work perfectly fine.
 
-Relevant staffs who are responsible of the course data should have a fair understanding of [how course requirements are abstracted](#detailed-explanation-of-application--examples) in order to properly create or update a course.
+Relevant staffs who are responsible of the course data should have a fair understanding of [how course requirements are abstracted](#detailed-explanation-of-application-&-examples) in order to properly create or update a course.
 
 #### List of possible enabling technologies
 Currently, the system uses SQLite to store courses and student data. In the future, database migration to [PostgreSQL](https://www.postgresql.org/) can be done for better scalability.
@@ -40,8 +41,35 @@ Currently, the system uses SQLite to store courses and student data. In the futu
 * Once hosted on a server, the application system will be online 24/7 and is able to handle concurrent users by allowing multiple logins from different parties at the same time.
 * Users are allowed to upload more than 1 spreadsheet in a single request. After uploading the files, the final output shown includes all students in the selected uploaded files.
 
+
 ## Detailed Explanation of Application & Examples
-(include simple table of CSV and the output then explain how it happens)
+1. Homepage  
+![Homepage](https://i.ibb.co/1zjd45X/image.png)
+	* Enter name of staff using the application
+	* Upload a single or multiple CSV files in one request
+	* Click on upload to process the CSV files
+
+2. Processing page  
+![ProcessPage](https://i.ibb.co/Vtg9V52/image.png)
+	* Processed CSV files will be marked ✅
+	* Users are allowed to select multiple CSV files, including previously processed CSV files.
+	* After clicking on Process button, the page will be redirected to a single combined output based on the selected CSV files.
+
+3. Student Info page  
+![StudentPage](https://i.ibb.co/rwJhPwJ/image.png)
+	* Students and the relevant course taken will be displayed.
+	* Upon clicking `Validate!` button, users will be redirected to the final processed page.
+
+4. Final processed page  
+![FinalPage](https://i.ibb.co/HnqFBx1/image.png)
+	* **Completed Course Modules** - course completed by student (major/minor/specialisation)
+	* **Pending Course Module** - incomplete course module needed to be taken in order to graduate
+	* **Completion status** - shows whether a student is eligible to graduate
+		* `CORE INCOMPLETE` - missing core units required for course completion
+		* `FREE ELECTIVE INCOMPLETE `- missing credit points from elective units required for course completion
+        * Example 1: *Alexander Morgan* still needs to take FIT3045 to complete his course.
+        * Example 2: *Pippa Smith* and *Adrian Mathis* both completed all core units required, but still need to take enough elective units to get enough credit points for course completion.
+        
 ## Selection Criteria
 #### Cost of Implementation
 Hosting the applicaton system on an m6g.medium [AWS EC2](https://aws.amazon.com/ec2/) instance should be sufficient for the scale of this application and would cost ~337 USD per year.
