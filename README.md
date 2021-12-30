@@ -1,7 +1,7 @@
 
 # PVC IT Challenge Submission
 
-Name of Group: BoE  
+Name of Group: BoEasy Group  
 Name of Project: BoE  
 | Group Member          	| Github Handle                               	| Role               	|
 |-----------------------	|---------------------------------------------	|--------------------	|
