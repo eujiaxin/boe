@@ -16,24 +16,34 @@
 
   <div class="container m-5 mx-auto">
       <body>
+        <form action="{% url 'checkerapp:download' %}" method="post">
+          {% csrf_token %}
+          <input class='btn btn-primary btn-lg my-3' type="submit" id="download_button" value="Download Report"/>
+        </form>
         <table class="table table-bordered">
           <thead>
             <tr>
               <th scope="col">Student ID</th>
               <th scope="col">Student Name</th>
               <th scope="col">Course</th>
+              <th scope="col">Completed Course Modules</th>
+              <th scope="col">Pending Course Module</th>
+              <th scope="col">Missing Cores</th>
+              {% comment %} <th scope="col">Missing Credits</th> {% endcomment %}
               <th scope="col">Completion status</th>
-              <th scope="col">Missing Units</th>
             </tr>
           </thead>
           <tbody>
-            {% for student, data in output.items %}
+            {% for student, my_dict in output.items %}
             <tr>
               <th scope="row">{{student.student_id}}</th>
               <td>{{student.student_name}}</td>
-              <td>{{data.0.course_code}}: {{data.0.course_name}}</td>
-              <td>{{ student.has_graduated|yesno:"COMPLETE,INCOMPLETE" }}</td>
-              <td>{{ data.1|join:", " }}</td>
+              <td>{{student.course.course_code}}: {{student.course.course_name}}</td>
+              <td>{{ my_dict.all_completed_cm|join:", " }}</td>
+              <td>{{ my_dict.most_completed_cm|join:", " }}</td>
+              <td>{{ my_dict.missing_cores|join:", " }}</td>
+              {% comment %} <td>{{ my_dict.missing_credits }}</td> {% endcomment %}
+              <td>{{ my_dict.can_graduate }}</td>
             </tr>
             {% endfor %}
           </tbody>

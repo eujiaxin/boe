@@ -1,5 +1,4 @@
 from django.contrib.auth.models import User
-from django.db.models import fields
 from rest_framework import serializers
 from api.models import *
 
@@ -28,15 +27,33 @@ class CourseSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
+class CourseModuleSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CourseModule
+        fields = "__all__"
+
+
 class CoreSerializer(serializers.ModelSerializer):
     class Meta:
         model = Core
         fields = "__all__"
 
 
-class CuratedElectiveSerializer(serializers.ModelSerializer):
+class CoreListSerializer(serializers.ModelSerializer):
     class Meta:
-        model = CuratedElective
+        model = CoreList
+        fields = "__all__"
+
+
+class ElectiveSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Elective
+        fields = "__all__"
+
+
+class ElectiveListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ElectiveList
         fields = "__all__"
 
 
@@ -55,4 +72,10 @@ class EnrolmentSerializer(serializers.ModelSerializer):
 class CallistaDataFileSerializer(serializers.ModelSerializer):
     class Meta:
         model = CallistaDataFile
+        fields = "__all__"
+
+
+class WrapperSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Wrapper
         fields = "__all__"

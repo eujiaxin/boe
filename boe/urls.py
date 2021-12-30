@@ -26,13 +26,19 @@ from api.views import callistadatafile
 router = routers.DefaultRouter()
 router.register(r'faculties', faculty.FacultyViewSet, basename='faculty')
 router.register(r'students', student.StudentViewSet, basename="student")
-router.register(r'units', unit.UnitViewSet, basename="unit")
-router.register(r'cores', core.CoreViewSet, basename="core")
 router.register(r'courses', course.CourseViewSet, basename="course")
+router.register(r'coursemodules',
+                coursemodule.CourseModuleViewSet, basename="coursemodule")
+router.register(r'wrapper', wrapper.WrapperViewSet, basename="wrapper")
+router.register(r'corelists', corelist.CoreListViewSet, basename="corelist")
+router.register(r'cores', core.CoreViewSet, basename="core")
+router.register(r'electivelist', electivelist.ElectiveListViewSet,
+                basename="electivelist")
+router.register(r'electives', elective.ElectiveViewSet,
+                basename="elective")
+router.register(r'units', unit.UnitViewSet, basename="unit")
 router.register(r'enrolments', enrolment.EnrolmentViewSet,
                 basename="enrolment")
-router.register(r'ce', curatedelective.CuratedElectiveViewSet,
-                basename="curatedelective")
 router.register(r'callista', callistadatafile.CallistaDataFileViewSet,
                 basename="callista")
 router.register(r'users', user.UserViewSet, basename="user")

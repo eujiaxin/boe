@@ -1,21 +1,55 @@
-import pandas as pd
-import numpy as np
+def median_result(stud_id, results):
+    # lst = list(map(lambda x:x[2], filter(lambda x: x[1] == stud_id, results)))
+    lst = []
+    for x in results:
+        if x[1] == stud_id:
+            lst.append(x[2])
+    lst.sort()
+    n = len(lst)
+    if n % 2 == 0:
+        return (lst[n/2] + lst[n/2 - 1])/2
+    return lst[n//2]
 
-df = pd.read_csv("C:\\Users\\fabia\\github\\boe\\scripts\\dummy_data.csv")
-df.columns = df.columns.str.upper()
-df["COMMENCEMENT_DT"] = pd.to_datetime(df["COMMENCEMENT_DT"])
-df.columns
+results = [
+    ['', 101028, 65],
+    ['', 101022, 80],
+    ['', 201028, 61],
+    ['', 201022, 59],
+    ['', 310666, 45],
+    ['', 101022, 85],
+    ['', 101022, 71],
+    ['', 493968, 67],
+    ['', 523123, 75]
+]
 
-def get_unique_student(df):
-    student_identifier = [
-        'PERSON ID', 'TITLE',
-        'SURNAME', 'GIVEN NAMES', 'COMMENCEMENT_DT', "COURSE_CD", "C_VER"
-    ]
-    df = df[student_identifier].drop_duplicates()
-    df['NAME'] = df['SURNAME'] + ' ' + df['GIVEN NAMES']
-    return list(map(tuple, df[['PERSON ID', 'NAME', 'COMMENCEMENT_DT', "COURSE_CD", "C_VER"]].values))
+median_result(101022, results)
+median_result(201022, results)
 
-important_fields = ['PERSON ID', 'UNIT_CD',
-                        'ACAD_YR', 'MARK', 'GRADE', 'CAL_TYPE', 'COURSE_CD', 'C_VER']
-df_records = df[important_fields].drop_duplicates().to_dict('records')
-df_records
+
+while len(lst) > 1:
+    # let n be len(lst) before a and b is popped
+    # lst[-1] is the maximum in original_lst[n-1:]
+    a = lst.pop()
+    b = lst.pop()
+    if a > b:
+        lst.append(a)
+    else:
+        lst.append(b)
+    # lst[-1] is the maximum in original_lst[n-2:]
+
+    # exit condition: len(lst) == 1
+    # post condition: len(lst) == 1, lst[0] == lst[-1]
+return lst[0]
+
+def remove(lst, x):
+    if lst:
+        if lst[0] == x:
+            return remove(lst[1:], x)
+        else:
+            return [lst[0]] + remove(lst[1:], x)
+    return []
+
+remove([2,3,4,1], 1)
+remove([1,1,1,1,1], 1)
+remove([0,0,0,0,0], 1)
+remove([1], 1)
