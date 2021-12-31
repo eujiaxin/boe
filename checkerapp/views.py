@@ -63,6 +63,13 @@ def processor(request):
     }
     return render(request, "checkerapp_process_form.html", context=context)
 
+def convert_symbols(x):
+    if x[0] == "✅":
+        return ["YES"]
+    elif x[0] == "🟥":
+        return ["Unspecified"]
+    else:
+        return x
 
 def validator(request):
     if request.method == "POST":
@@ -75,11 +82,12 @@ def validator(request):
                 "student_id": map(lambda x: x.student_id, output.keys()),
                 "student_name": map(lambda x: x.student_name, output.keys()),
                 "course": map(lambda x: x.course.course_code, output.keys()),
-                "completed_course_module": map(lambda x: x["all_completed_cm"], output.values()),
-                "pending_course_module": map(lambda x: x["most_completed_cm"], output.values()),
-                "missing_cores": map(lambda x: x["missing_cores"], output.values()),
-                "status": map(lambda x: "YES" if x == "✅" else x, map(lambda x: x["can_graduate"], output.values())),
+                "completed_course_module": map(convert_symbols, map(lambda x: x["all_completed_cm"], output.values())),
+                "pending_course_module": map(convert_symbols, map(lambda x: x["most_completed_cm"], output.values())),
+                "missing_cores": map(convert_symbols, map(lambda x: x["missing_cores"], output.values())),
+                "status": map(convert_symbols, map(lambda x: x["can_graduate"], output.values())),
             })
+            print(df)
             df.to_csv(file_path, index=False)
             return render(request, "checkerapp_success_page.html", {'output': output})
         return HttpResponse("No student request...")
