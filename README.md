@@ -116,7 +116,7 @@ When CSV files contain students enrolled in courses that are not in the database
 
 ## Selection Criteria
 #### Cost of Implementation
-Hosting the applicaton system on an m6g.medium [AWS EC2](https://aws.amazon.com/ec2/) instance should be sufficient for the scale of this application and would cost ~337 USD per year.
+Hosting the applicaton system on an `t4g.small` [AWS EC2](https://aws.amazon.com/ec2/pricing/on-demand/) instance should be sufficient for the scale of this application and would cost ~150 USD per year.
 
 #### Ease of Implementation
 Current application system can be readily hosted on any computer with the listed dependencies and be tested by the Education Management Offices (EMO) staffs. Hosting our application on an [AWS EC2](https://aws.amazon.com/ec2/) instance is also as easy and as straightforward as renting and running a few line of commands.
