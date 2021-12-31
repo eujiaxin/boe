@@ -24,12 +24,12 @@ source .\env\bin\activate     # for linux
 
 Update `pip` to the latest version
 ```
-pip install -r requirement.txt
+pip install --upgrade pip
 ```
 
 Install all the required dependencies for the project
 ```
-pip install --upgrade pip
+pip install -r requirement.txt
 ```
 
 Check for any required database migrations.
