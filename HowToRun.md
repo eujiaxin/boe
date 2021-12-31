@@ -17,9 +17,9 @@ python -m venv env
 
 Activate the virtual environment that we've just created.
 ```
-./env/Script/activate         # for windows
+.\env\Scripts\activate        # for windows
 # or
-source ./env/bin/activate     # for linux
+source .\env\bin\activate     # for linux
 ```
 
 Install all the required dependencies for the project
