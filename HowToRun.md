@@ -22,14 +22,14 @@ Activate the virtual environment that we've just created.
 source .\env\bin\activate     # for linux
 ```
 
-Install all the required dependencies for the project
+Update `pip` to the latest version
 ```
 pip install -r requirement.txt
 ```
 
-Populate the database with course requirements for C2001 for testing purposes. 
+Install all the required dependencies for the project
 ```
-python manage.py runscript populate_reqs
+pip install --upgrade pip
 ```
 
 Check for any required database migrations.
@@ -40,6 +40,11 @@ python manage.py makemigrations
 Execute any migrations required.
 ```
 python manage.py migrate
+```
+
+Populate the database with course requirements for C2001 for testing purposes. 
+```
+python manage.py runscript populate_reqs
 ```
 
 Run the server
