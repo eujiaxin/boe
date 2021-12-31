@@ -10,7 +10,8 @@ Name of Project: BoEasy
 | Eu Jia Xin (30881676) 	| [heheheejin](https://github.com/heheheejin) 	| Tech Lead 2 |
 
 ## Introduction to BoEasy
-[video]
+[Link to Video](https://drive.google.com/drive/u/0/folders/1CiYPtzT5enEIZUYvyzJPBSKdMWm_6CvN)  
+Note: Video is only accessible to Monash University email accounts.
 
 ## Core Features of Application
 #### Features offered by Innovation
