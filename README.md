@@ -3,11 +3,11 @@
 # PVC IT Challenge Submission
 
 Name of Group: BoEasy Group  
-Name of Project: BoE  
-| Group Member          	| Github Handle                               	|
-|-----------------------	|---------------------------------------------	|
-| Fabian Lim (3)        	| [旭淮](https://github.com/Weiss01)          	|
-| Eu Jia Xin (30881676) 	| [heheheejin](https://github.com/heheheejin) 	|
+Name of Project: BoEasy  
+| Group Member          	| Github Handle                               	| Role |
+|-----------------------	|---------------------------------------------	| -------------------------------------------
+| Fabian Lim (30883113)        	| [旭淮](https://github.com/Weiss01)             | Tech Lead 1 |
+| Eu Jia Xin (30881676) 	| [heheheejin](https://github.com/heheheejin) 	| Tech Lead 2 |
 
 ## Introduction to BoEasy
 [video]
@@ -68,8 +68,10 @@ Currently, the system uses SQLite to store courses and student data. In the futu
 	* **Completion status** - shows whether a student is eligible to graduate
 		* `CORE INCOMPLETE` - missing core units required for course completion
 		* `FREE ELECTIVE INCOMPLETE `- missing credit points from elective units required for course completion
+		* ✅ - completed all core units and elective units with sufficient credit points, hence eligible for course completion.
+		* 🟥 - student is enrolled in a course not found in our database.
         * Example 1: *Alexander Morgan* still needs to take FIT3045 to complete his course.
-        * Example 2: *Pippa Smith* and *Adrian Mathis* both completed all core units required, but still need to take enough elective units to get enough credit points for course completion.
+        * Example 2: *Pippa Smith* and *Adrian Mathis* both completed all core units and elective units required, therefore are eligible to graduate.
  
  ## Detailed Explanation of Application
  ### How does BoEasy handle course requirements?
@@ -99,6 +101,13 @@ The algorithm is designed in a way where it's flexible enough to accommodate any
 ![](https://cdn.discordapp.com/attachments/912362084359090230/924547805253632000/unknown.png)
 ### How are course requirements updated and maintained?
 If the proposed solution is used in the future, a new user-friendly page will be created for related staffs to create and update requirements based on the handbook. Once a course is added, any CSV files of students enrolled in the course can be processed easily.
+
+
+### What about courses that have not been updated?
+In order to handle new courses that have yet to be added to the application system database, BoEasy will display a different invalid symbol (🟥) to indicate that the course is not recognised.
+
+When CSV files contain students enrolled in courses that are not in the database, they will be marked as shown below.
+![FinalPage2](https://i.ibb.co/QkYpktP/image.png)
 
 ## Selection Criteria
 #### Cost of Implementation
