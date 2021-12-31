@@ -61,7 +61,7 @@ Currently, the system uses SQLite to store courses and student data. In the futu
 	* Upon clicking `Validate!` button, users will be redirected to the final processed page.
 
 4. Final processed page  
-![FinalPage](https://i.ibb.co/HnqFBx1/image.png)
+![FinalPage](https://i.ibb.co/H4K1Y9z/image.png)
 	* **Completed Course Modules** - course completed by student (major/minor/specialisation)
 	* **Pending Course Module** - incomplete course module needed to be taken in order to graduate
 	*  **Missing Cores** - missing core units
