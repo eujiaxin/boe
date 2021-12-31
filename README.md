@@ -18,7 +18,7 @@ Our solution focuses on being as simple and minimalistic as possible while also 
 
 Every student's past enrolments and grades are stored in our database to ensure consistency of the input data and accuracy of our output. This means that even if the new input data is missing old enrolment data, our solution will still work perfectly fine.
 
-Relevant staffs who are responsible of the course data should have a fair understanding of [how course requirements are abstracted](#detailed-explanation-of-application-&-examples) in order to properly create or update a course.
+Relevant staffs who are responsible of the course data should have a fair understanding of [how course requirements are abstracted](https://github.com/heheheejin/boe/blob/master/README.md#understanding-the-graph-structure) in order to properly create or update a course.
 
 #### List of possible enabling technologies
 Currently, the system uses SQLite to store courses and student data. In the future, database migration to [PostgreSQL](https://www.postgresql.org/) can be done for better scalability.
