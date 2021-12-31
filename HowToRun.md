@@ -5,6 +5,11 @@ Use `git clone` to clone the repository from `git clone https://github.com/heheh
 git clone https://github.com/heheheejin/boe.git
 ```
 
+Change directory into the project folder
+```
+cd .\boe\
+```
+
 Create a python virtual environment in the directory of the project
 ```
 python -m venv env
