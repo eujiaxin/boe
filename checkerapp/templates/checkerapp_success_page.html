@@ -58,7 +58,7 @@
               <td>{{ my_dict.most_completed_cm|join:", " }}</td>
               <td>{{ my_dict.missing_cores|join:", " }}</td>
               {% comment %} <td>{{ my_dict.missing_credits }}</td> {% endcomment %}
-              <td>{{ my_dict.can_graduate }}</td>
+              <td>{{ my_dict.can_graduate|join:", " }}</td>
             </tr>
             {% endfor %}
           </tbody>

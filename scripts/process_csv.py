@@ -45,8 +45,7 @@ def process_courses(df):
         if not Course.objects.filter(course_code=code, course_version=version).exists():
             course, created = Course.objects.update_or_create(
                 course_code=code, course_version=version,
-                course_name=title, course_required_credits=144,
-                course_curate_electives_credits=0
+                course_name=title, free_elective_credits=48
             )
 
 
