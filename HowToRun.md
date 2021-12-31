@@ -29,7 +29,7 @@ pip install --upgrade pip
 
 Install all the required dependencies for the project
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 Check for any required database migrations.
