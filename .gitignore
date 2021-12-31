@@ -4,8 +4,8 @@
 *.pyc
 __pycache__
 db.sqlite3
-media/callista/*.csv
-media/downloads/*.csv
+callista/*.csv
+downloads/*.csv
 
 # Environments 
 .env/
