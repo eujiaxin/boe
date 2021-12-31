@@ -85,7 +85,7 @@ Example using [C2001: Bachelor of Computer Science](https://handbook.monash.edu/
 * The course is broken down into Part A, Part B, Part C, Part E and Part F.
 * Each part is composed of either **core units**, **elective units** or a **specialisation/major/minor**
 * Since students have to take each part in sequence, the parts are wrapped inside a model object called `Wrapper`.
-* A `Wrapper` contains $\ge$ 1 `CourseModule`, each `CourseModule` has a list of `Core` and `Elective`.
+* A `Wrapper` contains >= 1 `CourseModule`, each `CourseModule` has a list of `Core` and `Elective`.
 * In cases where students are able to choose multiple `CourseModule` (e.g. different majors or minors), a threshold is set for a `Wrapper` that holds multiple `CourseModule`. 
 
 ![graph](https://i.ibb.co/z56T0zV/diagram.png)
