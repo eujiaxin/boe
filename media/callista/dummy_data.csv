@@ -1,0 +1,1352 @@
+Person ID,TITLE,Surname,Given names,CRS_LOCATION,COURSE_CD,C_VER,CRS_TITLE,COURSE_ATTEMPT_STATUS,DISCONTINUED_DT,DISC_CODE,DISCONTIN_REASON,COMMENCEMENT_DT,UNIT_CD,ACAD_YR,CAL_TYPE,MARK,GRADE
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT5160,2018,S2-01,49,N
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT9132,2017,S2-01,53,P
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT5148,2020,S1-01,53,P
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT9123,2018,S1-01,59,P
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT5094,2019,S1-01,58,P
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT5101,2019,S1-01,64,C
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,MGM5966,2020,S2-01,64,C
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,ACM5903,2019,S2-01,65,C
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT5120,2021,S1-01,65,C
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT5152,2019,S2-01,66,C
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT5088,2020,S1-01,67,C
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT5122,2021,S1-01,68,C
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT5133,2020,S2-01,68,C
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT9130,2017,S2-01,72,D
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT5057,2018,S2-01,77,D
+38866542,MR,Michael,Watson,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,24 Jul 17,FIT9131,2018,S1-01,87,HD
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,BTW1042,2013,S2-01,57,P
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AMU2448,2015,S2-01,58,P
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ECW1101,2013,S1-01,63,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW3121,2015,S1-01,63,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS1328,2013,S1-01,64,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS1329,2013,S2-01,64,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ETW1102,2013,S1-01,65,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS2450,2013,S2-01,65,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS2439,2013,S2-01,61,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW1120,2012,SSA-02,67,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS1277,2013,S1-01,67,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AMU1326,2015,S2-01,67,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AMU2814,2016,S1-01,67,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS3454,2014,S1-01,68,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MGW2430,2015,S2-01,69,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MGW1010,2012,S2-01,68,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW2420,2014,S1-01,68,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AFW1000,2012,S2-01,69,C
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS1278,2012,S2-01,72,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW2402,2013,SSA-02,72,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS3449,2014,S2-01,72,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AMU3499,2015,S1-01,72,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW2431,2014,S2-01,73,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW3444,2015,S1-01,73,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKX1500,2016,S1-01,73,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS1304,2012,S2-01,74,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW3440,2014,S2-01,74,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW2460,2014,S1-01,76,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW3510,2015,S2-01,76,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS3127,2014,S2-01,77,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS1305,2014,S1-01,78,D
+41877053,MS,Alison,Ogden,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AMU3451,2016,S1-01,76,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AMU3499,2015,S1-01,62,C
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MGW1010,2012,S2-01,69,C
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW3121,2015,S1-01,68,C
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AMU1329,2015,S2-01,68,C
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AMU2814,2016,S1-01,68,C
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS2439,2013,S2-01,72,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,BTW1042,2013,S2-01,72,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS3454,2014,S1-01,72,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS3449,2014,S2-01,72,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW3444,2015,S1-01,72,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AMU2448,2015,S2-01,72,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS1278,2012,S2-01,73,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS1328,2013,S1-01,73,D
+41905875,MS,Alan,Hemmings,MALAYSIA,9412,1,General Studies (Mata Pelajaran Pengajian Umum) 1 Year Honours,COMPLETED,,,,25 Jul 16,MPU3123,2016,SSA-02,73,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS1304,2012,S2-01,74,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS2450,2013,S2-01,74,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS1305,2014,S1-01,74,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS1277,2013,S1-01,71,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW3440,2014,S2-01,76,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKX1500,2016,S1-01,76,D
+41905875,MS,Alan,Hemmings,MALAYSIA,9410,1,Malaysian National Subjects,COMPLETED,,,,23 Jul 12,MPW2133,2013,S1-01,77,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW2420,2014,S1-01,77,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ATS3127,2014,S2-01,77,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AMU1326,2015,S2-01,77,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MGW2430,2015,S2-01,77,D
+41905875,MS,Alan,Hemmings,MALAYSIA,9410,1,Malaysian National Subjects,COMPLETED,,,,23 Jul 12,MPW2153,2012,S2-01,78,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW2402,2013,SSA-02,78,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW2431,2014,S2-01,78,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AMU3451,2016,S1-01,78,D
+41905875,MS,Alan,Hemmings,MALAYSIA,9412,1,General Studies (Mata Pelajaran Pengajian Umum) 1 Year Honours,COMPLETED,,,,25 Jul 16,MPU3113,2016,SSA-02,78,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ECW1101,2013,S2-01,76,D
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,ETW1102,2013,S1-01,82,HD
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW2460,2014,S1-01,82,HD
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,AFW1000,2012,S2-01,83,HD
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW1120,2013,S1-01,83,HD
+41905875,MS,Alan,Hemmings,MALAYSIA,1941,6,Bachelor of Business and Commerce and Bachelor of Communication,COMPLETED,,,,23 Jul 12,MKW3881,2016,S1-01,92,HD
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5542,2019,S2-01,68,C
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5546,2020,S2-01,68,C
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5540,2020,S1-01,74,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF4537,2020,S1-01,74,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF4538,2020,SSA-02,74,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5553,2021,SS-S1-01,74,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5544,2019,S2-01,71,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5543,2019,S2-01,71,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5547,2020,S2-01,76,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5541,2020,S1-01,77,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5552,2020,SSA-02,77,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF4536,2019,S2-01,76,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5545,2020,S2-01,76,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF4539,2020,S2-01,76,D
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5551,2020,S1-01,82,HD
+43199398,MS,Owen,Quinn,MALAYSIA,D6006,3,Master of Professional Counselling,COMPLETED,,,,29 Jul 19,EDF5554,2021,S1-01,83,HD
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,BFM5959,2019,S2-01,34,N
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,ETM5900,2018,S2-01,62,C
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,BTM5919,2019,S2-01,62,C
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,ACM5903,2018,S2-01,64,C
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MGM5640,2019,S1-01,64,C
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MGM5966,2019,S2-01,64,C
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MGM5310,2020,S1-01,64,C
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,ECM5921,2020,S1-01,69,C
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,BTM5903,2018,S2-01,68,C
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MGM5638,2020,S1-01,68,C
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MKM5955,2019,S1-01,72,D
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,BFM5959,2021,S1-01,72,D
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,ECM5953,2018,S2-01,73,D
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MGM5181,2020,S2-01,73,D
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MGM5698,2020,S2-01,74,D
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MKM5260,2020,S2-01,71,D
+44678853,MR,Jan,Greene,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MKM5251,2019,S1-01,86,HD
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,MKM5955,2019,S2-01,57,P
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,ECM5953,2019,S2-01,59,P
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,MGM5181,2020,S2-01,61,C
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,ACM5903,2019,S2-01,68,C
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,BFM5959,2020,S1-01,77,D
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,ETM5900,2019,S2-01,78,D
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,MGM5310,2020,S1-01,78,D
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,BTM5909,2020,S2-01,78,D
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,BTM5919,2020,S2-01,79,D
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,MGM5698,2020,S2-01,77,D
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,MGM5966,2020,S1-01,82,HD
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,MKM5251,2021,S1-01,82,HD
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,MGM5638,2021,S1-01,83,HD
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,MKM5260,2021,S1-01,84,HD
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,ECM5921,2021,S1-01,84,HD
+44716329,MS,Hannah,Gibson,MALAYSIA,B6007,3,Master of International Business,COMPLETED,,,,29 Jul 19,ETM5950,2020,S1-01,88,HD
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ECE2131,2017,S1-01,32,N
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC2403,2017,S1-01,47,N
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC2405,2017,S2-01,47,N
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ENG2005,2017,S2-01,47,N
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC2405,2018,S1-01,47,N
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ENG2005,2018,S1-01,47,N
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC3455,2019,S1-01,47,N
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC3451,2019,S1-01,47,N
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,TRC4800,2019,S2-01,47,N
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC3453,2019,S2-01,47,N
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC3451,2020,S1-01,52,P
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ENG1081,2016,S1-01,53,P
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC3453,2020,S2-01,53,P
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ENG1005,2016,S1-01,54,P
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC2405,2019,S1-01,52,P
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC2404,2016,S2-01,57,P
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ENG2005,2018,S2-01,57,P
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC2403,2018,S1-01,59,P
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC3457,2018,S2-01,58,P
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC4803,2021,S1-01,58,P
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC3416,2018,S2-01,62,C
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC3455,2020,S1-01,63,C
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ENG1060,2016,S1-01,64,C
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC3459,2017,S2-01,64,C
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC2407,2017,S2-01,64,C
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC3456,2018,S1-01,61,C
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ENG1002,2016,S2-01,66,C
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC4404,2019,S1-01,69,C
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC3458,2019,S2-01,69,C
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC4408,2020,S1-01,68,C
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ENG1001,2016,S1-01,69,C
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC2401,2017,S1-01,72,D
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC4801,2020,S1-01,72,D
+44883104,MR,Blake,Ferguson,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,29 Feb 16,MPU3113,2016,S2-01,72,D
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC4407,2019,S2-01,73,D
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC4426,2020,S2-01,74,D
+44883104,MR,Blake,Ferguson,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,29 Feb 16,MPU3123,2017,S1-01,71,D
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ENG1003,2016,S2-01,77,D
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC2402,2017,S1-01,77,D
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC2408,2018,S2-01,77,D
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ENG2801,2016,S2-01,78,D
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,TRC4800,2020,S2-01,81,HD
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC4401,2020,S2-01,87,HD
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,MEC4402,2021,S1-01,87,HD
+44883104,MR,Blake,Ferguson,MALAYSIA,E3001,1,Bachelor of Engineering (Honours),COMPLETED,,,,29 Feb 16,ENG0002,2020,SSB-01,2,SFR
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG2005,2018,S2-01,47,N
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC3459,2018,S2-01,47,N
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC2405,2018,S2-01,48,N
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC2403,2018,S1-01,51,P
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC2407,2018,S2-01,59,P
+45416518,MR,Michael,Miller,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,27 Feb 17,MPU3123,2017,S2-01,59,P
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1081,2017,S1-01,58,P
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC2404,2017,S2-01,58,P
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG2005,2019,S1-01,62,C
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1005,2017,S1-01,63,C
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ECE2131,2018,S1-01,63,C
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC3416,2019,S2-01,63,C
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC2405,2019,S1-01,61,C
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC3457,2019,S2-01,67,C
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1002,2017,S2-01,68,C
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1003,2017,S2-01,72,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC2401,2018,S1-01,72,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC3455,2019,S1-01,72,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC3459,2019,S2-01,72,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG2801,2017,S2-01,74,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC4408,2020,S1-01,74,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1060,2017,S1-01,76,D
+45416518,MR,Michael,Miller,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,27 Feb 17,MPU3113,2018,S1-01,76,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC4801,2021,S1-01,77,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC2402,2018,S1-01,78,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC4401,2020,S2-01,78,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC4407,2020,S2-01,78,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC4402,2021,S1-01,78,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC3453,2019,S2-01,79,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC4417,2021,S1-01,76,D
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC3451,2019,S1-01,82,HD
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC3456,2020,S1-01,82,HD
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1001,2017,S1-01,84,HD
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,TRC4901,2020,S1-01,81,HD
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC4426,2020,S2-01,86,HD
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,TRC4800,2020,S2-01,86,HD
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC4404,2020,S1-01,87,HD
+45416518,MR,Michael,Miller,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG0002,2021,SSB-01,2,SFR
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT2101,2018,S2-01,59,P
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ECE3141,2018,S1-01,69,C
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1005,2017,S1-01,73,D
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT3081,2020,S1-01,73,D
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MEC2402,2018,S1-01,71,D
+45416860,MR,Cameron,Berry,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,27 Feb 17,MPU3113,2017,S2-01,75,D
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT3159,2020,S1-01,77,D
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT4003,2020,S2-01,77,D
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,TRC2001,2017,S2-01,79,D
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1081,2017,S1-01,76,D
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT2107,2018,S2-01,77,D
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,MAT1830,2018,S2-01,77,D
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT2004,2019,S1-01,77,D
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT3077,2019,S1-01,82,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT3171,2019,S2-01,82,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT3134,2020,S1-01,82,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG2801,2017,S2-01,83,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1001,2017,S1-01,84,HD
+45416860,MR,Cameron,Berry,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,27 Feb 17,MPU3123,2017,S1-01,84,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ECE2131,2018,S1-01,81,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT2099,2019,S1-01,81,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT4009,2020,S2-01,81,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1002,2017,S2-01,86,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT3080,2019,S2-01,86,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT4002,2020,FY-01,86,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ECE2071,2018,S1-01,87,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT1008,2018,S2-01,87,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT4165,2021,S1-01,88,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1003,2017,S2-01,89,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT3170,2019,FY-01,89,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT1045,2018,S2-01,90,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT3152,2021,S1-01,90,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG1060,2017,S1-01,92,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT2093,2021,S1-01,92,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT5202,2021,S1-01,97,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,FIT2100,2019,S2-01,98,HD
+45416860,MR,Cameron,Berry,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,27 Feb 17,ENG0002,2021,SSB-01,2,SFR
+45629317,MR,Alexander,Morgan,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,27 Feb 17,MPU3143,2017,S2-01,29,N
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT1050,2017,S1-01,58,P
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT1008,2017,S2-01,62,C
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT2093,2018,S1-01,67,C
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT3143,2019,S2-01,68,C
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT3162,2020,S1-01,69,C
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT1049,2017,S2-01,69,C
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT3155,2020,S1-01,73,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT2101,2017,S2-01,74,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT1047,2017,S1-01,75,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT2102,2018,S2-01,75,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT3179,2019,S2-01,75,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,MAT1830,2017,S1-01,76,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT1033,2018,S1-01,76,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT3161,2019,S2-01,76,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT1045,2017,S1-01,78,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT2004,2018,S1-01,79,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,ATS2290,2018,WS-01,79,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT1043,2018,S2-01,76,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT3175,2019,S2-01,76,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT2099,2018,S1-01,77,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT2014,2018,S2-01,77,D
+45629317,MR,Alexander,Morgan,MALAYSIA,C3702,2,Bachelor of Computer Science (Honours),COMPLETED,,,,4 Aug 20,FIT4005,2020,S2-01,83,HD
+45629317,MR,Alexander,Morgan,MALAYSIA,C3702,2,Bachelor of Computer Science (Honours),COMPLETED,,,,4 Aug 20,FIT4444,2021,S1-01,84,HD
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT3171,2020,S1-01,87,HD
+45629317,MR,Alexander,Morgan,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,27 Feb 17,MPU3173,2017,S1-01,87,HD
+45629317,MR,Alexander,Morgan,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,27 Feb 17,MPU3143,2018,S1-01,87,HD
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,MAT1841,2017,S2-01,88,HD
+45629317,MR,Alexander,Morgan,MALAYSIA,C3702,2,Bachelor of Computer Science (Honours),COMPLETED,,,,4 Aug 20,FIT4008,2021,S1-01,89,HD
+45629317,MR,Alexander,Morgan,MALAYSIA,C3702,2,Bachelor of Computer Science (Honours),COMPLETED,,,,4 Aug 20,FIT4009,2020,S2-01,91,HD
+45629317,MR,Alexander,Morgan,MALAYSIA,C3702,2,Bachelor of Computer Science (Honours),COMPLETED,,,,4 Aug 20,FIT5195,2021,S1-01,92,HD
+45629317,MR,Alexander,Morgan,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,27 Feb 17,FIT1051,2018,S2-01,94,HD
+45629317,MR,Alexander,Morgan,MALAYSIA,C3702,2,Bachelor of Computer Science (Honours),COMPLETED,,,,4 Aug 20,FIT4442,2020,S2-01,2,NE
+45629317,MR,Alexander,Morgan,MALAYSIA,C3702,2,Bachelor of Computer Science (Honours),COMPLETED,,,,4 Aug 20,FIT4441,2020,S2-01,2,NE
+45629317,MR,Alexander,Morgan,MALAYSIA,C3702,2,Bachelor of Computer Science (Honours),COMPLETED,,,,4 Aug 20,FIT4443,2021,S1-01,2,NE
+45723445,MS,Harry,Ball,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,27 Feb 17,ACW1100,2017,S1-01,23,N
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,ETW2410,2019,S1-01,0,N
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,ACW2491,2019,S1-01,38,N
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,ACW3120,2020,S2-01,52,P
+45723445,MS,Harry,Ball,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,27 Feb 17,AMU1018,2017,S1-01,52,P
+45723445,MS,Harry,Ball,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,27 Feb 17,BTW1042,2017,S2-01,52,P
+45723445,MS,Harry,Ball,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,27 Feb 17,ETW1000,2017,S2-01,52,P
+45723445,MS,Harry,Ball,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,27 Feb 17,ACW1100,2018,S1-01,52,P
+45723445,MS,Harry,Ball,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,27 Feb 17,MKW1120,2017,S2-01,56,P
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,ACW2491,2019,S2-01,57,P
+45723445,MS,Harry,Ball,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,27 Feb 17,ECW1101,2017,S1-01,57,P
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,ACW2420,2020,S2-01,58,P
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,MGW2991,2021,S1-01,59,P
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,ACW3620,2021,S1-01,58,P
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,ETW1010,2019,S1-01,62,C
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,BTW2213,2019,S2-01,64,C
+45723445,MS,Harry,Ball,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,27 Feb 17,MGW1010,2017,S1-01,64,C
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,ACW3431,2019,S2-01,61,C
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,ACW2391,2019,S1-01,66,C
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,MGW3401,2021,S1-01,66,C
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,ECW1102,2020,S2-01,67,C
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,BTW3153,2020,S1-01,69,C
+45723445,MS,Harry,Ball,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,27 Feb 17,AMU1017,2017,S2-01,69,C
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,MKW2402,2020,S1-01,72,D
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,BFW2140,2019,S2-01,73,D
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,MKW2500,2020,S1-01,75,D
+45723445,MS,Harry,Ball,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,4 Mar 19,MPU3173,2020,S1-01,77,D
+45723445,MS,Harry,Ball,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,4 Mar 19,MPU3173,2020,S1-01,77,D
+45723445,MS,Harry,Ball,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,4 Mar 19,BEW3555,2020,S2-01,78,D
+45723445,MS,Harry,Ball,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,4 Mar 19,MPU3143,2019,S2-01,92,HD
+45723445,MS,Harry,Ball,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,4 Mar 19,MPU3143,2019,S2-01,92,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE3163,2020,S1-01,77,D
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE4161,2020,S1-01,78,D
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE2163,2018,S2-01,79,D
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE2166,2018,S2-01,79,D
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE4170,2020,S2-01,79,D
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG2801,2018,S1-01,76,D
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE3166,2019,S2-01,76,D
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1001,2017,S2-01,82,HD
+45789683,MS,Richard,Payne,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3123,2017,S2-01,82,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE2161,2018,S2-01,84,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE3162,2019,S2-01,84,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE4180,2021,S1-01,81,HD
+45789683,MS,Richard,Payne,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3113,2018,S1-01,81,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1005,2017,S2-01,86,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE2167,2019,S1-01,86,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE4162,2020,S2-01,86,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE2871,2019,S1-01,87,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE2162,2018,S2-01,88,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE2873,2019,S1-01,89,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE3165,2020,S1-01,90,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHM1051,2017,S2-01,91,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG2005,2019,S1-01,91,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE3171,2019,S2-01,91,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE3167,2021,S1-01,91,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE3164,2019,S2-01,92,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE4171,2020,S2-01,93,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1060,2017,S2-01,94,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1002,2018,S1-01,94,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE2164,2018,S1-01,95,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE4173,2021,S1-01,95,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1003,2018,S1-01,96,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,CHE3161,2020,S1-01,98,HD
+45789683,MS,Richard,Payne,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG0002,2021,SSB-01,2,SFR
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2498,2019,S2-01,41,N
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2140,2019,S2-01,52,P
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1278,2018,OCT-MY-01,59,P
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1312,2018,OCT-MY-01,59,P
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1304,2018,OCT-MY-01,59,P
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1326,2018,OCT-MY-01,59,P
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2625,2020,S1-01,59,P
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1277,2019,S1-01,64,C
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2448,2019,S2-01,64,C
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3570,2021,S1-01,64,C
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2453,2020,S1-01,61,C
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3630,2020,S2-01,66,C
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3451,2021,S1-01,67,C
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3575,2021,S1-01,67,C
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2439,2019,S2-01,68,C
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1018,2019,S1-01,68,C
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2015,2020,S2-01,69,C
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1305,2019,S1-01,72,D
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1325,2019,S1-01,74,D
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1331,2020,S1-01,74,D
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3127,2020,S2-01,74,D
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2450,2020,S2-01,77,D
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,SCI1800,2020,SSA-02,77,D
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2814,2020,S1-01,79,D
+45888033,MR,Brandon,Poole,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3857,2021,S1-01,76,D
+45888033,MR,Brandon,Poole,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3143,2018,OCT-MY-01,84,HD
+45888033,MR,Brandon,Poole,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3173,2019,S1-01,96,HD
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3167,2021,S1-01,51,P
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3164,2019,S2-01,58,P
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2163,2018,S2-01,63,C
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3166,2019,S2-01,63,C
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3172,2019,S2-01,67,C
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1001,2017,OCT-MY-01,68,C
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3162,2019,S2-01,68,C
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4161,2020,S1-01,68,C
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2166,2018,S2-01,72,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4173,2021,S1-01,72,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2164,2018,S1-01,73,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG2801,2018,S1-01,74,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2161,2018,S2-01,74,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2162,2018,S2-01,74,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1005,2017,OCT-MY-01,75,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3163,2020,S1-01,77,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4170,2020,S2-01,77,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3161,2020,S1-01,78,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2167,2019,S1-01,79,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG2005,2019,S1-01,79,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3165,2020,S1-01,79,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4172,2020,S2-01,79,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4180,2021,S1-01,79,D
+46174698,MS,Anna,Bond,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 17,MPU3113,2017,OCT-MY-01,79,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4162,2020,S2-01,76,D
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2873,2019,S1-01,82,HD
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHM1051,2017,OCT-MY-01,83,HD
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2871,2019,S1-01,84,HD
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1002,2018,S1-01,85,HD
+46174698,MS,Anna,Bond,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 17,MPU3123,2018,S1-01,85,HD
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1003,2018,S1-01,86,HD
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1060,2017,OCT-MY-01,89,HD
+46174698,MS,Anna,Bond,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG0002,2021,SSB-01,2,SFR
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,MGX3121,2019,S2-01,45,N
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,BFW2140,2018,S2-01,58,P
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,BFW3841,2019,S2-01,58,P
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,BTW1042,2018,S2-01,63,C
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,BFW2401,2019,S1-01,64,C
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,BFW2751,2019,S1-01,68,C
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,BFW3121,2019,S2-01,68,C
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,BFW3120,2021,S1-01,68,C
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,MGW1010,2018,S1-01,72,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,MKW1120,2018,S2-01,72,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,MGW2351,2019,S1-01,72,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,MKF2111,2020,S1-01,72,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,ECW1101,2018,S1-01,73,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,ETW1000,2018,S1-01,73,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,ACW1100,2018,S1-01,73,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,MGW2230,2019,S1-01,74,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,MGW3130,2020,S2-01,74,D
+46224614,MS,Charles,Poole,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,26 Feb 18,MPU3123,2018,S2-01,74,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,BFF3651,2020,S1-01,76,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,ATS2743,2020,S1-01,77,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,BFW1001,2018,S2-01,76,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,MGW1100,2020,S2-01,76,D
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,MGF3681,2020,S1-01,82,HD
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,MGW3401,2021,S1-01,82,HD
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,MGW2430,2019,S2-01,85,HD
+46224614,MS,Charles,Poole,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,26 Feb 18,MPU3113,2018,S1-01,85,HD
+46224614,MS,Charles,Poole,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,26 Feb 18,BEW3110,2020,SSA-02,94,HD
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MGM5966,2019,S1-01,51,P
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MGM5640,2019,S1-01,64,C
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MKM5955,2019,S1-01,64,C
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,BTM5903,2018,S2-01,68,C
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MGM5181,2021,S1-01,69,C
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,ECM5921,2019,S1-01,72,D
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,MGM5310,2021,S1-01,73,D
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,ETM5900,2018,S2-01,74,D
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,ECM5953,2018,S2-01,76,D
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,ACM5903,2018,S2-01,77,D
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,ETM5950,2021,S1-01,82,HD
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,BEH5003,2019,S2-01,2,NSR
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,BEH5001,2019,S2-01,2,SFR
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,BEH5002,2019,S2-01,2,SFR
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,BEH5004,2019,S2-01,2,SFR
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,BFM5959,2020,S1-01,2,SFR
+46335201,MR,Michael,Stewart,MALAYSIA,B6007,2,Master of International Business,COMPLETED,,,,23 Jul 18,BTM5919,2020,S1-01,2,SFR
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ECW1101,2018,S1-01,35,N
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW1001,2018,S1-01,45,N
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ECW1101,2017,S2-01,46,N
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ETW1102,2017,S2-01,48,N
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ACW1100,2017,S2-01,48,N
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ACW1100,2018,S1-01,48,N
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BTW1042,2018,S2-01,53,P
+46349895,MS,Neil,Arnold,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3123,2018,S1-01,56,P
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ETW1102,2018,S1-01,59,P
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ECW1101,2018,S2-01,59,P
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MGW1010,2017,S2-01,58,P
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MKW1120,2018,S2-01,58,P
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MGW2230,2020,S1-01,63,C
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,PSY1011,2021,S1-01,63,C
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MKW2402,2019,S1-01,66,C
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MKW3444,2020,S2-01,66,C
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ACW1200,2018,S2-01,67,C
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MKW2460,2019,S2-01,68,C
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BEW3555,2020,S2-01,68,C
+46349895,MS,Neil,Arnold,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3113,2017,S2-01,69,C
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MGW3381,2020,S1-01,72,D
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MKW2500,2019,S2-01,73,D
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MGW3130,2020,S2-01,73,D
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,AMU1017,2019,S2-01,74,D
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MKW3301,2020,S2-01,74,D
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MKW2420,2019,S1-01,76,D
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MGW1232,2019,S1-01,76,D
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MGW3401,2020,S1-01,83,HD
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MGW2430,2019,S2-01,84,HD
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MKW3610,2021,S1-01,84,HD
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,AMU1018,2021,S1-01,87,HD
+46349895,MS,Neil,Arnold,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MGW2991,2020,S1-01,97,HD
+46352732,MR,Sam,Kerr,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 17,MPU3113,2017,OCT-MY-01,67,C
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2163,2018,S2-01,72,D
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3164,2019,S2-01,72,D
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2167,2019,S1-01,74,D
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3172,2019,S2-01,74,D
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2161,2018,S2-01,76,D
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2166,2018,S2-01,76,D
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3166,2019,S2-01,76,D
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG2801,2018,S1-01,77,D
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2871,2019,S1-01,77,D
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3162,2019,S2-01,78,D
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4172,2020,S2-01,77,D
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4170,2020,S2-01,82,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4161,2020,S1-01,83,HD
+46352732,MR,Sam,Kerr,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 17,MPU3123,2018,S1-01,83,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2164,2018,S1-01,84,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2162,2018,S2-01,84,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG2005,2019,S1-01,84,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2873,2019,S1-01,84,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4180,2021,S1-01,84,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1001,2017,OCT-MY-01,85,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHM1051,2017,OCT-MY-01,86,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3165,2020,S1-01,86,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3873,2020,S1-01,87,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4162,2020,S2-01,87,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3167,2021,S1-01,88,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1002,2018,S1-01,89,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1060,2017,OCT-MY-01,92,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1005,2017,OCT-MY-01,92,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4173,2021,S1-01,94,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1003,2018,S1-01,96,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3161,2020,S1-01,96,HD
+46352732,MR,Sam,Kerr,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG0002,2021,SSB-01,2,SFR
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,MKW1120,2018,OCT-MY-01,48,N
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,FST3820,2021,S1-01,57,P
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,CHM1051,2018,OCT-MY-01,59,P
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,FST2810,2019,S2-01,62,C
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,SCI3716,2021,S1-01,61,C
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,FST3830,2020,S2-01,66,C
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,FST1800,2019,S1-01,68,C
+46360595,MS,Carl,Rees,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,26 Feb 18,MPU3123,2018,S1-01,68,C
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,BTH1802,2019,S1-01,69,C
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,BIO1062,2019,S1-01,68,C
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,CHM2922,2019,S2-01,68,C
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,FST3810,2020,S2-01,68,C
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,FST3840,2020,S2-01,68,C
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,BIO1011,2018,OCT-MY-01,74,D
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,MIC2011,2020,S1-01,74,D
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,SCI2010,2020,S1-01,75,D
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,CHM1052,2019,S1-01,77,D
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,FST3711,2021,S1-01,77,D
+46360595,MS,Carl,Rees,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,26 Feb 18,MPU3113,2018,OCT-MY-01,77,D
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,STA2216,2019,S2-01,83,HD
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,CHM2962,2019,S2-01,84,HD
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,SCI1020,2018,OCT-MY-01,85,HD
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,FST3850,2020,S2-01,85,HD
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,BCH2011,2020,S1-01,88,HD
+46360595,MS,Carl,Rees,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,22 Oct 18,FST3800,2020,SSA-02,89,HD
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW2341,2019,S2-01,56,P
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BTW1042,2019,S1-01,58,P
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW2140,2019,S1-01,59,P
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW3121,2019,S2-01,63,C
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ACW1200,2018,S2-01,64,C
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,MKW1120,2019,S1-01,64,C
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW1001,2019,S2-01,61,C
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,MGW3122,2020,S2-01,61,C
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ECW3301,2021,S1-01,61,C
+46360789,MR,Natalie,Walsh,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3113,2018,S2-01,69,C
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BTW3201,2020,S2-01,68,C
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW3120,2021,S1-01,68,C
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,MKW2402,2021,S1-01,68,C
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,MGW1010,2018,S2-01,72,D
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ETW1102,2018,S2-01,72,D
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ECW1101,2018,S2-01,72,D
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ECW2721,2019,S2-01,72,D
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BEW3555,2020,S2-01,72,D
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,MGW2351,2019,S1-01,73,D
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,MKW3444,2020,S1-01,73,D
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW2401,2020,S1-01,75,D
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW3841,2021,S1-01,76,D
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,MGW3681,2020,S2-01,77,D
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW2751,2020,S1-01,83,HD
+46360789,MR,Natalie,Walsh,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3123,2019,S1-01,83,HD
+46360789,MR,Natalie,Walsh,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,AMU1018,2020,S1-01,88,HD
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,PSY3032,2019,S2-01,63,C
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,MKW1120,2017,S2-01,67,C
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,BFF3121,2019,S2-01,67,C
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,PSY3041,2021,S1-01,67,C
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,BFW3652,2021,S1-01,69,C
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,PSY3062,2019,S2-01,68,C
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,PSY2042,2018,S2-01,69,C
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,PSY3051,2021,S1-01,69,C
+46381783,MS,Audrey,Lee,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3113,2017,SSA-02,72,D
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,BTW1042,2018,S1-01,72,D
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,BFF3841,2019,S2-01,72,D
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,PSY2071,2019,S1-01,74,D
+46381783,MS,Audrey,Lee,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3123,2017,SSA-02,76,D
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,PSY1022,2017,S2-01,77,D
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,PSY2061,2019,S1-01,77,D
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,BFW3120,2021,S1-01,77,D
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,PSY2112,2018,S2-01,79,D
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,PSY1011,2018,S1-01,77,D
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,BFW2751,2019,S1-01,82,HD
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,ECW1101,2017,S2-01,83,HD
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,BFW1001,2018,S2-01,83,HD
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,BFW2401,2019,S1-01,83,HD
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,ETW1000,2018,S1-01,85,HD
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,ACW1100,2017,S2-01,86,HD
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,MGW1010,2018,S1-01,86,HD
+46381783,MS,Audrey,Lee,MALAYSIA,3863,2,Bachelor of Psychological Science and Business,COMPLETED,,,,24 Jul 17,BFW2140,2018,S2-01,91,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE4132,2019,S2-01,63,C
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE4045,2020,S1-01,64,C
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE4042,2019,S2-01,66,C
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE3121,2019,S2-01,67,C
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECW1102,2019,S1-01,69,C
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE2071,2018,S1-01,72,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE4075,2021,S1-01,73,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,TRC2001,2018,S2-01,74,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE2191,2018,S2-01,74,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE3141,2019,S1-01,74,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG2005,2019,S1-01,76,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE2131,2019,S1-01,77,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE2111,2018,S2-01,78,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3123,2017,SSA-02,78,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG2801,2018,S1-01,79,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1081,2017,S2-01,76,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE4094,2020,S2-01,76,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE4095,2021,S1-01,76,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3113,2017,SSA-02,76,D
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1005,2017,S2-01,82,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE2072,2018,S2-01,82,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE4122,2020,S2-01,82,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1001,2017,S2-01,83,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE4032,2020,S2-01,84,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE3091,2019,S2-01,86,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1060,2017,S2-01,87,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE3051,2020,S2-01,87,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1002,2018,S1-01,88,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE4099,2021,S1-01,90,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1003,2018,S1-01,91,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,TRC4901,2021,S1-01,92,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE3161,2020,S1-01,93,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ECE3073,2020,S1-01,93,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,TRC3500,2020,S1-01,96,HD
+46426312,MS,Stewart,Ferguson,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG0002,2020,SSB-01,2,SFR
+46438074,MR,Joseph,Slater,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3113,2017,S2-01,67,C
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,BTH2752,2018,S2-01,72,D
+46438074,MR,Joseph,Slater,MALAYSIA,S3701,3,Bachelor of Science (Honours),COMPLETED,,,,3 Aug 20,BTH4100,2020,S2-S1-02,74,D
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,SCI2010,2018,S2-01,74,D
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,BTH1802,2017,S2-01,76,D
+46438074,MR,Joseph,Slater,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3123,2017,SSA-02,77,D
+46438074,MR,Joseph,Slater,MALAYSIA,S3701,3,Bachelor of Science (Honours),COMPLETED,,,,3 Aug 20,BTHHONS,2021,S1-01,78,HIIA
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,SCI3716,2019,S1-01,78,D
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,SCI1800,2019,SSA-02,78,D
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,BTH2741,2018,S1-01,79,D
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,FST3711,2019,S1-01,79,D
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,GEN3040,2019,S2-01,79,D
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,BTH3820,2019,S2-01,79,D
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,SCI3990,2019,SSA-02,79,D
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,CHM2911,2019,S1-01,76,D
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,GEN2041,2019,S1-01,77,D
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,BTH2830,2018,S1-01,82,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,BTH3722,2019,S2-01,82,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,CHM2922,2018,S2-01,83,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,BTH3752,2019,S2-01,83,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,SCI1020,2017,S2-01,84,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,GEN3051,2020,S1-01,84,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,BIO1022,2018,S1-01,87,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S3701,3,Bachelor of Science (Honours),COMPLETED,,,,3 Aug 20,BTH4280,2020,S2-S1-02,89,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,BIO1011,2017,S2-01,89,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,BTH2732,2018,S2-01,89,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,CHM1051,2017,S2-01,90,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,CHM1052,2018,S1-01,91,HD
+46438074,MR,Joseph,Slater,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,24 Jul 17,BIN3800,2020,S1-01,93,HD
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ACW2491,2018,S2-01,29,N
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ETW2410,2018,S2-01,40,N
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW3121,2019,S2-01,43,N
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ECW1101,2017,S2-01,44,N
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ECW1101,2018,S1-01,46,N
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MKW1120,2018,S1-01,48,N
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW1001,2018,S1-01,48,N
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MKW1120,2018,S2-01,48,N
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ACW2491,2019,S1-01,52,P
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ACW1100,2017,S2-01,53,P
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BTW1042,2018,S1-01,57,P
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ETW1000,2017,S2-01,58,P
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ACW3491,2019,S2-01,59,P
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ACW3220,2020,S2-01,59,P
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ECW1101,2018,S2-01,62,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,SCI1800,2018,SSA-02,62,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW2401,2019,S2-01,62,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW2751,2019,S2-01,62,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MKW1120,2020,S2-01,62,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW3540,2020,S2-01,62,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,MGW1010,2017,S2-01,63,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ACW3620,2020,S1-01,63,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW2341,2020,S1-01,63,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW2140,2019,S1-01,64,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ACW2220,2020,S1-01,65,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW3652,2021,S1-01,68,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW3120,2021,S1-01,68,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BEW3555,2021,S1-01,69,C
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW3841,2020,S1-01,74,D
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW1001,2019,S1-01,77,D
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,BFW3121,2021,S1-01,78,D
+46504890,MR,Jacob,Black,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,24 Jul 17,ACW2420,2020,S2-01,76,D
+46504890,MR,Jacob,Black,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3143,2020,S1-01,85,HD
+46504890,MR,Jacob,Black,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3173,2020,S1-01,89,HD
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC3457,2019,S2-01,47,N
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC2401,2019,S1-01,58,P
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC3453,2019,S2-01,63,C
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC2405,2018,S2-01,66,C
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC4407,2020,S2-01,66,C
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG2005,2018,S2-01,67,C
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC3459,2018,S2-01,69,C
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC4404,2021,S1-01,69,C
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC2407,2018,S2-01,68,C
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC5886,2020,S2-01,68,C
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC4401,2020,S2-01,68,C
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC4402,2021,S1-01,68,C
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC3451,2020,S1-01,69,C
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1005,2017,S2-01,72,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC3416,2019,S2-01,72,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG2801,2018,S1-01,73,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC2403,2019,S1-01,73,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC3457,2020,S2-01,73,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC4426,2020,S2-01,74,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC4408,2020,S1-01,76,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1060,2017,S2-01,77,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1001,2017,S2-01,78,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC5885,2021,S1-01,78,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC3448,2019,S1-01,79,D
+46547640,MR,Joe,Walker,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3123,2017,SSA-02,79,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1002,2018,S1-01,76,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC3458,2019,S2-01,76,D
+46547640,MR,Joe,Walker,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,24 Jul 17,MPU3113,2017,SSA-02,77,D
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC2402,2019,S1-01,82,HD
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC3456,2020,S1-01,82,HD
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC2404,2018,S1-01,84,HD
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1081,2017,S2-01,85,HD
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,TRC4901,2021,S1-01,88,HD
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,MEC3455,2020,S1-01,91,HD
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG1003,2018,S1-01,93,HD
+46547640,MR,Joe,Walker,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,24 Jul 17,ENG0002,2021,SSB-01,2,SFR
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3143,2020,S2-01,72,D
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1055,2019,S1-01,77,D
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3179,2019,S2-01,77,D
+46599109,MS,Pippa,Smith,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3113,2018,S2-01,79,D
+46599109,MS,Pippa,Smith,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3123,2019,S1-01,77,D
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2014,2019,S2-01,83,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2086,2019,S2-01,83,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2004,2020,S1-01,83,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3155,2020,S2-01,83,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2102,2019,S2-01,84,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3152,2020,S1-01,86,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1043,2018,S2-01,87,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3175,2020,S2-01,87,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3182,2021,S1-01,89,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,MAT1830,2018,S2-01,93,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1008,2019,S1-01,94,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2081,2020,S1-01,94,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1047,2018,S2-01,95,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2099,2020,S1-01,95,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3161,2020,S2-01,95,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3077,2021,S1-01,95,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1051,2021,S1-01,95,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1045,2018,S2-01,96,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3171,2019,S1-01,96,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3162,2021,S1-01,96,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,MAT1841,2019,S1-01,96,HD
+46599109,MS,Pippa,Smith,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3199,2020,SSA-02,2,PGO
+46657527,MR,Madeleine,McGrath,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 17,MPU3123,2017,OCT-MY-01,68,C
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2163,2018,S2-01,72,D
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4162,2020,S2-01,73,D
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2164,2018,S1-01,74,D
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG2801,2018,S1-01,75,D
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2166,2018,S2-01,75,D
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4180,2021,S1-01,76,D
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3163,2020,S1-01,77,D
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4170,2020,S2-01,77,D
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3166,2019,S2-01,79,D
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3161,2020,S1-01,76,D
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4161,2020,S1-01,76,D
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2167,2019,S1-01,82,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2873,2019,S1-01,82,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3162,2019,S2-01,82,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1001,2017,OCT-MY-01,84,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2161,2018,S2-01,84,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2871,2019,S1-01,84,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3164,2019,S2-01,85,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4173,2021,S1-01,85,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE4171,2020,S2-01,86,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE2162,2018,S2-01,87,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3165,2020,S1-01,87,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3167,2021,S1-01,87,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 17,MPU3113,2018,S1-01,87,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1005,2017,OCT-MY-01,89,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1002,2018,S1-01,90,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHE3171,2019,S2-01,91,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,CHM1051,2017,OCT-MY-01,94,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG2005,2019,S1-01,94,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1060,2017,OCT-MY-01,95,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG1003,2018,S1-01,95,HD
+46657527,MR,Madeleine,McGrath,MALAYSIA,E3001,2,Bachelor of Engineering (Honours),COMPLETED,,,,23 Oct 17,ENG0002,2021,SSB-01,2,SFR
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,FST1800,2019,S1-01,54,P
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,BTH2830,2019,S1-01,62,C
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,BIO1011,2018,S2-01,64,C
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,CHM1051,2018,S2-01,65,C
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,BTH2741,2020,S1-01,65,C
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,FST2810,2019,S2-01,66,C
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,CHM2922,2019,S2-01,67,C
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,FST3820,2021,S1-01,67,C
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,BTH1802,2018,S2-01,68,C
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,FST3840,2020,S2-01,69,C
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,SCI3716,2021,S1-01,73,D
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,FST3810,2020,S2-01,74,D
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,FST3830,2020,S2-01,74,D
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,CHM1052,2019,S1-01,75,D
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,SCI2010,2020,S1-01,77,D
+46673603,MS,Blake,Cameron,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3123,2018,S2-01,77,D
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,BIO1062,2019,S1-01,78,D
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,SCI1020,2018,S2-01,76,D
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,FST3850,2020,S2-01,76,D
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,STA2216,2019,S2-01,77,D
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,FST3800,2020,SSA-02,83,HD
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,FST3711,2021,S1-01,83,HD
+46673603,MS,Blake,Cameron,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3113,2018,SSA-02,83,HD
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,CHM2962,2019,S2-01,84,HD
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,MGW1010,2020,S1-01,86,HD
+46673603,MS,Blake,Cameron,MALAYSIA,S2009,1,Bachelor of Food Science and Technology,COMPLETED,,,,23 Jul 18,MGW2991,2020,S1-01,97,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,SCI3716,2020,S1-01,62,C
+46697634,MR,Adam,Mathis,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 17,MPU3123,2017,OCT-MY-01,66,C
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,MKW1120,2018,S1-01,72,D
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,BTH2732,2019,S2-01,72,D
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,ASP1010,2019,S1-01,74,D
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,SCI2010,2019,S2-01,74,D
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,BIO1011,2018,S1-01,76,D
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,GEN2041,2019,S1-01,76,D
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,BTH1802,2018,S2-01,77,D
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,ATS1959,2019,S1-01,78,D
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,MTH2132,2019,S1-01,79,D
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,GEN3051,2020,S1-01,76,D
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,BIO1022,2018,S2-01,82,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,BFW1001,2018,S2-01,82,HD
+46697634,MR,Adam,Mathis,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 17,MPU3113,2018,S1-01,82,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,BTH2820,2020,S1-01,83,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,BTH3820,2020,S2-01,83,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,CHM2922,2019,S2-01,85,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,STA1010,2018,S1-01,86,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,CHM1051,2018,S1-01,86,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,STA2216,2019,S2-01,87,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,CHM1052,2018,S2-01,88,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,GEN3040,2020,S2-01,89,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,SCI3800,2019,SSA-02,90,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,BIN3800,2020,S1-01,91,HD
+46697634,MR,Adam,Mathis,MALAYSIA,S2000,2,Bachelor of Science,COMPLETED,,,,23 Oct 17,CHM2911,2021,S1-01,92,HD
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ETW2440,2019,S1-01,58,P
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ETW3483,2020,S1-01,68,C
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,MGW1010,2018,S2-01,72,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,MKW1120,2019,S1-01,72,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW2401,2019,S2-01,72,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ETW2410,2019,S2-01,72,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BEW3555,2021,S1-01,73,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ECW2730,2021,S1-01,74,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BTW1042,2019,S1-01,75,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ETW3482,2020,S1-01,75,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ECW1102,2020,S2-01,75,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW2140,2019,S2-01,77,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW3120,2021,S1-01,77,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ETW2111,2019,S2-01,78,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3113,2018,S2-01,78,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW3841,2021,S1-01,79,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ETW1000,2018,S2-01,76,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ETW2472,2020,S2-01,76,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3123,2019,S1-01,76,D
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ECW1101,2018,S2-01,82,HD
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW1001,2019,S1-01,82,HD
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW3540,2020,S2-01,83,HD
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ACW1100,2018,S2-01,87,HD
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,ETW3481,2020,S2-01,91,HD
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW2751,2020,S1-01,92,HD
+46722904,MS,Carolyn,Langdon,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,23 Jul 18,BFW3121,2020,S1-01,94,HD
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,BTH2752,2019,S2-01,62,C
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,AMU1309,2019,S2-01,63,C
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,IMM3802,2020,S2-01,65,C
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,BTH2732,2019,S2-01,66,C
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,PHA3801,2021,S1-01,67,C
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,BTH1802,2019,S1-01,69,C
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,ANT1800,2018,S2-01,73,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,BIO1062,2019,S1-01,73,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,PHY2820,2019,S2-01,73,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,PHA3800,2021,S1-01,74,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,ACW1200,2019,S1-01,75,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,CHM1051,2018,S2-01,76,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,MIC2011,2020,S1-01,76,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,CHM1052,2019,S1-01,77,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3123,2018,S2-01,77,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,BIO1011,2018,S2-01,78,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,HUP3820,2020,S2-01,78,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,SCI2010,2020,S1-01,79,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,BTH3722,2020,S2-01,76,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,BTH3752,2020,S2-01,76,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,HUP3810,2021,S1-01,76,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,PHY2810,2021,S1-01,76,D
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,BCH2011,2020,S1-01,85,HD
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,MBS3800,2020,SSA-02,88,HD
+46809483,MS,Stewart,MacLeod,MALAYSIA,S2008,1,Bachelor of Medical Bioscience,COMPLETED,,,,23 Jul 18,SCI1020,2018,S2-01,90,HD
+46809483,MS,Stewart,MacLeod,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3113,2019,S1-01,90,HD
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,BTW1042,2018,S2-01,65,C
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,ETW2420,2019,S2-01,66,C
+47087904,MS,Joan,Mackenzie,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,26 Feb 18,MPU3123,2018,S2-01,66,C
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,ETW2410,2019,S1-01,69,C
+47087904,MS,Joan,Mackenzie,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,26 Feb 18,MPU3212,2019,S1-01,69,C
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,BFW3540,2020,S2-01,72,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,BFW2140,2018,S2-01,73,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,ETW3420,2019,S2-01,74,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,BEW3555,2020,S2-01,74,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,ACW1200,2018,S1-01,76,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,BFW1001,2018,S2-01,77,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,ETW1000,2018,S1-01,78,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,BFW3121,2021,S1-01,78,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,26 Feb 18,MPU3113,2019,S2-01,78,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,MKW1120,2018,S1-01,79,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,MGW1010,2018,S2-01,76,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,BFW2751,2019,S2-01,76,D
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,ECW1101,2018,S1-01,82,HD
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,BFW2401,2019,S1-01,82,HD
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,MKW2402,2019,S1-01,82,HD
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,ETW1010,2019,S1-01,83,HD
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,ETW3510,2020,S1-01,84,HD
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,BFW3120,2021,S1-01,85,HD
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,FIT1045,2021,S1-01,85,HD
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,BFW3841,2020,S1-01,89,HD
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,ETW3450,2020,S1-01,89,HD
+47087904,MS,Joan,Mackenzie,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,27 Feb 18,ETW3481,2020,S2-01,94,HD
+47098345,MR,Jason,Welch,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,22 Oct 18,CHM1051,2018,OCT-MY-01,52,P
+47098345,MR,Jason,Welch,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,22 Oct 18,FST1800,2019,S1-01,51,P
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,CHM2922,2019,S2-01,58,P
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,FST3830,2020,S2-01,59,P
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,FST3820,2021,S1-01,59,P
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,FST2810,2019,S2-01,58,P
+47098345,MR,Jason,Welch,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,22 Oct 18,BIO1011,2018,OCT-MY-01,62,C
+47098345,MR,Jason,Welch,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,22 Oct 18,CHM1052,2019,S1-01,62,C
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,FST3840,2020,S2-01,63,C
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,STA2216,2019,S2-01,69,C
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,SCI3716,2021,S1-01,69,C
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,FST3711,2021,S1-01,69,C
+47098345,MR,Jason,Welch,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,22 Oct 18,SCI1020,2018,OCT-MY-01,69,C
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,FST3862,2020,S2-01,68,C
+47098345,MR,Jason,Welch,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,22 Oct 18,BIO1062,2019,S1-01,68,C
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,FST1911,2021,S1-01,73,D
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,MIC2011,2020,S1-01,76,D
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,SCI2010,2020,S1-01,79,D
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,FST3800,2020,SSA-02,79,D
+47098345,MR,Jason,Welch,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,22 Oct 18,AMU1017,2018,OCT-MY-01,82,HD
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,FST3850,2020,S2-01,85,HD
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,CHM2962,2019,S2-01,87,HD
+47098345,MR,Jason,Welch,MALAYSIA,A0503,1,Diploma of Higher Education Studies,COMPLETED,,,,22 Oct 18,AMU1018,2019,S1-01,87,HD
+47098345,MR,Jason,Welch,MALAYSIA,S2009,2,Bachelor of Food Science and Technology,COMPLETED,,,,29 Jul 19,BCH2011,2020,S1-01,93,HD
+47098345,MR,Jason,Welch,MALAYSIA,9411,1,General Studies (Mata Pelajaran Pengajian Umum) Diploma,COMPLETED,,,,1 Nov 18,MPU3143,2018,OCT-MY-01,93,HD
+47098345,MR,Jason,Welch,MALAYSIA,9411,1,General Studies (Mata Pelajaran Pengajian Umum) Diploma,COMPLETED,,,,1 Nov 18,MPU3143,2018,OCT-MY-01,93,HD
+47098345,MR,Jason,Welch,MALAYSIA,9411,1,General Studies (Mata Pelajaran Pengajian Umum) Diploma,COMPLETED,,,,1 Nov 18,MPU3173,2019,S1-01,98,HD
+47098345,MR,Jason,Welch,MALAYSIA,9411,1,General Studies (Mata Pelajaran Pengajian Umum) Diploma,COMPLETED,,,,1 Nov 18,MPU3173,2019,S1-01,98,HD
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,AMU1309,2020,S2-01,53,P
+47178093,MS,James,Lawrence,MALAYSIA,B2027,2,Bachelor of Business and Commerce and Bachelor of Communication and Media Studies,DISCONTIN,26 Jul 19,04,TRANSFER TO ANOTHER MONASH COURSE,22 Oct 18,AMU1277,2019,S1-01,59,P
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,AMU1304,2019,S2-01,62,C
+47178093,MS,James,Lawrence,MALAYSIA,B2027,2,Bachelor of Business and Commerce and Bachelor of Communication and Media Studies,DISCONTIN,26 Jul 19,04,TRANSFER TO ANOTHER MONASH COURSE,22 Oct 18,ETW1100,2019,S1-01,62,C
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MKW2402,2019,S2-01,63,C
+47178093,MS,James,Lawrence,MALAYSIA,B2027,2,Bachelor of Business and Commerce and Bachelor of Communication and Media Studies,DISCONTIN,26 Jul 19,04,TRANSFER TO ANOTHER MONASH COURSE,22 Oct 18,BTW1042,2018,OCT-MY-01,63,C
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MKW3301,2021,S1-01,64,C
+47178093,MS,James,Lawrence,MALAYSIA,B2027,2,Bachelor of Business and Commerce and Bachelor of Communication and Media Studies,DISCONTIN,26 Jul 19,04,TRANSFER TO ANOTHER MONASH COURSE,22 Oct 18,MKW1120,2018,OCT-MY-01,65,C
+47178093,MS,James,Lawrence,MALAYSIA,B2027,2,Bachelor of Business and Commerce and Bachelor of Communication and Media Studies,DISCONTIN,26 Jul 19,04,TRANSFER TO ANOTHER MONASH COURSE,22 Oct 18,ACW1200,2019,S1-01,66,C
+47178093,MS,James,Lawrence,MALAYSIA,B2027,2,Bachelor of Business and Commerce and Bachelor of Communication and Media Studies,DISCONTIN,26 Jul 19,04,TRANSFER TO ANOTHER MONASH COURSE,22 Oct 18,ECW1101,2018,OCT-MY-01,67,C
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MKW2420,2019,S2-01,68,C
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MKW3300,2020,S1-01,68,C
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,BEW3555,2021,S1-01,69,C
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MGW3381,2020,S1-01,68,C
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MKW2431,2020,S2-01,68,C
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MGW2230,2021,S1-01,68,C
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MKW2500,2019,S2-01,72,D
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MGW2351,2020,S1-01,72,D
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MKW2460,2020,S1-01,72,D
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MKW3444,2020,S2-01,72,D
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MKW3610,2021,S1-01,73,D
+47178093,MS,James,Lawrence,MALAYSIA,B2027,2,Bachelor of Business and Commerce and Bachelor of Communication and Media Studies,DISCONTIN,26 Jul 19,04,TRANSFER TO ANOTHER MONASH COURSE,22 Oct 18,AMU1305,2019,S1-01,75,D
+47178093,MS,James,Lawrence,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3173,2018,OCT-MY-01,77,D
+47178093,MS,James,Lawrence,MALAYSIA,B2027,2,Bachelor of Business and Commerce and Bachelor of Communication and Media Studies,DISCONTIN,26 Jul 19,04,TRANSFER TO ANOTHER MONASH COURSE,22 Oct 18,MGW1010,2018,OCT-MY-01,77,D
+47178093,MS,James,Lawrence,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,MGW3681,2020,S2-01,82,HD
+47178093,MS,James,Lawrence,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3143,2020,S1-01,92,HD
+47226912,MR,Adrian,Mathis,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3212,2019,S2-01,54,P
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1008,2019,S1-01,65,C
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2086,2020,S2-01,65,C
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2014,2019,S2-01,66,C
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2099,2020,S1-01,66,C
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3155,2021,S1-01,67,C
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2102,2019,S2-01,69,C
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2004,2020,S1-01,69,C
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3171,2021,S1-01,72,D
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3152,2021,S1-01,72,D
+47226912,MR,Adrian,Mathis,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3113,2018,S2-01,72,D
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1055,2019,S1-01,74,D
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1043,2019,S2-01,75,D
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3181,2020,S2-01,75,D
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1050,2020,S1-01,78,D
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,MAT1830,2018,S2-01,79,D
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1047,2018,S2-01,76,D
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3143,2020,S2-01,76,D
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2100,2019,S2-01,83,HD
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1006,2020,S1-01,84,HD
+47226912,MR,Adrian,Mathis,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3123,2019,S1-01,85,HD
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT2081,2019,S1-01,86,HD
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1051,2018,S2-01,88,HD
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT1045,2018,S2-01,88,HD
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3161,2020,S2-01,88,HD
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3162,2021,S1-01,88,HD
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,MAT1841,2019,S1-01,89,HD
+47226912,MR,Adrian,Mathis,MALAYSIA,C2001,1,Bachelor of Computer Science,COMPLETED,,,,23 Jul 18,FIT3199,2020,SSA-02,2,PGO
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY3130,2020,S1-01,74,D
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY3120,2020,S2-01,77,D
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY3250,2021,S1-01,78,D
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY2071,2020,S1-01,79,D
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY3062,2020,S2-01,76,D
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY3150,2020,S2-01,76,D
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,SCI2010,2019,S2-01,77,D
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY2061,2020,S1-01,77,D
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,AMU2814,2021,S1-01,82,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY2112,2019,S2-01,83,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY3041,2021,S1-01,83,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,AMU1326,2018,S2-01,85,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PMH1011,2019,S1-01,85,HD
+47278386,MS,Simon,Buckland,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3113,2019,S1-01,85,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY1022,2018,S2-01,86,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,AMU1325,2019,S1-01,86,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,BIO1062,2019,S1-01,86,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY1011,2019,S1-01,86,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY3032,2020,S2-01,86,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,BIO1011,2018,S2-01,87,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY3051,2021,S1-01,87,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,PSY2042,2019,S2-01,88,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,ACW1200,2018,S2-01,90,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,ATS2625,2020,S1-01,90,HD
+47278386,MS,Simon,Buckland,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,23 Jul 18,MPU3123,2018,S2-01,91,HD
+47278386,MS,Simon,Buckland,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,23 Jul 18,SCI1020,2019,S2-01,95,HD
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ACW3220,2020,S1-01,67,C
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BFW3651,2020,S2-01,67,C
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ECW1102,2019,S1-01,68,C
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ACW2420,2020,S1-01,69,C
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ACW3120,2020,S2-01,69,C
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BFW2341,2020,S1-01,68,C
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BFW3841,2020,S2-01,72,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,MKW1120,2018,OCT-MY-01,73,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BFW1001,2019,S1-01,75,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,AMU1331,2021,S1-01,75,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ETW1100,2019,S1-01,76,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BFW2401,2019,S2-01,76,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BTW1042,2018,OCT-MY-01,77,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BFW2140,2019,S2-01,77,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ACW2491,2019,S2-01,77,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ACW2391,2019,S2-01,77,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ACW1100,2019,S1-01,79,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BFW3121,2021,S1-01,79,D
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ECW1101,2018,OCT-MY-01,82,HD
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,MGW1100,2020,S2-01,83,HD
+47364600,MR,Wanda,Peters,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3143,2018,OCT-MY-01,83,HD
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,MGW1010,2018,OCT-MY-01,87,HD
+47364600,MR,Wanda,Peters,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3173,2019,S1-01,90,HD
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BFW2751,2020,S1-01,93,HD
+47364600,MR,Wanda,Peters,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BEW3100,2020,SSA-02,94,HD
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH2752,2019,S2-01,62,C
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI3716,2020,S1-01,64,C
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH3722,2020,S2-01,68,C
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PSY1022,2018,OCT-MY-01,72,D
+47391017,MS,Eric,Buckland,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3123,2018,OCT-MY-01,73,D
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,CHM1051,2018,OCT-MY-01,74,D
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH1802,2019,S1-01,74,D
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,FIT1045,2019,S1-01,75,D
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIO1011,2018,OCT-MY-01,78,D
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,CHM1052,2019,S1-01,78,D
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI2010,2019,S2-01,78,D
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH2732,2019,S2-01,79,D
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN3040,2020,S2-01,79,D
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH2741,2020,S1-01,76,D
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN3051,2021,S1-01,82,HD
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIO1062,2019,S1-01,83,HD
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,STA2216,2019,S2-01,83,HD
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI3990,2020,SSA-02,86,HD
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIN3890,2020,S2-01,87,HD
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI1800,2020,SSA-02,87,HD
+47391017,MS,Eric,Buckland,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3113,2019,S1-01,87,HD
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH2830,2020,S1-01,88,HD
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN2052,2020,S2-01,90,HD
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN2041,2020,S1-01,91,HD
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI1020,2018,OCT-MY-01,92,HD
+47391017,MS,Eric,Buckland,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIN3800,2021,S1-01,96,HD
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ACW2491,2019,S2-01,35,N
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BTW1042,2018,OCT-MY-01,52,P
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ECW2731,2019,S2-01,52,P
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ETW2410,2020,S2-01,52,P
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ETW1000,2019,S1-01,57,P
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ECW1102,2019,S1-01,58,P
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ACW2391,2019,S2-01,62,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,MKW1120,2018,OCT-MY-01,63,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ACW1100,2019,S1-01,64,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BFW2140,2019,S2-01,64,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,MGW2351,2020,S1-01,64,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ECW2730,2020,S1-01,65,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ECW3301,2020,S1-01,66,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,MKW2500,2020,S1-01,69,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ECW1101,2018,OCT-MY-01,68,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ECM3810,2020,S2-01,68,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,MKW3444,2021,S1-01,68,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,AMU1310,2021,S1-01,68,C
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,MGW1011,2021,S1-01,74,D
+47409007,MS,Anthony,Hart,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3143,2018,OCT-MY-01,74,D
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ECW3143,2020,S2-01,75,D
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,ECW2141,2019,S1-01,77,D
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,MGW1010,2018,OCT-MY-01,78,D
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,MGW3681,2020,S2-01,79,D
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,BEW3110,2020,SSA-02,83,HD
+47409007,MS,Anthony,Hart,MALAYSIA,B2026,1,Bachelor of Business and Commerce,COMPLETED,,,,22 Oct 18,MGW1232,2021,S1-01,84,HD
+47409007,MS,Anthony,Hart,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3173,2019,S1-01,89,HD
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PHY2820,2019,S2-01,67,C
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,CHM1051,2018,OCT-MY-01,69,C
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PSY3032,2020,S2-01,72,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI3716,2021,S1-01,72,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIO1011,2018,OCT-MY-01,73,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PSY2042,2019,S2-01,73,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PSY2071,2020,S1-01,74,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN2041,2020,S1-01,74,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PSY1022,2018,OCT-MY-01,76,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH2732,2019,S2-01,76,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI2010,2019,S2-01,78,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PSY3041,2021,S1-01,78,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN3051,2021,S1-01,78,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PSY1011,2019,S1-01,79,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,FST1911,2019,S1-01,76,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI3800,2020,SSA-02,76,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,CHM1052,2019,S1-01,77,D
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN3040,2020,S2-01,82,HD
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH3752,2020,S2-01,82,HD
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PSY3051,2021,S1-01,82,HD
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI1020,2018,OCT-MY-01,84,HD
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PSY2061,2020,S1-01,80,HD
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIO1062,2019,S1-01,85,HD
+47413407,MS,Heather,Mackenzie,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3143,2019,S1-01,89,HD
+47413407,MS,Heather,Mackenzie,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3173,2019,S2-01,96,HD
+47413407,MS,Heather,Mackenzie,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SSA2001,2020,SSB-ALT,2,SFR
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,PSY3032,2020,S2-01,68,C
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,PMH1011,2019,S1-01,69,C
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,PSY3150,2020,S2-01,69,C
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,PSY3250,2021,S1-01,73,D
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,PSY3041,2021,S1-01,78,D
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,PSY3051,2021,S1-01,78,D
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,AMU2814,2020,S1-01,79,D
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,PSY2071,2020,S1-01,79,D
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,AMU1325,2019,S1-01,76,D
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,BIO1022,2019,S2-01,76,D
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,PSY3130,2021,S1-01,76,D
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,BIO1011,2019,S1-01,82,HD
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,PSY3062,2020,S2-01,82,HD
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,AMU2625,2020,S1-01,83,HD
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,PSY2061,2020,S1-01,83,HD
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,SCI2010,2020,S2-01,85,HD
+47421072,MS,Sebastian,Taylor,MALAYSIA,M2004,2,Bachelor of Psychological Science,COMPLETED,,,,4 Mar 19,AMU1326,2019,S2-01,86,HD
+47421072,MS,Sebastian,Taylor,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,4 Mar 19,MPU3113,2019,S1-01,90,HD
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,PSY2042,2019,S2-01,53,P
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,PSY1011,2019,S1-01,58,P
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2498,2019,S2-01,62,C
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,PSY1022,2018,OCT-MY-01,64,C
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2449,2020,S1-01,64,C
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,SCI1800,2019,SSA-02,65,C
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2146,2020,S1-01,65,C
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1277,2019,S1-01,66,C
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,PSY3150,2020,S2-01,66,C
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,PSY3250,2020,S1-01,69,C
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1309,2018,OCT-MY-01,72,D
+47430156,MS,Jennifer,Graham,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3113,2018,OCT-MY-01,72,D
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1305,2019,S1-01,75,D
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2448,2019,S2-01,75,D
+47430156,MS,Jennifer,Graham,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3123,2019,S2-01,76,D
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1017,2018,OCT-MY-01,78,D
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1304,2019,S2-01,78,D
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU2832,2020,S1-01,78,D
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3858,2020,S2-01,78,D
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3857,2021,S1-01,76,D
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU1312,2018,OCT-MY-01,77,D
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3127,2020,S2-01,82,HD
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3499,2021,S1-01,83,HD
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3029,2020,S2-01,88,HD
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3560,2021,S1-01,89,HD
+47430156,MS,Jennifer,Graham,MALAYSIA,A2006,2,Bachelor of Arts and Social Sciences,COMPLETED,,,,22 Oct 18,AMU3744,2021,SSB-01,91,HD
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH1802,2019,S1-01,58,P
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PSY1022,2018,OCT-MY-01,65,C
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH2732,2019,S2-01,69,C
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI3716,2021,S1-01,69,C
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,ANT1800,2019,S2-01,68,C
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,AMU2814,2021,S1-01,68,C
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH3722,2020,S2-01,72,D
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,FST1800,2019,S1-01,76,D
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI2010,2019,S2-01,76,D
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN3051,2021,S1-01,76,D
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,CHM1052,2019,S1-01,79,D
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,CHM1051,2018,OCT-MY-01,76,D
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIO2231,2020,S1-01,76,D
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIO1011,2018,OCT-MY-01,82,HD
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIO1062,2019,S1-01,82,HD
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH3820,2020,S2-01,82,HD
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH3752,2020,S2-01,83,HD
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,ENV1800,2019,S2-01,85,HD
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN3040,2020,S2-01,85,HD
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN2041,2020,S1-01,86,HD
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI1020,2018,OCT-MY-01,89,HD
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIN3800,2021,S1-01,90,HD
+47437093,MR,Frank,Davies,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3143,2018,OCT-MY-01,91,HD
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,MIC2011,2020,S1-01,92,HD
+47437093,MR,Frank,Davies,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BCH2011,2020,S1-01,93,HD
+47437093,MR,Frank,Davies,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3173,2019,S1-01,96,HD
+47443705,MS,Kevin,Marshall,OS-IDN-SUB,2608,9,Diploma of Business (Commerce),COMPLETED,,,,9 Jul 18,MCD2090,2018,S2-29,0,N
+47443705,MS,Kevin,Marshall,OS-IDN-SUB,2608,9,Diploma of Business (Commerce),COMPLETED,,,,9 Jul 18,MCD2080,2018,S2-29,49,N
+47443705,MS,Kevin,Marshall,OS-IDN-SUB,2608,9,Diploma of Business (Commerce),COMPLETED,,,,9 Jul 18,MCD2160,2018,SS-29A,49,N
+47443705,MS,Kevin,Marshall,OS-IDN-SUB,2608,9,Diploma of Business (Commerce),COMPLETED,,,,9 Jul 18,MCD2070,2018,S2-29,57,P
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,ETW2410,2019,S2-01,58,P
+47443705,MS,Kevin,Marshall,OS-IDN-SUB,2608,9,Diploma of Business (Commerce),COMPLETED,,,,9 Jul 18,MCD2170,2018,S2-29,58,P
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,ETW2111,2019,S2-01,64,C
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,ECW2730,2020,S1-01,68,C
+47443705,MS,Kevin,Marshall,OS-IDN-SUB,2608,9,Diploma of Business (Commerce),COMPLETED,,,,9 Jul 18,MCD2020,2018,SS-29A,68,C
+47443705,MS,Kevin,Marshall,OS-IDN-SUB,2608,9,Diploma of Business (Commerce),COMPLETED,,,,9 Jul 18,MCD2090,2019,S1-29,68,C
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,ECW3830,2021,S1-01,68,C
+47443705,MS,Kevin,Marshall,OS-IDN-SUB,2608,9,Diploma of Business (Commerce),COMPLETED,,,,9 Jul 18,MCD2040,2018,SS-29A,72,D
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,ECW3301,2021,S1-01,70,D
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,BFW2140,2019,S2-01,76,D
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,ECM2360,2020,S1-01,76,D
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,BFW3652,2020,S1-01,76,D
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,BFW3841,2020,S2-01,78,D
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,ECW2731,2020,S2-01,79,D
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,BEW3555,2021,S1-01,79,D
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,ECW3143,2020,S2-01,76,D
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,BFW2401,2019,S2-01,82,HD
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,BFW3121,2020,S2-01,82,HD
+47443705,MS,Kevin,Marshall,OS-IDN-SUB,2608,9,Diploma of Business (Commerce),COMPLETED,,,,9 Jul 18,MCD2050,2018,SS-29A,82,HD
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,BFW2341,2021,S1-01,83,HD
+47443705,MS,Kevin,Marshall,OS-IDN-SUB,2608,9,Diploma of Business (Commerce),COMPLETED,,,,9 Jul 18,MCD2080,2019,S1-29,85,HD
+47443705,MS,Kevin,Marshall,OS-IDN-SUB,2608,9,Diploma of Business (Commerce),COMPLETED,,,,9 Jul 18,MCD2150,2019,S1-29,85,HD
+47443705,MS,Kevin,Marshall,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,29 Jul 19,MPU3173,2020,S1-01,88,HD
+47443705,MS,Kevin,Marshall,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,29 Jul 19,MPU3173,2020,S1-01,88,HD
+47443705,MS,Kevin,Marshall,MALAYSIA,B2026,2,Bachelor of Business and Commerce,COMPLETED,,,,29 Jul 19,BFW2751,2020,S1-01,90,HD
+47443705,MS,Kevin,Marshall,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,29 Jul 19,MPU3143,2019,S2-01,96,HD
+47443705,MS,Kevin,Marshall,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,29 Jul 19,MPU3143,2019,S2-01,96,HD
+47480036,MR,Ava,Berry,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3123,2018,OCT-MY-01,70,D
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI3716,2021,S1-01,76,D
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH2741,2019,S1-01,78,D
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH2752,2019,S2-01,79,D
+47480036,MR,Ava,Berry,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3113,2018,OCT-MY-01,79,D
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI2010,2020,S1-01,77,D
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH2732,2019,S2-01,82,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,HUP3810,2020,S1-01,82,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,CHM1051,2018,OCT-MY-01,80,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,PHY2820,2019,S2-01,80,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIN3890,2020,S2-01,80,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN3051,2021,S1-01,80,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIO1011,2018,OCT-MY-01,87,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH1802,2019,S2-01,87,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIO1062,2019,S1-01,88,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN3040,2020,S2-01,88,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,CHM1052,2019,S1-01,90,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,FIT1045,2019,S1-01,91,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN2041,2020,S1-01,91,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH3741,2020,S1-01,92,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI3800,2020,SSA-02,92,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,SCI1020,2018,OCT-MY-01,95,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,AMU1017,2018,OCT-MY-01,96,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BIN3800,2021,S1-01,96,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,BTH3752,2020,S2-01,96,HD
+47480036,MR,Ava,Berry,MALAYSIA,S2000,3,Bachelor of Science,COMPLETED,,,,22 Oct 18,GEN2052,2020,S2-01,96,HD
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PMH1011,2019,S1-01,69,C
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY3062,2020,S2-01,69,C
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY2042,2019,S2-01,73,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,SCI2010,2019,S2-01,75,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY3120,2020,S2-01,75,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY1022,2018,OCT-MY-01,76,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,AMU1312,2019,S2-01,76,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY3130,2021,S1-01,76,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,BIO1011,2018,OCT-MY-01,77,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY3041,2021,S1-01,77,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,AMU1326,2018,OCT-MY-01,78,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY3250,2021,S1-01,78,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,BIO1062,2019,S1-01,79,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY3032,2020,S2-01,79,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY1011,2019,S1-01,76,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY3051,2021,S1-01,77,D
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,AMU1325,2019,S1-01,82,HD
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY2071,2020,S1-01,83,HD
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY2112,2019,S2-01,80,HD
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY2061,2020,S1-01,80,HD
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,PSY3150,2020,S2-01,80,HD
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,AMU2625,2020,S1-01,85,HD
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,AMU2814,2020,S1-01,87,HD
+47500235,MS,Dan,Peake,MALAYSIA,M2004,1,Bachelor of Psychological Science,COMPLETED,,,,22 Oct 18,AMU1309,2018,OCT-MY-01,88,HD
+47500235,MS,Dan,Peake,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3143,2018,OCT-MY-01,95,HD
+47500235,MS,Dan,Peake,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3173,2019,S1-01,96,HD
+47560556,MS,Angela,Brown,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3143,2019,S1-01,58,P
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU2498,2019,S2-01,62,C
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU2450,2019,S2-01,62,C
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU3574,2020,S2-01,62,C
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU1278,2018,OCT-MY-01,66,C
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU1304,2018,OCT-MY-01,67,C
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU2448,2019,S2-01,68,C
+47560556,MS,Angela,Brown,MALAYSIA,9410,2,General Studies (Mata Pelajaran Pengajian Umum) Degree,COMPLETED,,,,1 Nov 18,MPU3173,2018,OCT-MY-01,69,C
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU1312,2018,OCT-MY-01,73,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU2439,2019,S2-01,70,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU2453,2020,S1-01,70,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU1325,2019,S1-01,75,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU1305,2019,S1-01,76,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU2787,2020,S1-01,77,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU3650,2020,S2-01,77,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU2449,2020,S1-01,79,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU3127,2020,S2-01,79,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU3857,2021,S1-01,76,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU3806,2021,S1-01,76,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU1277,2019,S1-01,77,D
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU1329,2018,OCT-MY-01,82,HD
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU2146,2020,S1-01,82,HD
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU3029,2020,S2-01,82,HD
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU3451,2021,S1-01,82,HD
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU1328,2019,S1-01,86,HD
+47560556,MS,Angela,Brown,MALAYSIA,A2007,2,Bachelor of Communication and Media Studies,COMPLETED,,,,22 Oct 18,AMU3744,2021,SSB-01,92,HD
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5160,2020,S2-01,52,P
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT9130,2019,S2-01,62,C
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5195,2020,S1-01,64,C
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5133,2020,S2-01,66,C
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5094,2020,S1-01,68,C
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5152,2020,S2-01,68,C
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT9132,2019,S2-01,69,C
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT9123,2019,S2-01,72,D
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT9131,2020,S1-01,72,D
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5120,2021,S1-01,73,D
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5122,2021,S1-01,76,D
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5101,2020,S1-01,78,D
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,ETM5950,2020,S2-01,79,D
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5057,2019,S2-01,77,D
+48260620,MR,Brandon,Turner,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5202,2021,S1-01,80,HD
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT9132,2019,S2-01,49,N
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT9130,2019,S2-01,66,C
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,MGM5310,2020,S1-01,68,C
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT9132,2020,S2-01,68,C
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT9131,2020,S1-01,69,C
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT9123,2019,S2-01,72,D
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5088,2020,S1-01,72,D
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5094,2021,S1-01,72,D
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5122,2021,S1-01,70,D
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5120,2021,S1-01,70,D
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,ETM5950,2020,S2-01,75,D
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5133,2020,S2-01,76,D
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5152,2020,S2-01,77,D
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5057,2019,S2-01,76,D
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5101,2020,S1-01,83,HD
+48279625,MS,Michael,MacLeod,MALAYSIA,C6003,2,Master of Business Information Systems,COMPLETED,,,,29 Jul 19,FIT5125,2021,S1-01,87,HD
+48656966,MS,Lillian,Davies,MALAYSIA,A6003,4,Master of Communications and Media Studies,COMPLETED,,,,2 Mar 20,AMG5400,2020,S2-01,52,P
+48656966,MS,Lillian,Davies,MALAYSIA,A6003,4,Master of Communications and Media Studies,COMPLETED,,,,2 Mar 20,AMG5013,2020,S2-01,63,C
+48656966,MS,Lillian,Davies,MALAYSIA,A6003,4,Master of Communications and Media Studies,COMPLETED,,,,2 Mar 20,AMG5742,2021,S1-01,68,C
+48656966,MS,Lillian,Davies,MALAYSIA,A6003,4,Master of Communications and Media Studies,COMPLETED,,,,2 Mar 20,AMG5004,2021,S1-01,75,D
+48656966,MS,Lillian,Davies,MALAYSIA,A6003,4,Master of Communications and Media Studies,COMPLETED,,,,2 Mar 20,AMG5894,2020,S1-01,2,SFR
+48656966,MS,Lillian,Davies,MALAYSIA,A6003,4,Master of Communications and Media Studies,COMPLETED,,,,2 Mar 20,AMG5409,2020,S1-01,2,SFR
