@@ -13,6 +13,10 @@ Name of Project: BoEasy
 [Link to Video](https://drive.google.com/drive/u/0/folders/1CiYPtzT5enEIZUYvyzJPBSKdMWm_6CvN)  
 Note: Video is only accessible to Monash University email accounts.
 
+## Quickstart Guide
+[Instructions to setup the application](https://github.com/heheheejin/boe/blob/master/HowToRun.md)  
+Note: The quickstart guide assumes that `python3` is already installed in the user's machine
+
 ## Core Features of Application
 #### Features offered by Innovation
 Our solution focuses on being as simple and minimalistic as possible while also providing all the required features and information to automate the process of validating a student's progress in their courses. To handle various types of course offerings across different faculties, our system breaks each course down into different levels of abstraction. These different layers are represented as Django model objects, and are processed by linking them together in a graph system. A complex course graph is formed and receives students' data input to be traversed.
