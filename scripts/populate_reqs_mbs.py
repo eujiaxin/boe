@@ -14,8 +14,7 @@ def read_units_from_text_file(filename):
 
 
 def run():
-    clear_db()
-
+    # clear_db()
     script_path = os.path.join(settings.BASE_DIR, "scripts")
 
     units_a = read_units_from_text_file(
