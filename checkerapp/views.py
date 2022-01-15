@@ -63,13 +63,15 @@ def processor(request):
     }
     return render(request, "checkerapp_process_form.html", context=context)
 
+
 def convert_symbols(x):
-    if x[0] == "✅":
-        return ["YES"]
-    elif x[0] == "🟥":
+    if len(x) < 1 or x[0] == "🟥":
         return ["Unspecified"]
+    elif x[0] == "✅":
+        return ["YES"]
     else:
         return x
+
 
 def validator(request):
     if request.method == "POST":
