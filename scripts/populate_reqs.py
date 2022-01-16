@@ -4,6 +4,7 @@ from api.models import *
 from django.shortcuts import get_object_or_404
 from django.conf import settings
 from scripts.delete_db import run as clear_db
+from scripts.populate_reqs_mbs import run as populate_reqs_mbs
 
 
 def run():
@@ -160,3 +161,5 @@ def run():
     _ = cl5.core_set.create(
         unit=Unit.objects.get(unit_code="FIT3199")
     )
+
+    populate_reqs_mbs()
