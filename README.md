@@ -2,8 +2,11 @@
 
 # PVC IT Challenge Submission
 
+
 Name of Group: BoEasy Group  
 Name of Project: BoEasy  
+Placement: Second runner-up
+
 | Group Member          	| Github Handle                               	| Role |
 |-----------------------	|---------------------------------------------	| -------------------------------------------
 | Fabian Lim (30883113)        	| [旭淮](https://github.com/Weiss01)             | Tech Lead 1 |
