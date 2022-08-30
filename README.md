@@ -96,7 +96,7 @@ Example using [C2001: Bachelor of Computer Science](https://handbook.monash.edu/
 * A `Wrapper` contains >= 1 `CourseModule`, each `CourseModule` has a list of `Core` and `Elective`.
 * In cases where students are able to choose multiple `CourseModule` (e.g. different majors or minors), a threshold is set for a `Wrapper` that holds multiple `CourseModule`. 
 
-![graph](https://i.ibb.co/z56T0zV/diagram.png)
+![graph](https://i.imgur.com/RFj0S7r.png)
 In order for a student enrolled in **C2001** to graduate:
 * The student must first complete **C2001AB** (`threshold=1` indicates they must complete the sole `CourseModule` inside the `Wrapper`)
 	* **C2001AB** include core units FIT1008, FIT1045, FIT1047, FIT2004, FIT2014, MAT1830, MAT1841 and no elective units.
@@ -106,7 +106,7 @@ In order for a student enrolled in **C2001** to graduate:
 * The algorithm continously processes each wrapper as described above. Once it reaches the end, it checks whether the student has enough remaining units that reach the required free elective credit points to graduate.
 
 The algorithm is designed in a way where it's flexible enough to accommodate any course structure provided in the handbook. For example, [A2006: Bachelor of Arts](https://handbook.monash.edu/2020/courses/A2006) would have a graph that looks like this:
-![](https://cdn.discordapp.com/attachments/912362084359090230/924547805253632000/unknown.png)
+![](https://i.imgur.com/CCPKaVK.png)
 ### How are course requirements updated and maintained?
 If the proposed solution is used in the future, a new user-friendly page will be created for related staffs to create and update requirements based on the handbook. Once a course is added, any CSV files of students enrolled in the course can be processed easily.
 
