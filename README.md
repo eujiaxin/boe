@@ -10,7 +10,7 @@ Placement: Second runner-up
 | Group Member          	| Github Handle                               	| Role |
 |-----------------------	|---------------------------------------------	| -------------------------------------------
 | Fabian Lim (30883113)        	| [旭淮](https://github.com/Weiss01)             | Tech Lead 1 |
-| Eu Jia Xin (30881676) 	| [heheheejin](https://github.com/heheheejin) 	| Tech Lead 2 |
+| Eu Jia Xin (30881676) 	| [嘉欣](https://github.com/eujiaxin) 	| Tech Lead 2 |
 
 ## Introduction to BoEasy
 [Link to Video](https://drive.google.com/drive/u/0/folders/1CiYPtzT5enEIZUYvyzJPBSKdMWm_6CvN)  
